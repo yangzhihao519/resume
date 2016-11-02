@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import { Row, Col } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
@@ -7,14 +8,28 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h5>Home</h5>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-body">
+          <Row>
+            <Col xs={0} sm={0} md={1} ld={2}></Col>
+            <Col xs={12} sm={12} md={10} ld={8}>
+              <div id="about">
+                <h3>Hello!</h3>
+                <h2>I'm Zhihao Yang</h2>
+                <h4>UI/UX Designer & Frontend Developer</h4>
+                <br/>
+                <p>Born and grew up in Sichuan, China, I got my bachelor degree of Software Engineering in East China Normal University(Shanghai, China) in 2015 and is now persuing my master degree at University College London(London, UK).</p> 
+                <p>Previously I have worked in India, China, Switzerland and Sweden as UI/UX Designer and Frontend Developer.</p>
+              </div>
+            </Col>
+            <Col xs={0} sm={0} md={1} ld={2}></Col>
+          </Row>
+        </div>
+        <div className="App-footer">
+        </div>
       </div>
-    );
+      );
   }
 }
 
