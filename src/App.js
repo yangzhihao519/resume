@@ -22,6 +22,7 @@ class App extends Component {
                 <p>Born and grew up in Sichuan, China, I got my bachelor degree of Software Engineering at East China Normal University and am now persuing my master degree at University College London in Human Computer Interaction and Design.</p> 
                 <p>Previously I have worked at university, startups and governmental agency in India, China, Switzerland and Sweden as UI/UX Designer and Frontend Developer.</p>
               </div>
+
               <div className="section-title">
                   <h3>Experience</h3>
               </div>
@@ -42,6 +43,24 @@ class App extends Component {
                 <h4>2012.07-2012.09 Manipal Institute of Technology Manipal, India</h4>
                 <p>Design and implementation of Semantic-based website (search for flights, trains, buses and hotels)</p>
               </div>
+
+              <div className="section-title">
+                  <h3>Education</h3>
+              </div>
+              <div className="section-box" id="section-education">
+                <h3>MSc Human Computer Interaction and Design</h3>
+                <h4>2016.09-Present University College London London, UK</h4>
+                <p>Exit year of EIT Digital Master Program. Minor in Innovation & Entrepreneurship </p>
+                <hr/>
+                <h3>Msc Human Computer Interaction and Design</h3>
+                <h4>2015.08-2016.06 KTH Royal Institute of Technology Stockholm, Sweden</h4>
+                <p>Entry year of EIT Digital Master Program. Minor in Innovation & Entrepreneurship </p>
+                <hr/>
+                <h3>BEn Software Engineering</h3>
+                <h4>2010.09-2015.06 East China Normal University Shanghai, China</h4>
+                <p>Graduate with Honor; Selected in the 21st Century Talent Acedemy and Top Innovative Training Program at ECNU</p>
+              </div>
+
             </Col>
             <Col xs={0} sm={1} md={2} ld={3}></Col>
           </Row>
