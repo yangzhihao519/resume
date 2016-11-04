@@ -39,7 +39,12 @@
 }
 
 .App-footer {
-
+	background-color: #333;
+	box-shadow: 0px 0px 5px 0px #666;
+  color: #eee;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 @keyframes App-logo-spin {
