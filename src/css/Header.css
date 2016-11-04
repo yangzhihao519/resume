@@ -1,10 +1,16 @@
-.header {
-  position: fixed;
-  z-index: 9999;
-  text-align: center;
-  background-color: #000;
-  height: 70px;
-  width: 100%;
-  padding: 10px;
+#header {
   box-shadow: 0px 0px 5px 0px #555;
+}
+
+#header .navbar {
+  border: none;
+  min-height: 50px;
+  margin-bottom: 60px;
+  
+}
+
+#header .navbar-inverse{
+  background-image: none;
+  border-radius: 0px;
+  box-shadow: none;
 }
