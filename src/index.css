@@ -18,3 +18,8 @@ h4 {
 h5, p, span {
 	font-weight: 300;
 }
+
+a{
+  color: black;
+  cursor: pointer;
+}
