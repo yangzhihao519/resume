@@ -9,7 +9,7 @@ class Home extends Component {
       <div className="Home">
          <div className="section-box" id="section-about">
             <h3>Hello!</h3>
-            <h2><span style={{fontWeight: 300}}>I'm</span>&nbsp; Zhihao Yang</h2>
+            <h2><span>I'm</span>&nbsp; Zhihao Yang</h2>
             <h4>UI/UX Designer & Frontend Developer</h4>
             <br/>
             <p>Born and grew up in Sichuan, China, I got my bachelor degree of Software Engineering at East China Normal University and am now persuing my master degree at University College London in Human Computer Interaction and Design.</p> 

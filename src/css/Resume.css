@@ -1,0 +1,71 @@
+#section-profile {
+  margin-top: 120px;
+}
+
+#section-profile .title h4{
+  font-weight: 700;
+}
+
+#section-profile .content h4{
+  font-weight: 300;
+}
+
+#section-profile a{
+  color: black;
+  cursor: pointer;
+}
+
+#section-experience {
+  
+}
+
+#section-education {
+
+}
+
+#section-skills {
+
+}
+
+#section-skills .progress {
+  height: 10px;
+  border-radius: 2px;
+  background-image: none;
+}
+
+#section-skills .progress-bar {
+  background-image: none;
+  box-shadow: none;
+}
+
+#section-skills .left .progress-bar {
+  background-color: #f0ad4e;
+}
+
+#section-skills .right .progress-bar {
+  background-color: #337AB0;
+}
+
+#section-languages{
+  margin-bottom: 100px;
+}
+
+#section-languages .progress {
+  height: 10px;
+  border-radius: 2px;
+  background-image: none;
+}
+
+#section-languages .progress-bar {
+  background-image: none;
+  box-shadow: none;
+}
+
+#section-languages .red .progress-bar{
+  background-color: rgb(220, 44, 31);
+}
+
+#section-languages .blue .progress-bar{
+  background-color: rgb(3, 39, 123);
+}
+
