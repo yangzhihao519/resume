@@ -9,14 +9,6 @@
 }
 
 .App-header {
-  position: fixed;
-  z-index: 9999;
-  text-align: center;
-  background-color: #000;
-  height: 70px;
-  width: 100%;
-  padding: 10px;
-  box-shadow: 0px 0px 5px 0px #555;
 }
 
 .App-body {
@@ -39,12 +31,6 @@
 }
 
 .App-footer {
-	background-color: #333;
-	box-shadow: 0px 0px 5px 0px #666;
-  color: #eee;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
 }
 
 @keyframes App-logo-spin {
