@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import './Header.css'
+import '../css/Header.css'
 import {Link } from 'react-router'
 
 class Header extends Component {

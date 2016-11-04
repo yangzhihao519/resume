@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import './App.css';
-import './Resume.css';
+import '../css/App.css';
+import '../css/Resume.css';
 
 class Resume extends Component {
   render() {

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import Home from './Home'
-import Resume from './Resume'
+import App from './js/App';
+import Home from './js/Home'
+import Resume from './js/Resume'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import './index.css';
