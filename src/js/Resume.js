@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, ProgressBar } from 'react-bootstrap';
+import { Row, Col, ProgressBar, Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../css/App.css';
 import '../css/Resume.css';
 
