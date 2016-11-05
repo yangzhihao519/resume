@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import { Row, Col} from 'react-bootstrap';
 import '../css/App.css';
-import Header from './Header'
+import {Header} from './Header'
 import Footer from './Footer'
 
 class App extends Component {
   render() {
+    var currentPathName = this.props.location.pathname;
+
     return (
       <div className="App">
         <div className="App-header">
-          <Header />
+          <Header currentPathName={currentPathName}/>
         </div>
         <div className="App-body">
           <Row style={{marginLeft:0, marginRight:0}}>

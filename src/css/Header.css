@@ -5,12 +5,42 @@
 #header .navbar {
   border: none;
   min-height: 50px;
-  margin-bottom: 60px;
-  
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 5px 0px #333;
 }
 
 #header .navbar-inverse{
   background-image: none;
   border-radius: 0px;
-  box-shadow: none;
+}
+
+.sub-nav-bar {
+  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #333;
+  display: block;
+}
+
+.sub-nav-items {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sub-nav-item {
+  color: #eee;
+  padding-right: 30px;
+  display: inline-block;
+}
+
+.sub-nav-bar a:hover {
+    color: white;
+}
+
+@media (max-width: 768px){
+    .sub-nav-bar {
+      display: none;
+    }
 }

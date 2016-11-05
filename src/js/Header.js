@@ -1,11 +1,38 @@
 import React, { Component } from 'react';
 import { Row, Col, Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../css/Header.css'
-import { Link } from 'react-router'
 import { LinkContainer } from 'react-router-bootstrap';
+import Scrollchor from 'react-scrollchor';
 
-class Header extends Component {
+interface HeaderProps {
+  currentPathName: string;
+}
+
+class Header extends Component<HeaderProps, {}> {
   render() {
+    console.log(this.props.currentPathName);
+    const currentPathName =  this.props.currentPathName;
+    var subNav = '';
+    switch (currentPathName) {
+      case "/resume":
+        subNav = (
+          <div className="sub-nav-bar">
+            <div className="sub-nav-items">
+              <Scrollchor to="#section-profile" className="sub-nav-item">PROFILE</Scrollchor>
+              <Scrollchor to="#section-experience" className="sub-nav-item">EXPERIENCE</Scrollchor>
+              <Scrollchor to="section-skills" className="sub-nav-item">SKILLS</Scrollchor>
+              <Scrollchor to="section-education" className="sub-nav-item">EDUCATION</Scrollchor>
+              <Scrollchor to="section-awards" className="sub-nav-item">AWARDS</Scrollchor>
+              <Scrollchor to="section-languages" className="sub-nav-item">LANGUAGES</Scrollchor>
+            </div>
+          </div>
+        );
+        break;
+    
+      default:
+        break;
+    }
+
     return (
       <div id="header">
         <Navbar inverse collapseOnSelect>
@@ -26,9 +53,10 @@ class Header extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+        {subNav}
       </div>
       );
   }
 }
 
-export default Header;
+export {Header};
