@@ -14,7 +14,7 @@ class Resume extends Component {
           <div className="section-box" >
             <h3>Zhihao Yang</h3>
             <h4>Master Student at University College London, UI/UX Designer & Frontend Developer</h4>
-            <Row>
+            <Row id="section-profile-info">
               <Col xs={12} sm={6} md={6} lg={6}>
                 <Row>
                   <Col xs={4} sm={4} md={4} lg={3} className="title">

@@ -17,10 +17,11 @@
 .sub-nav-bar {
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #333;
   display: block;
+  box-shadow: 0px 0px 5px 0px #333;
 }
 
 .sub-nav-items {
@@ -36,6 +37,14 @@
 
 .sub-nav-bar a:hover {
     color: white;
+}
+
+.sub-nav-bar a:visited {
+    color: white;
+}
+
+#sticky-nav {
+  z-index: 999;
 }
 
 @media (max-width: 768px){

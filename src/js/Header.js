@@ -3,6 +3,7 @@ import { Row, Col, Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../css/Header.css'
 import { LinkContainer } from 'react-router-bootstrap';
 import Scrollchor from 'react-scrollchor';
+import { Sticky } from 'react-sticky';
 
 interface HeaderProps {
   currentPathName: string;
@@ -16,16 +17,18 @@ class Header extends Component<HeaderProps, {}> {
     switch (currentPathName) {
       case "/resume":
         subNav = (
-          <div className="sub-nav-bar">
-            <div className="sub-nav-items">
-              <Scrollchor to="#section-profile" className="sub-nav-item">PROFILE</Scrollchor>
-              <Scrollchor to="#section-experience" className="sub-nav-item">EXPERIENCE</Scrollchor>
-              <Scrollchor to="section-skills" className="sub-nav-item">SKILLS</Scrollchor>
-              <Scrollchor to="section-education" className="sub-nav-item">EDUCATION</Scrollchor>
-              <Scrollchor to="section-awards" className="sub-nav-item">AWARDS</Scrollchor>
-              <Scrollchor to="section-languages" className="sub-nav-item">LANGUAGES</Scrollchor>
+          <Sticky id="sticky-nav">
+            <div className="sub-nav-bar">
+              <div className="sub-nav-items">
+                <Scrollchor to="#section-profile" className="sub-nav-item">PROFILE</Scrollchor>
+                <Scrollchor to="#section-experience" className="sub-nav-item">EXPERIENCE</Scrollchor>
+                <Scrollchor to="section-skills" className="sub-nav-item">SKILLS</Scrollchor>
+                <Scrollchor to="section-education" className="sub-nav-item">EDUCATION</Scrollchor>
+                <Scrollchor to="section-awards" className="sub-nav-item">AWARDS</Scrollchor>
+                <Scrollchor to="section-languages" className="sub-nav-item">LANGUAGES</Scrollchor>
+              </div>
             </div>
-          </div>
+          </Sticky>
         );
         break;
     
