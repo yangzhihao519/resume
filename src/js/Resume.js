@@ -17,68 +17,68 @@ class Resume extends Component {
             <Row>
               <Col xs={12} sm={6} md={6} lg={6}>
                 <Row>
-                  <Col xs={12} sm={12} md={4} lg={3} className="title">
+                  <Col xs={4} sm={4} md={4} lg={3} className="title">
                     <h4>Age</h4>
                   </Col>
-                  <Col xs={12} sm={12} md={8} lg={9} className="content">
+                  <Col xs={8} sm={8} md={8} lg={9} className="content">
                     <h4>24</h4>
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={12} sm={12} md={4} lg={3} className="title">
+                  <Col xs={4} sm={4} md={4} lg={3} className="title">
                     <h4>Location</h4>
                   </Col>
-                  <Col xs={12} sm={12} md={8} lg={9} className="content">
+                  <Col xs={8} sm={8} md={8} lg={9} className="content">
                     <h4>London, UK</h4>
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={12} sm={12} md={4} lg={3} className="title">
+                  <Col xs={4} sm={4} md={4} lg={3} className="title">
                     <h4>Email</h4>
                   </Col>
-                  <Col xs={12} sm={12} md={8} lg={9} className="content">
+                  <Col xs={8} sm={8} md={8} lg={9} className="content">
                     <h4><a href="mailto:yang_zhihao@live.com">yang_zhihao@live.com</a></h4>
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={12} sm={12} md={4} lg={3} className="title">
+                  <Col xs={4} sm={4} md={4} lg={3} className="title">
                     <h4>Graduate</h4>
                   </Col>
-                  <Col xs={12} sm={12} md={8} lg={9} className="content">
+                  <Col xs={8} sm={8} md={8} lg={9} className="content">
                     <h4>Sep, 2017</h4>
                   </Col>
                 </Row>
               </Col>
               <Col xs={12} sm={6} md={6} lg={6}>
                 <Row>
-                  <Col xs={12} sm={12} md={4} lg={3} className="title">
+                  <Col xs={4} sm={4} md={4} lg={3} className="title">
                     <h4>Website</h4>
                   </Col>
-                  <Col xs={12} sm={12} md={8} lg={9} className="content">
+                  <Col xs={8} sm={8} md={8} lg={9} className="content">
                     <h4><a href="https://www.yangzhihao.info" target="_blank">yanghzhihao.info</a></h4>
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={12} sm={12} md={4} lg={3} className="title">
+                  <Col xs={4} sm={4} md={4} lg={3} className="title">
                     <h4>Linkedin</h4>
                   </Col>
-                  <Col xs={12} sm={12} md={8} lg={9} className="content">
+                  <Col xs={8} sm={8} md={8} lg={9} className="content">
                     <h4><a href="https://www.linkedin.com/in/yangzhihao" target="_blank">yangzhihao</a></h4>
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={12} sm={12} md={4} lg={3} className="title">
+                  <Col xs={4} sm={4} md={4} lg={3} className="title">
                     <h4>Github</h4>
                   </Col>
-                  <Col xs={12} sm={12} md={8} lg={9} className="content">
+                  <Col xs={8} sm={8} md={8} lg={9} className="content">
                     <h4><a href="https://www.github.com/yangzhihao519" target="_blank">yangzhihao519</a></h4>
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={12} sm={12} md={4} lg={3} className="title">
+                  <Col xs={4} sm={4} md={4} lg={3} className="title">
                     <h4>Behance</h4>
                   </Col>
-                  <Col xs={12} sm={12} md={8} lg={9} className="content">
+                  <Col xs={8} sm={8} md={8} lg={9} className="content">
                     <h4><a href="https://www.behance.net/yangzhihao" target="_blank">yangzhihao</a></h4>
                   </Col>
                 </Row>
