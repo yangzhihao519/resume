@@ -1,3 +1,28 @@
 .Portfolio{
     margin-top: 40px;
 }
+
+.portfolio-item {
+  margin-bottom: 50px;
+  padding: 0px;
+  background-color: white;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item-title {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.portfolio-item-content {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
