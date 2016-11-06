@@ -1,11 +1,15 @@
 {
-  "main.css": "static/css/main.dbb22652.css",
-  "main.css.map": "static/css/main.dbb22652.css.map",
-  "main.js": "static/js/main.7576d6f9.js",
-  "main.js.map": "static/js/main.7576d6f9.js.map",
+  "main.css": "static/css/main.09c235e8.css",
+  "main.css.map": "static/css/main.09c235e8.css.map",
+  "main.js": "static/js/main.9a3abc5b.js",
+  "main.js.map": "static/js/main.9a3abc5b.js.map",
+  "static/media/H2020_screenshot.png": "static/media/H2020_screenshot.45d08807.png",
   "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/media/glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
   "static/media/glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
   "static/media/glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
-  "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2"
+  "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
+  "static/media/saw_screenshot.png": "static/media/saw_screenshot.eab8058c.png",
+  "static/media/vinyo_screenshot.png": "static/media/vinyo_screenshot.61e269a2.png",
+  "static/media/yorktail_screenshot.png": "static/media/yorktail_screenshot.0858cf9b.png"
 }
