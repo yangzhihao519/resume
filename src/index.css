@@ -22,4 +22,9 @@ h5, p, span {
 a{
   color: black;
   cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
 }
