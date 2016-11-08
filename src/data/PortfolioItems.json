@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Web-based Visualisation Tool of Horizon 2020",
+        "descriptions": ["Build a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency;", 
+                              "Work mainly focuses on UI/UX design and front-end development."],
+        "cover_image_name": "H2020_screenshot.png",
+        "period_of_time": ""
+    },
+    {
+        "id": 2,
+        "title": "Interaction Design of Seizure Alert Watch & APP",
+        "descriptions": ["Design a Assistive Technology to support the epileptic patients and help them live as normal people;", 
+                               "Work mainly focuses on ideation, user research, UI/UX of low-fi and high-fi prototype of the applications."],
+        "cover_image_name": "saw_screenshot.png",
+        "period_of_time": ""
+    },
+    {
+        "id": 3,
+        "title": "Yocktail - Great Platform for Cocktail Lovers",
+        "descriptions": ["Yocktail is a platform offered to cocktail lovers, allowing users to search, collect, create and share cocktails;",
+                              "Work as a full-stack designer and developer, from UI/UX design, to front-end & back-end programming."],
+        "cover_image_name": "yorktail_screenshot.png",
+        "period_of_time": ""
+    },
+    {
+        "id": 4,
+        "title": "Vinyo: Buy the wine you love on mobile",
+        "descriptions": ["Vinyo APP is a critically-acclaimed, free app that helps you search, find and buy the wine you want;",
+                              "Work focuses on the client-end development of this iOS application."],
+        "cover_image_name": "vinyo_screenshot.png",
+        "period_of_time": ""
+    }
+]
