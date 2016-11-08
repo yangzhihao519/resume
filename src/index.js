@@ -4,6 +4,7 @@ import App from './js/App';
 import Home from './js/Home'
 import Resume from './js/Resume'
 import Portfolio from './js/Portfolio'
+import PortfolioItemPage from './js/PortfolioItemPage'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import './index.css';
@@ -16,6 +17,7 @@ ReactDOM.render(
          <Route path="home" component={Home} />
          <Route path="resume" component={Resume} />
          <Route path="portfolio" component={Portfolio} />
+         <Route path="portfolio/:id" component={PortfolioItemPage} />
       </Route>
    </Router>),
   document.getElementById('root')

@@ -22,7 +22,7 @@ class PortfolioItem extends Component<PortfolioItemProps, {}> {
 
         return (
             <div>
-                <a href="#">
+                <a href={"#/portfolio/"+id}>
                     <div className="portfolio-item" >
                         <div className="portfolio-item-image">
                             <img src={require('../images/' + cover_image_name)} />
