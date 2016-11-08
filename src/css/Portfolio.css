@@ -8,7 +8,6 @@
   background-color: white;
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  position: relative;
 }
 
 a :hover .portfolio-item-content {
@@ -20,6 +19,9 @@ a :hover .portfolio-item-title {
   color: #333;
 }
 
+.portfolio-item-image{
+  position: relative;
+}
 .portfolio-item-image img{
   width: 100%;
   height: auto;
@@ -49,8 +51,8 @@ a :hover .portfolio-item-title {
   padding: 10px;
   border-style: solid;
   border-width: 0.5px;
-  border-color: rgba(255, 255, 255, 0.1);
-  background-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(255, 255, 255, 0.2);
   color: white;
   border-radius: 1px;
 }
