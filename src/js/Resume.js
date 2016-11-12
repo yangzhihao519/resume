@@ -55,7 +55,7 @@ class Resume extends Component {
                     <h4>Website</h4>
                   </Col>
                   <Col xs={8} sm={8} md={8} lg={9} className="content">
-                    <h4><a href="https://www.yangzhihao.info" target="_blank">yanghzhihao.info</a></h4>
+                    <h4><a href="https://www.yangzhihao.info" target="_blank">yangzhihao.info</a></h4>
                   </Col>
                 </Row>
                 <Row>
