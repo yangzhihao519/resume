@@ -5,7 +5,7 @@
         "descriptions": ["Build a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency;", 
                               "Work mainly focuses on UI/UX design and front-end development."],
         "cover_image_name": "H2020_screenshot.png",
-        "period_of_time": ""
+        "period_of_time": "2016.06-09"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "descriptions": ["Design a Assistive Technology to support the epileptic patients and help them live as normal people;", 
                                "Work mainly focuses on ideation, user research, UI/UX of low-fi and high-fi prototype of the applications."],
         "cover_image_name": "saw_screenshot.png",
-        "period_of_time": ""
+        "period_of_time": "2015.11-2016.01"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "descriptions": ["Yocktail is a platform offered to cocktail lovers, allowing users to search, collect, create and share cocktails;",
                               "Work as a full-stack designer and developer, from UI/UX design, to front-end & back-end programming."],
         "cover_image_name": "yorktail_screenshot.png",
-        "period_of_time": ""
+        "period_of_time": "2015.03-04"
     },
     {
         "id": 4,
@@ -29,6 +29,6 @@
         "descriptions": ["Vinyo APP is a critically-acclaimed, free app that helps you search, find and buy the wine you want;",
                               "Work focuses on the client-end development of this iOS application."],
         "cover_image_name": "vinyo_screenshot.png",
-        "period_of_time": ""
+        "period_of_time": "2014.06-2015.01"
     }
 ]
