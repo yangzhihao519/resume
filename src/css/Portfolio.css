@@ -1,5 +1,4 @@
 .Portfolio{
-    margin-top: 40px;
 }
 
 /* Portfolio Item */
@@ -64,17 +63,7 @@ a :hover .portfolio-item-title {
     margin-bottom: 80px;
 }
 
-#portfolio-item-page .portfolio-item-page-title{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  color: #555;
-}
-
 #portfolio-item-page-intro{
-  margin-top: 10px;
   padding: 40px;
   background-color: white;
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);
@@ -110,7 +99,6 @@ a :hover .portfolio-item-title {
 }
 
 #portfolio-item-page-story{
-  margin-top: 10px;
   margin-bottom: 80px;
   padding-left: 40px;
   padding-right: 40px;

@@ -36,7 +36,7 @@ class PortfolioItemPage extends Component {
 
         return (
             <div id="portfolio-item-page">
-                <div className="portfolio-item-page-title">
+                <div className="section-title">
                     <h2>{title}</h2>
                 </div>
                 <div id="portfolio-item-page-intro">
@@ -81,7 +81,7 @@ class PortfolioItemPage extends Component {
                         </Row>
                     </div>
                 </div>
-                <div className="portfolio-item-page-title">
+                <div className="section-title">
                     <h3>The Story</h3>
                 </div>
                 <div id="portfolio-item-page-story">
