@@ -22,9 +22,23 @@
 }
 
 .section-box{
-  padding: 40px;
+  padding: 20px 40px;
   background-color: white;
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.section-box-item{
+  margin: -20px -40px;
+  padding: 20px 40px;
+  background-color: white;
+  transition-property: background;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+}
+
+.section-box-item:hover {
+  color: white;
+  background-color: #333;
 }
 
 .App-footer {

@@ -9,7 +9,7 @@ class Resume extends Component {
       <div className="Resume">
         <div id="section-profile">
           <div className="section-title">
-              <h2>Resume</h2>
+            <h2>Resume</h2>
           </div>
           <div className="section-box" >
             <h3>Zhihao Yang</h3>
@@ -92,21 +92,29 @@ class Resume extends Component {
             <h3>Experience</h3>
           </div>
           <div className="section-box" >
-            <h4 style={{fontWeight: 700}}>UI/UX Designer & Frontend Developer</h4>
-            <h4>2016.06-2016.09 VINNOVA Stockholm, Sweden</h4>
-            <p>UI/UX design and front-end development for a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency</p>
-            <hr/>
-            <h4 style={{fontWeight: 700}}>Mobile Engineer Intern</h4>
-            <h4>2014.02-2015.01 Whitebag GmbH Zurich, Switzerland</h4>
-            <p>Development of native iOS app & web apps in Ruby on Rails; Design of API protocol; Start-up working experience</p>
-            <hr/>
-            <h4 style={{fontWeight: 700}}>R&D Engineer Intern</h4>
-            <h4>2013.10-2014.01 AdMaster Inc.Shanghai, China</h4>
-            <p>Implementation of the Gender Prediction Algorithm based on Hadoop using Java(Map/Reduce) </p>
-            <hr/>
-            <h4 style={{fontWeight: 700}}>Web Developer Traninee</h4>
-            <h4>2012.07-2012.09 Manipal Institute of Technology Manipal, India</h4>
-            <p>Design and implementation of Semantic-based website (search for flights, trains, buses and hotels) </p>
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>UI/UX Designer & Frontend Developer</h4>
+              <h4>2016.06-2016.09 VINNOVA Stockholm, Sweden</h4>
+              <p>UI/UX design and front-end development for a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency</p>
+            </div>
+            <hr />
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>Mobile Engineer Intern</h4>
+              <h4>2014.02-2015.01 Whitebag GmbH Zurich, Switzerland</h4>
+              <p>Development of native iOS app & web apps in Ruby on Rails; Design of API protocol; Start-up working experience</p>
+            </div>
+            <hr />
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>R&D Engineer Intern</h4>
+              <h4>2013.10-2014.01 AdMaster Inc.Shanghai, China</h4>
+              <p>Implementation of the Gender Prediction Algorithm based on Hadoop using Java(Map/Reduce) </p>
+            </div>
+            <hr />
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>Web Developer Traninee</h4>
+              <h4>2012.07-2012.09 Manipal Institute of Technology Manipal, India</h4>
+              <p>Design and implementation of Semantic-based website (search for flights, trains, buses and hotels) </p>
+            </div>
           </div>
         </div>
 
@@ -143,23 +151,29 @@ class Resume extends Component {
             </Row>
           </div>
         </div>
-        
+
         <div id="section-education">
           <div className="section-title">
             <h3>Education</h3>
           </div>
           <div className="section-box">
-            <h4 style={{fontWeight: 700}}>MSc Human Computer Interaction and Design</h4>
-            <h4>2016.09-Present University College London London, UK</h4>
-            <p>Exit year of EIT Digital Master Program.Minor in Innovation & Entrepreneurship </p>
-            <hr/>
-            <h4 style={{fontWeight: 700}}>MSc Human Computer Interaction and Design</h4>
-            <h4>2015.08-2016.06 KTH Royal Institute of Technology Stockholm, Sweden</h4>
-            <p>Entry year of EIT Digital Master Program.Minor in Innovation & Entrepreneurship </p>
-            <hr/>
-            <h4 style={{fontWeight: 700}}>BEn Software Engineering</h4>
-            <h4>2010.09-2015.06 East China Normal University Shanghai, China</h4>
-            <p>Graduate with Honor; Selected in the 21st Century Talent Acedemy and Top Innovative Training Program at ECNU</p>
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>MSc Human Computer Interaction and Design</h4>
+              <h4>2016.09-Present University College London London, UK</h4>
+              <p>Exit year of EIT Digital Master Program.Minor in Innovation & Entrepreneurship </p>
+            </div>
+            <hr />
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>MSc Human Computer Interaction and Design</h4>
+              <h4>2015.08-2016.06 KTH Royal Institute of Technology Stockholm, Sweden</h4>
+              <p>Entry year of EIT Digital Master Program.Minor in Innovation & Entrepreneurship </p>
+            </div>
+            <hr />
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>BEn Software Engineering</h4>
+              <h4>2010.09-2015.06 East China Normal University Shanghai, China</h4>
+              <p>Graduate with Honor; Selected in the 21st Century Talent Acedemy and Top Innovative Training Program at ECNU</p>
+            </div>
           </div>
         </div>
 
@@ -168,20 +182,30 @@ class Resume extends Component {
             <h3>Honors & Awards</h3>
           </div>
           <div className="section-box">
-            <h4 style={{fontWeight: 700}}>EIT Digital Excellence Scholarship</h4>
-            <h4>2015.05, EIT Digital Master School</h4>
-            <hr/>
-            <h4 style={{fontWeight: 700}}>Outstanding University Graduate of Shanghai, <span>Top 3%</span></h4>
-            <h4>2015.05, Education Committee of Shanghai, China</h4>
-            <hr/>
-            <h4 style={{fontWeight: 700}}>National Scholarship, <span>Top 0.2%</span></h4>
-            <h4>2013.09, Ministry of Education, China</h4>
-            <hr/>
-            <h4 style={{fontWeight: 700}}>Excellent Student Leader</h4>
-            <h4>2012.09, East China Normal University</h4>
-            <hr/>
-            <h4 style={{fontWeight: 700}}>Top Grade Scholarship, <span>Top 5%</span></h4>
-            <h4>2011.09, East China Normal University</h4>
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>EIT Digital Excellence Scholarship</h4>
+              <h4>2015.05, EIT Digital Master School</h4>
+            </div>
+            <hr />
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>Outstanding University Graduate of Shanghai, <span>Top 3%</span></h4>
+              <h4>2015.05, Education Committee of Shanghai, China</h4>
+            </div>
+            <hr />
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>National Scholarship, <span>Top 0.2%</span></h4>
+              <h4>2013.09, Ministry of Education, China</h4>
+            </div>
+            <hr />
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>Excellent Student Leader</h4>
+              <h4>2012.09, East China Normal University</h4>
+            </div>
+            <hr />
+            <div className="section-box-item">
+              <h4 style={{ fontWeight: 700 }}>Top Grade Scholarship, <span>Top 5%</span></h4>
+              <h4>2011.09, East China Normal University</h4>
+            </div>
           </div>
         </div>
 
@@ -204,7 +228,7 @@ class Resume extends Component {
             </Row>
           </div>
         </div>
-        
+
       </div>
     );
   }
