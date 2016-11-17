@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../css/App.css'
 import '../css/Portfolio.css'
 import { Row, Col } from 'react-bootstrap'
-import {PortfolioItemPageSection} from './PortfolioItemPageSection'
+import { PortfolioItemPageSection } from './PortfolioItemPageSection'
 
 var portfolioItems = require('../data/PortfolioItems.json');
 
@@ -31,11 +31,16 @@ class PortfolioItemPage extends Component {
 
         const problem = portfolioItem.problem;
         const solution = portfolioItem.solution;
-        const process = portfolioItem.result;
+        const process = portfolioItem.process;
         const result = portfolioItem.result
 
         return (
             <div id="portfolio-item-page">
+                <a href="#/portfolio">
+                    <div id="back-button">
+                        <h5><span className="glyphicon glyphicon-chevron-left" />Back to portfolio</h5>
+                    </div>
+                </a>
                 <div className="section-title">
                     <h2>{title}</h2>
                 </div>
@@ -81,15 +86,20 @@ class PortfolioItemPage extends Component {
                         </Row>
                     </div>
                 </div>
-                <div className="section-title">
-                    <h3>The Story</h3>
-                </div>
-                <div id="portfolio-item-page-story">
-                    {problem === "" ? "" : <PortfolioItemPageSection title={"Problem"} content={problem}/>}
-                        {solution === "" ? "" : <PortfolioItemPageSection title={"Solution"} content={solution}/>}
-                        {process === "" ? "" : <PortfolioItemPageSection title={"Process"} content={process}/>}
-                        {result === "" ? "" : <PortfolioItemPageSection title={"Result"} content={result}/>}
-                </div>
+                {
+                    (problem === "" && solution === "" && process === "" && result === "") ? <div /> :
+                        (<div>
+                            <div className="section-title">
+                                <h3>The Story</h3>
+                            </div>
+                            <div id="portfolio-item-page-story">
+                                {problem === "" ? "" : <PortfolioItemPageSection title={"Problem"} content={problem} />}
+                                {solution === "" ? "" : <PortfolioItemPageSection title={"Solution"} content={solution} />}
+                                {process === "" ? "" : <PortfolioItemPageSection title={"Process"} content={process} />}
+                                {result === "" ? "" : <PortfolioItemPageSection title={"Result"} content={result} />}
+                            </div>
+                        </div>)
+                }
             </div>
         );
     }

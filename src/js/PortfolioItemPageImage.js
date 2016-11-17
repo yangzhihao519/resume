@@ -16,8 +16,8 @@ class PortfolioItemPageImage extends Component<PortfolioItemPageImageProps, {}> 
 
         return (
             <div className="portfolio-item-page-image">
-                <img src={require('../images/portfolio/' + image.name)}/>
-                <h5>{image.caption}</h5>
+                {image.name == "" ? <div/> : <img src={require('../images/portfolio/' + image.name)}/>}
+                {image.caption == "" ? <div/> : <h5 className="portfolio-item-page-image-caption">{image.caption}</h5>}
             </div>
         );
     }

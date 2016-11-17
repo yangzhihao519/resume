@@ -2,6 +2,15 @@
 }
 
 /* Portfolio Item */
+#back-button {
+  color: white;
+  background-color: #333;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .portfolio-item {
   margin-bottom: 30px;
@@ -114,11 +123,18 @@ a :hover .portfolio-item-title {
 }
 
 .portfolio-item-page-section h4{
-  line-height: 30px;
   font-weight: 300;
 }
 
+.portfolio-item-page-section h5{
+  line-height: 25px;
+}
+
 /* Portfolio Item Page Image */
+.portfolio-item-page-image {
+  margin-bottom: 30px;
+}
+
 .portfolio-item-page-image img{
   width: 100%;
   height: auto;

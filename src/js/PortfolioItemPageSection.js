@@ -16,13 +16,13 @@ class PortfolioItemPageSection extends Component<PortfolioItemPageSectionProps, 
     render() {
         const title = this.props.title;
         const text = this.props.content.text;
+        var textHTML = text.split("\n").map(function(item, i) {return (<h4 key={i}>{item} <br/></h4>)})
 
         var imagesHTML = [];
         var images = this.props.content.images;
         for (var i = 0; i < images.length; i++) {
             var image = images[i];
-            imagesHTML.push( <PortfolioItemPageImage image={image} />);
-            imagesHTML.push(<br />);
+            imagesHTML.push(<PortfolioItemPageImage image={image} key={i}/>);
         }
 
         return (
@@ -32,7 +32,7 @@ class PortfolioItemPageSection extends Component<PortfolioItemPageSectionProps, 
                 </div>
                 <div className="content">
                     <div className="text">
-                        <h4>{text}</h4>
+                        {textHTML}
                     </div>
                     <div className="images">
                         {imagesHTML}
