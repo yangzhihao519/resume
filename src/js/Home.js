@@ -13,7 +13,7 @@ class Home extends Component {
             <h2><span>I'm</span>&nbsp; Zhihao Yang</h2>
             <h4>UI/UX Designer & Frontend Developer</h4>
             <br/>
-            <p>Born and grew up in Sichuan, China, I got my bachelor degree of Software Engineering at East China Normal University and am now persuing my master degree at University College London in Human Computer Interaction and Design.</p> 
+            <p>Born and grew up in Sichuan, China, I got my bachelor degree of Software Engineering at East China Normal University and am now pursuing my master degree at University College London in Human Computer Interaction and Design.</p> 
             <p>Previously I have worked at university, startups and governmental agency in India, China, Switzerland and Sweden as UI/UX Designer and Frontend Developer.</p>
             <div className="call-to-actinon">
               <Row>

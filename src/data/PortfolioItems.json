@@ -4,11 +4,11 @@
         "title": "Web-based Visualisation Tool of Horizon 2020",
         "descriptions": ["Build a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency;", 
                               "Work mainly focuses on UI/UX design and front-end development."],
-        "cover_image_name": "H2020_screenshot.png",
+        "cover_image_name": "h2020_cover.png",
         "period_of_time": "2016.06-09",
         "location": "Vinnova, the Swedish Innovation Agency, Stockholm, Sweden",
         "team_members": "Rodrigo Roa Rodríguez & Jacob Norlin Andersson ",
-        "skills": "Interaction design, UI design, HTML, Javascript, CSS & React Js",
+        "skills": "Interaction design, UI design, HTML, Javascript, CSS & React JS",
         "problem": {
             "images": [],
             "text": ""
@@ -45,7 +45,7 @@
         "title": "Interaction Design of Seizure Alert Watch & APP",
         "descriptions": ["Design a Assistive Technology to support the epileptic patients and help them live as normal people;", 
                                "Work mainly focuses on ideation, user research, UI/UX of low-fi and high-fi prototype of the applications."],
-        "cover_image_name": "saw_screenshot.png",
+        "cover_image_name": "saw_cover.png",
         "period_of_time": "2015.11-2016.01",
         "location": "KTH Royal Institute of Technology, Stockholm, Sweden",
         "team_members": "Chengcheng Qu & Viola Bazanye",
@@ -87,11 +87,11 @@
         "descriptions": [
             "Yocktail is a platform offered to cocktail lovers, allowing users to search, collect, create and share cocktails;", "Work as a full-stack designer and developer, from UI/UX design, to front-end & back-end programming."
         ],
-        "cover_image_name": "yorktail_screenshot.png",
+        "cover_image_name": "yorktail_cover.png",
         "period_of_time": "2015.03-04",
         "location": "KTH Royal Institute of Technology, Stockholm, Sweden",
-        "team_members": "Chengcheng Qu, Sakshyam Panda, Viola Bazanye",
-        "skills": "",
+        "team_members": "Chengcheng Qu, Sakshyam Panda & Viola Bazanye",
+        "skills": "Interaction Design, UI Design, HTML, Javascript, Angular JS & Firebase",
         "problem": {
             "images": [],
             "text": ""
@@ -128,11 +128,11 @@
         "title": "Vinyo: Buy the wine you love on mobile",
         "descriptions": ["Vinyo APP is a critically-acclaimed, free app that helps you search, find and buy the wine you want;",
                               "Work focuses on the client-end development of this iOS application."],
-        "cover_image_name": "vinyo_screenshot.png",
+        "cover_image_name": "vinyo_cover.png",
         "period_of_time": "2014.06-2015.01",
         "location": "Whitebag GmbH, Zurich, Switzerland",
-        "skills": "",
-        "team_members": "",
+        "skills": "iOS Development(Objective C)",
+        "team_members": "Adrian Schmidmeister, Andrea Canonica, Dang Nguyen & Giacomo Bordoli",
         "problem": {
             "images": [],
             "text": ""

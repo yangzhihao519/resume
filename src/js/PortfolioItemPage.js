@@ -41,7 +41,7 @@ class PortfolioItemPage extends Component {
                 </div>
                 <div id="portfolio-item-page-intro">
                     <div id="portfolio-item-page-cover-image">
-                        <img src={require('../images/' + coverImageName)} />
+                        <img src={require('../images/portfolio/' + coverImageName)} />
                     </div>
                     <div id="portfolio-item-page-descriptions">
                         {descriptionsHTML}

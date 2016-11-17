@@ -20,7 +20,7 @@ class PortfolioItemPageSection extends Component<PortfolioItemPageSectionProps, 
         var images = this.props.content.images;
         for (var i = 0; i < images.length; i++) {
             var image = images[i];
-            imagesHTML.push(<img src={require('../images/' + image)} />);
+            imagesHTML.push(<img src={require('../images/portfolio/' + image)} />);
             imagesHTML.push(<br />);
         }
 

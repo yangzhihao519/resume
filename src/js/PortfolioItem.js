@@ -25,7 +25,7 @@ class PortfolioItem extends Component<PortfolioItemProps, {}> {
                 <a href={"#/portfolio/"+id}>
                     <div className="portfolio-item" >
                         <div className="portfolio-item-image">
-                            <img src={require('../images/' + cover_image_name)} />
+                            <img src={require('../images/portfolio/' + cover_image_name)} />
                             <div className="portfolio-item-content">
                                 {descriptionsHTML}
                                 <div className="view-more-button">
