@@ -9,27 +9,10 @@
         "location": "Vinnova, the Swedish Innovation Agency, Stockholm, Sweden",
         "team_members": "Rodrigo Roa Rodríguez & Jacob Norlin Andersson ",
         "skills": "Interaction design, UI design, HTML, Javascript, CSS & React JS",
-        "problem": {
-            "text": "",
-            "images": [
-                {
-                    "name": "",
-                    "caption": ""
-                }
-            ]
-        },
-        "solution": {
-            "text": "",
-            "images": []
-        },
-        "process": {
-            "text": "",
-            "images": []
-        },
-        "result":{
-            "text": "",
-            "images": []
-        }
+        "problem": "",
+        "solution": "",
+        "process": "",
+        "result":""
     },
     {
         "id": 2,
@@ -43,24 +26,45 @@
         "skills": "Interaction design & UI design",
         "problem": {
             "text": "According to World Health Organization(WHO), there are about 50 million people worldwide have epilepsy. People with epilespy are suffering from the anxiety of unexpected seizure.",
-            "images": [
-                {
-                    "name": "saw_cover.png",
-                    "caption": "This is a caption."
-                }
-            ]
+            "images": []
         },
         "solution": {
-            "text": "",
+            "text": "Researchers at MIT working on a wristband that measures skin conductance, which is a measure of how much you’re sweating. It’s been discovered that conductance spikes just before someone has a seizure. The device can tell the severity of a seizure, and it may lead to seizure forecasting in the end. \n By forecasting the coming seizures and sending seizure alert to the patient in advance, he/she could be able to stop the current activity and get prepared for the seizure, which can be able to prevent potential danger and save lives. The ability to forecast seizures has long been desired, discussed, and explored. Scientists are now detecting abnormal brain waves or changes in nervous system measurements, like heart rate and breathing to predict seizures. \n By monitoring the patient activity and data analysis, the smartwatch can be able to detect irregular shaking of the patient and record the ongoing seizure, as well as sending emergency message in case the tonic-clonic(shaking) seizure lasts more than 5 minutes, which could be dangerous and he/she must be sent to hospital according to doctor.",
             "images": []
         },
         "process": {
-            "text": "",
-            "images": []
+            "text": "Starting with obervation and research, we decided the track to go: design a smartwatch application for epileptic patient.",
+            "images": [
+                {
+                    "name": "saw_process_brainstorming.png",
+                    "caption": "Before the group gathering, every group member did observations and research to find out the fields related to epilepsy. During the group meeting, each person wrote down his/her ideas on post-its, and explained the ideas based his/her observations and thoughts. Then, we grouped those postits into several categories to generate an affinity diagram. The affinity process has been iterated twice, because new ideas always come up during discussion. Then we vote for all the ideas and chose the top rated one: A smartwatch that can monitor an epilepsy patient’s daily activity . "
+                },
+                {
+                    "name": "saw_process_persona.png",
+                    "caption": "Based on the the observations, online surveys as well as the interview( with two epilepsy experts at the Swedish pilepsy Association, we found several behavior variables of the target group. Then we listed all the behavior variables with certain people and try to find the behavior patterns. After that, we synthesize those characters into several personas. Also, according to the primary target of our interface design, we selected a primary persona, a 40-year-old stay-at-home mom Whitney."
+                },
+                {
+                    "name": "saw_process_sketch.png",
+                    "caption": "In the stage of sketch and low-fi prototype, we focused our design on these three functions: 1)The forecasting function to inform the user that a seizure is about to happen; 2) The alert and record function while a seizure is happening, as well as the automatic emergency call function; 3) The electronic seizure diary function."
+                },
+                {
+                    "name": "saw_process_pop.png",
+                    "caption": "Using \"Sketch\", we built a set of highfidelity prototypes for the device we want to design for people with epilepsy in the hope of helping and supporting their lives. The prototypes are mainly for the application on smartwatch and smartphone. Using an online prototyping software POP App allows us to built the prototype interactively by adding the actions and transitions that can be shown online or on mobile phones."
+                }
+            ]
         },
         "result":{
-            "text": "",
-            "images": []
+            "text": "A technical solution comprising of a smartwatch and mobile application that will serve as an aid to people living with epilepsy helping them to live normal lives.",
+            "images": [
+                {
+                    "name": "saw_result_smartwatch.png",
+                    "caption": "Features in smartwatch application: 1) Forecasting function to inform the user that a seizure is about to happen; 2) Alert and record function while a seizure is happening, as well as the automatic emergency message function."
+                },
+                {
+                    "name": "saw_result_smartphone.png",
+                    "caption": "Features in smartphone application: 1) The electronic seizure diary shows a detailed overview of your seizure tracking records; 2) Medication and appointments reminder."
+                }
+            ]
         }
     },
     {
@@ -74,27 +78,10 @@
         "location": "KTH Royal Institute of Technology, Stockholm, Sweden",
         "team_members": "Chengcheng Qu, Sakshyam Panda & Viola Bazanye",
         "skills": "Interaction Design, UI Design, HTML, Javascript, Angular JS & Firebase",
-        "problem": {
-            "text": "",
-            "images": [
-                {
-                    "name": "",
-                    "caption": ""
-                }
-            ]
-        },
-        "solution": {
-            "text": "",
-            "images": []
-        },
-        "process": {
-            "text": "",
-            "images": []
-        },
-        "result":{
-            "text": "",
-            "images": []
-        }
+        "problem": "",
+        "solution": "",
+        "process": "",
+        "result":""
     },
     {
         "id": 4,
@@ -106,26 +93,9 @@
         "location": "Whitebag GmbH, Zurich, Switzerland",
         "skills": "iOS Development(Objective C)",
         "team_members": "Adrian Schmidmeister, Andrea Canonica, Dang Nguyen & Giacomo Bordoli",
-        "problem": {
-            "text": "",
-            "images": [
-                {
-                    "name": "",
-                    "caption": ""
-                }
-            ]
-        },
-        "solution": {
-            "text": "",
-            "images": []
-        },
-        "process": {
-            "text": "",
-            "images": []
-        },
-        "result":{
-            "text": "",
-            "images": []
-        }
+        "problem": "",
+        "solution": "",
+        "process": "",
+        "result":""
     }
 ]
