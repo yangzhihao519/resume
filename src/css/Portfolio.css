@@ -117,3 +117,9 @@ a :hover .portfolio-item-title {
   line-height: 30px;
   font-weight: 300;
 }
+
+/* Portfolio Item Page Image */
+.portfolio-item-page-image img{
+  width: 100%;
+  height: auto;
+}

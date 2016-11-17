@@ -10,34 +10,25 @@
         "team_members": "Rodrigo Roa Rodríguez & Jacob Norlin Andersson ",
         "skills": "Interaction design, UI design, HTML, Javascript, CSS & React JS",
         "problem": {
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": [
+                {
+                    "name": "",
+                    "caption": ""
+                }
+            ]
         },
         "solution": {
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": []
         },
         "process": {
-            "ideation": {
-                "images": [],
-                "text": ""
-            },
-            "persona": {
-                "images": [],
-                "text": ""
-            },
-            "low_fi_prototype": {
-                "images": [],
-                "text": ""
-            },
-            "high_fi_prototype": {
-                "images": [],
-                "text": ""
-            }
+            "text": "",
+            "images": []
         },
         "result":{
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": []
         }
     },
     {
@@ -51,34 +42,25 @@
         "team_members": "Chengcheng Qu & Viola Bazanye",
         "skills": "Interaction design & UI design",
         "problem": {
-            "images": [],
-            "text": "According to World Health Organization(WHO), there are about 50 million people worldwide have epilepsy. People with epilespy are suffering from the anxiety of unexpected seizure."
+            "text": "According to World Health Organization(WHO), there are about 50 million people worldwide have epilepsy. People with epilespy are suffering from the anxiety of unexpected seizure.",
+            "images": [
+                {
+                    "name": "saw_cover.png",
+                    "caption": "This is a caption."
+                }
+            ]
         },
         "solution": {
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": []
         },
         "process": {
-            "ideation": {
-                "images": [],
-                "text": ""
-            },
-            "persona": {
-                "images": [],
-                "text": ""
-            },
-            "low_fi_prototype": {
-                "images": [],
-                "text": ""
-            },
-            "high_fi_prototype": {
-                "images": [],
-                "text": ""
-            }
+            "text": "",
+            "images": []
         },
         "result":{
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": []
         }
     },
     {
@@ -93,34 +75,25 @@
         "team_members": "Chengcheng Qu, Sakshyam Panda & Viola Bazanye",
         "skills": "Interaction Design, UI Design, HTML, Javascript, Angular JS & Firebase",
         "problem": {
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": [
+                {
+                    "name": "",
+                    "caption": ""
+                }
+            ]
         },
         "solution": {
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": []
         },
         "process": {
-            "ideation": {
-                "images": [],
-                "text": ""
-            },
-            "persona": {
-                "images": [],
-                "text": ""
-            },
-            "low_fi_prototype": {
-                "images": [],
-                "text": ""
-            },
-            "high_fi_prototype": {
-                "images": [],
-                "text": ""
-            }
+            "text": "",
+            "images": []
         },
         "result":{
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": []
         }
     },
     {
@@ -134,34 +107,25 @@
         "skills": "iOS Development(Objective C)",
         "team_members": "Adrian Schmidmeister, Andrea Canonica, Dang Nguyen & Giacomo Bordoli",
         "problem": {
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": [
+                {
+                    "name": "",
+                    "caption": ""
+                }
+            ]
         },
         "solution": {
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": []
         },
         "process": {
-            "ideation": {
-                "images": [],
-                "text": ""
-            },
-            "persona": {
-                "images": [],
-                "text": ""
-            },
-            "low_fi_prototype": {
-                "images": [],
-                "text": ""
-            },
-            "high_fi_prototype": {
-                "images": [],
-                "text": ""
-            }
+            "text": "",
+            "images": []
         },
         "result":{
-            "images": [],
-            "text": ""
+            "text": "",
+            "images": []
         }
     }
 ]

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../css/App.css'
 import '../css/Portfolio.css'
+import {PortfolioItemPageImage} from './PortfolioItemPageImage'
 
 interface PortfolioItemPageSectionProps {
     title: string;
@@ -20,7 +21,7 @@ class PortfolioItemPageSection extends Component<PortfolioItemPageSectionProps, 
         var images = this.props.content.images;
         for (var i = 0; i < images.length; i++) {
             var image = images[i];
-            imagesHTML.push(<img src={require('../images/portfolio/' + image)} />);
+            imagesHTML.push( <PortfolioItemPageImage image={image} />);
             imagesHTML.push(<br />);
         }
 
