@@ -7,9 +7,9 @@
 }
 
 .call-to-actinon {
-  margin-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .call-to-actinon h5 {
@@ -29,6 +29,25 @@
   padding: 10px;
   border-radius: 5px;
   background-color: #8BC34A;
+  margin-bottom: 20px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#email-box {
+  color: white;
+  background-color: #FF8F00;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#email-box h5{
+  font-weight: 400;
 }
 
 #social-media {

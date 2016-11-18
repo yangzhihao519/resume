@@ -11,7 +11,7 @@ class Home extends Component {
          <div className="section-box" id="section-about">
             <h3>Hello!</h3>
             <h2><span>I'm</span>&nbsp; Zhihao Yang</h2>
-            <h4>UI/UX Designer & Frontend Developer</h4>
+            <h4>UI/UX Designer & Front-end Developer</h4>
             <br/>
             <p>Born and grew up in Sichuan, China, I got my bachelor degree of Software Engineering at East China Normal University and am now pursuing my master degree at University College London in Human Computer Interaction and Design.</p> 
             <p>Previously I have worked at university, startups and governmental agency in India, China, Switzerland and Sweden as UI/UX Designer and Frontend Developer.</p>
@@ -32,6 +32,17 @@ class Home extends Component {
                   </Link>
                 </Col>
               </Row>
+            </div>
+          </div>
+
+          <div className="section-title">
+              <h3>Contact me</h3>
+          </div>
+          <div className="section-box">
+            <div id="contact">
+              <h4>Currently I am interested in part-time job and looking for full-time job starting from Sep, 2017.</h4>
+              <h4>Let me know if you have any interesting ideas/projects to work on!</h4>
+              <a href="mailto:yang_zhihao@live.com" id="email-box"><h5>SEND ME AN EMAIL</h5></a>
             </div>
           </div>
 

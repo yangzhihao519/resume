@@ -13,7 +13,7 @@ class Resume extends Component {
           </div>
           <div className="section-box" >
             <h3>Zhihao Yang</h3>
-            <h4>Master Student at University College London, UI/UX Designer & Frontend Developer</h4>
+            <h4>Master Student at University College London, UI/UX Designer & Front-end Developer</h4>
             <Row id="section-profile-info">
               <Col xs={12} sm={6} md={6} lg={6}>
                 <Row>
@@ -93,7 +93,7 @@ class Resume extends Component {
           </div>
           <div className="section-box" >
             <div className="section-box-item">
-              <h4 style={{ fontWeight: 700 }}>UI/UX Designer & Frontend Developer</h4>
+              <h4 style={{ fontWeight: 700 }}>UI/UX Designer & Front-end Developer</h4>
               <h4>2016.06-2016.09 VINNOVA Stockholm, Sweden</h4>
               <p>UI/UX design and front-end development for a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency</p>
             </div>
