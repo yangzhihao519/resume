@@ -58,4 +58,7 @@
 
 #download-cv {
   color: white;
+  padding: 15px;
+  line-height: 20px;
+  display: block;
 }
