@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div className="Home">
          <div className="section-box" id="section-about">
-            <h3>Hello!</h3>
+            <h3 className="greetings"></h3>
             <h2><span>I'm</span>&nbsp; Zhihao Yang</h2>
             <h4>UI/UX Designer & Front-end Developer</h4>
             <br/>

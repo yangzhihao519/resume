@@ -11,7 +11,6 @@ interface HeaderProps {
 
 class Header extends Component<HeaderProps, {}> {
   render() {
-    console.log(this.props.currentPathName);
     const currentPathName =  this.props.currentPathName;
     var subNav = '';
     switch (currentPathName) {

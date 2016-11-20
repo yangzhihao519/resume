@@ -6,6 +6,41 @@
   text-align: center;
 }
 
+@keyframes changeGreetings {
+  0% {
+    content: "Hello!";
+    color: #FF8F00;
+  }
+  25% {
+    content: "你好!";
+    color: #D50000;
+  }
+  50% {
+    content: "Namaste!";
+    color: #673AB7;
+  }
+  75% {
+    content: "Hallo!";
+    color: #2196F3;
+  }
+  100% {
+    content: "Hej!";
+    color: #8BC34A;
+  }
+}
+
+.greetings::after{
+  content: "Hello!";
+  color: #FF8F00;
+  animation-name:    changeGreetings;
+  animation-duration: 12s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transition:        color .1s ease;
+  animation-delay:   2s;
+}
+
 .call-to-actinon {
   margin-top: 30px;
   padding-left: 30px;
