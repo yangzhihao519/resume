@@ -13,11 +13,15 @@ class PortfolioItemPageImage extends Component<PortfolioItemPageImageProps, {}> 
 
     render() {
         const {image} = this.props;
+        var imageCaption = image.caption;
+        var captionHTML = (imageCaption === "" ? "" : imageCaption.split("\n").map(function(item, i) {return (<h5 key={i}>{item} <br/></h5>)}))
+        var imageName = image.name;
+        var imageHTML = (image.name === "" ? "" : <img src={require('../images/portfolio/' + image.name)}/>)
 
         return (
             <div className="portfolio-item-page-image">
-                {image.name === "" ? <div/> : <img src={require('../images/portfolio/' + image.name)}/>}
-                {image.caption === "" ? <div/> : <h5 className="portfolio-item-page-image-caption">{image.caption}</h5>}
+                {captionHTML}
+                {imageHTML}
             </div>
         );
     }
