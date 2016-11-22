@@ -21,6 +21,7 @@ class PortfolioItemPage extends Component {
         const location = portfolioItem.location;
         const teamMembers = portfolioItem.team_members;
         const skills = portfolioItem.skills;
+        const website = portfolioItem.website;
 
         var descriptionsHTML = [];
         var descriptions = portfolioItem.descriptions;
@@ -84,6 +85,15 @@ class PortfolioItemPage extends Component {
                                 <h4>{skills}</h4>
                             </Col>
                         </Row>
+                        {website === "" ? "" :
+                            <Row>
+                                <Col xs={4} sm={4} md={4} lg={3} className="title">
+                                    <h4>Website</h4>
+                                </Col>
+                                <Col xs={8} sm={8} md={8} lg={9} className="content">
+                                    <a href={website} target="_blank"><h4>{website}</h4></a>
+                                </Col>
+                            </Row>}
                     </div>
                 </div>
                 {

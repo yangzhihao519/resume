@@ -9,6 +9,7 @@
         "location": "Vinnova, the Swedish Innovation Agency, Stockholm, Sweden",
         "team_members": "Rodrigo Roa Rodríguez & Jacob Norlin Andersson ",
         "skills": "Interaction design, UI design, HTML, Javascript, CSS & React JS",
+        "website": "http://h2020viz.vinnova.se/",
         "problem": {
             "text": "HORIZON 2020 is the EU Framework Programme for Research and Innovation. There are 31638 rows in Horizon 2020's database for participations, while there is another table for projects which contains 7553 rows. It's not easy to find out useful information from plain texts and it also requires technical skills to understand the data. \n Vinnova, the Swedish Innovation Agency, is in charge of the managment of Horizon 2020 in Sweden. In order to understand the their performances in this program and make strategic future plan, specialists from Swedish companies, universities, organisations and other governmental agencies will need to spend hours or even days of work in generating a report based on the complecated data from European Commission, and they do send requests to Vinnova for instructions and more complex questions. Although Vinnova orgranizes regular workshops for training specialists from external organizations how to use Horizon 2020's database, it requires time and energy. \n The most common questions regarding Horizon 2020 are: \n 1. How does the participation look like per region/county for a certain country? Which pillars, programmes and subprogrammes do a choosen organisation participate in and what are the projects (ID, title and abstract)? \n 2. How does the participation look like per programme for a given country (one or all) and region (one, several or all)?; Which organisations participate in which programmes and topic. \n 3. How are the collaboration patterns for 1) Countries 2) for a given Organisation look like?",
             "images": []
@@ -79,6 +80,7 @@
         "location": "KTH Royal Institute of Technology, Stockholm, Sweden",
         "team_members": "Chengcheng Qu & Viola Bazanye",
         "skills": "Interaction design & UI design",
+        "website": "",
         "problem": {
             "text": "According to World Health Organization(WHO), there are about 50 million people worldwide have epilepsy. People with epilespy are suffering from the anxiety of unexpected seizure.",
             "images": []
@@ -133,6 +135,7 @@
         "location": "KTH Royal Institute of Technology, Stockholm, Sweden",
         "team_members": "Chengcheng Qu, Sakshyam Panda & Viola Bazanye",
         "skills": "Interaction Design, UI Design, HTML, Javascript, Angular JS & Firebase",
+        "website": "https://yocktail.firebaseapp.com",
         "problem": "",
         "solution": "",
         "process": "",
@@ -147,6 +150,7 @@
         "period_of_time": "2014.06-2015.01",
         "location": "Whitebag GmbH, Zurich, Switzerland",
         "skills": "iOS Development(Objective C)",
+        "website": "http://vinyo.ch/",
         "team_members": "Adrian Schmidmeister, Andrea Canonica, Dang Nguyen & Giacomo Bordoli",
         "problem": "",
         "solution": "",
