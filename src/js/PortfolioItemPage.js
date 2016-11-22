@@ -3,6 +3,7 @@ import '../css/App.css'
 import '../css/Portfolio.css'
 import { Row, Col } from 'react-bootstrap'
 import { PortfolioItemPageSection } from './PortfolioItemPageSection'
+import Scrollchor from 'react-scrollchor';
 
 var portfolioItems = require('../data/PortfolioItems.json');
 
@@ -38,7 +39,7 @@ class PortfolioItemPage extends Component {
         return (
             <div id="portfolio-item-page">
                 <a href="#/portfolio">
-                    <div id="back-button">
+                    <div className="back-to-portfolio-button">
                         <h5><span className="glyphicon glyphicon-chevron-left" />Back to portfolio</h5>
                     </div>
                 </a>
@@ -110,7 +111,25 @@ class PortfolioItemPage extends Component {
                             </div>
                         </div>)
                 }
+                <Row>
+                    <Col xs={6} sm={6} md={6} lg={6}>
+                        <a href="#/portfolio">
+                            <div className="back-to-portfolio-button">
+                                <h5><span className="glyphicon glyphicon-chevron-left" />Back to portfolio</h5>
+                            </div>
+                        </a>
+                    </Col>
+                    <Col xs={6} sm={6} md={6} lg={6}>
+                        <Scrollchor to="#portfolio-item-page" className="pull-right">
+                            <div className="back-to-top-button">
+                                <h5>Back to Top<span className="glyphicon glyphicon-arrow-up" /></h5>
+                            </div>
+                        </Scrollchor>
+                    </Col>
+                </Row>
+
             </div>
+
         );
     }
 }
