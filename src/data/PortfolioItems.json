@@ -136,10 +136,76 @@
         "team_members": "Chengcheng Qu, Sakshyam Panda & Viola Bazanye",
         "skills": "Interaction Design, UI Design, HTML, Javascript, Angular JS & Firebase",
         "website": "https://yocktail.firebaseapp.com",
-        "problem": "",
-        "solution": "",
-        "process": "",
-        "result":""
+        "problem": {
+            "text":"Cocktail is popular all around the world, but there is barely any platform for cocktail lovers to explore in the world of cocktails and also share their own favorite cocktail with each other.",
+            "images":[]
+        },
+        "solution": {
+            "text":"We would like to build an online community - \"Yocktail\"(You + Coktail) - for cocktail lovers to explore and share. Given the API offered by Absolut Drinks Database, thousands of recipes of cocktails could be shown in this platform for exploration and inspiration. \n This website consistes of 5 parts: \n 1. Home: showing the most popular cocktails and latest cocktails made by our \"Yocktailer\", along with a call for sign in/sign up. \n 2. Explore: allowing users to search cocktails and filter based on their interests. More information about one sign cocktail would be shown in a detailed page after clicking. \n 3. Community: displaying the cocktails made by our \"Yocktailer\" with picture, taste and maker's name and profile picture. \n 4. User Profile: After signing in or  signing up, Profile page would show user's cocktails that created and collectedy by him/her. User could also edit his/her name, bio, profile picture, registered email, password in the Edit page. \n 5. About: showing an introduction of this project and contact information.",
+            "images":[]
+        },
+        "process": {
+            "text":"Based on online research and brainstorming. An initial sketch was come up. And later on I transform the sketch into a high-fi graphical prototype for future development.",
+            "images":[
+                {
+                    "name": "yocktail_process_hifi_home.png",
+                    "caption": "Dark grey and bright yellow are the main colors used for the design to give users the feelings of luxury and vibrancy."
+                },
+                {
+                    "name": "yocktail_process_hifi_explore.png",
+                    "caption": ""
+                },
+                {
+                    "name": "yocktail_process_hifi_cocktail.png",
+                    "caption": ""
+                },
+                {
+                    "name": "yocktail_process_hifi_community.png",
+                    "caption": ""
+                },
+                {
+                    "name": "yocktail_process_hifi_signin.png",
+                    "caption": ""
+                },
+                {
+                    "name": "yocktail_process_hifi_signup.png",
+                    "caption": ""
+                },
+                {
+                    "name": "yocktail_process_hifi_profile.png",
+                    "caption": ""
+                },
+                {
+                    "name": "yocktail_process_hifi_create_cocktail.png",
+                    "caption": ""
+                },
+                {
+                    "name": "yocktail_process_hifi_about.png",
+                    "caption": ""
+                },
+                {
+                    "name": "yocktail_process_firebase.png",
+                    "caption": "AngularJS was mainly used in the implementation of the website's front-end, built in a MVC design pattern. A simple back-end was built using Firebase for data storage and REST APIs."
+                },
+                {
+                    "name": "",
+                    "caption": "Based upon the high-fi prototype, a cognitive walkthough was conducted to address the potential usability issues. Also, more evaluations were down during the iterative development process."
+                }
+            ]
+        },
+        "result":{
+            "text":"Yocktail is responsive for all devices. The executable website is on Firebase: https://yocktail.firebaseapp.com/ and the code is available on Github:  https://github.com/violabazanye/Yocktail.",
+            "images":[
+                {
+                    "name": "yocktail_results_multi_devices.png",
+                    "caption": ""
+                },
+                {
+                    "name": "",
+                    "caption": "Due to the restriction of the Absolut Drinks Database API (http://addb.absolutdrinks.com/docs/), for Chrome users, a chrome extension need to be installed to make the APIs work: Allow-Control-Allow-Origin: * https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi. Or “Disable Cross-Origin Restriction” in the “Develop” option in the menu if you are using a Safari browser."
+                }
+            ]
+        }
     },
     {
         "id": 4,
