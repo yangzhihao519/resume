@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c0f99b01.css",
   "main.css.map": "static/css/main.c0f99b01.css.map",
-  "main.js": "static/js/main.d95f5480.js",
-  "main.js.map": "static/js/main.d95f5480.js.map",
+  "main.js": "static/js/main.b522d612.js",
+  "main.js.map": "static/js/main.b522d612.js.map",
   "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/media/glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
   "static/media/glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
@@ -27,5 +27,16 @@
   "static/media/saw_result_smartphone.png": "static/media/saw_result_smartphone.8a523225.png",
   "static/media/saw_result_smartwatch.png": "static/media/saw_result_smartwatch.fd0268e6.png",
   "static/media/vinyo_cover.png": "static/media/vinyo_cover.61e269a2.png",
+  "static/media/yocktail_process_firebase.png": "static/media/yocktail_process_firebase.e2e563d1.png",
+  "static/media/yocktail_process_hifi_about.png": "static/media/yocktail_process_hifi_about.d106846a.png",
+  "static/media/yocktail_process_hifi_cocktail.png": "static/media/yocktail_process_hifi_cocktail.d12bc5de.png",
+  "static/media/yocktail_process_hifi_community.png": "static/media/yocktail_process_hifi_community.a2772f3f.png",
+  "static/media/yocktail_process_hifi_create_cocktail.png": "static/media/yocktail_process_hifi_create_cocktail.bb0d832d.png",
+  "static/media/yocktail_process_hifi_explore.png": "static/media/yocktail_process_hifi_explore.2e347121.png",
+  "static/media/yocktail_process_hifi_home.png": "static/media/yocktail_process_hifi_home.702aa4fd.png",
+  "static/media/yocktail_process_hifi_profile.png": "static/media/yocktail_process_hifi_profile.37cfb49c.png",
+  "static/media/yocktail_process_hifi_signin.png": "static/media/yocktail_process_hifi_signin.feed6fa5.png",
+  "static/media/yocktail_process_hifi_signup.png": "static/media/yocktail_process_hifi_signup.e5ca828f.png",
+  "static/media/yocktail_results_multi_devices.png": "static/media/yocktail_results_multi_devices.32656af5.png",
   "static/media/yorktail_cover.png": "static/media/yorktail_cover.0858cf9b.png"
 }
