@@ -22,11 +22,12 @@ h5, p, span {
 }
 
 a{
-  color: black;
+  color: #1F8B4C;
   cursor: pointer;
   text-decoration: none;
 }
 
 a:hover{
+  color: #1F8B4C;
   text-decoration: none;
 }

@@ -22,6 +22,7 @@ a :hover .portfolio-item-title {
 .portfolio-item-image{
   position: relative;
 }
+
 .portfolio-item-image img{
   width: 100%;
   height: auto;
@@ -42,7 +43,7 @@ a :hover .portfolio-item-title {
   height: 100%;
   padding: 25px;
   display: none;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(31, 139, 76, 0.8);
 }
 
 .view-more-button {
@@ -51,7 +52,7 @@ a :hover .portfolio-item-title {
   padding: 10px;
   border-style: solid;
   border-width: 0.5px;
-  border-color: rgba(255, 255, 255, 0.45);
+  border-color: rgba(255, 255, 255, 0.6);
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
   border-radius: 1px;

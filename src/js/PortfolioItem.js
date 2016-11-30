@@ -34,7 +34,7 @@ class PortfolioItem extends Component<PortfolioItemProps, {}> {
                             </div>
                         </div>
                         <div className="portfolio-item-title">
-                            <h4 style={{ fontWeight: 700 }}>{title}</h4>
+                            <h4 style={{ fontWeight: 700, color: "#333" }}>{title}</h4>
                         </div>
                     </div>
                 </a>

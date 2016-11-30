@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div className="Home">
         <div className="section-box" id="section-about">
-          <h3 className="greetings"></h3>
+          <h3 id="hello">Hello!</h3>
           <h2><span>I'm</span>&nbsp; Zhihao Yang</h2>
           <h4>UI/UX Designer & Front-end Developer</h4>
           <br />
@@ -17,19 +17,25 @@ class Home extends Component {
           <p>Previously I have worked at university, startups and governmental agency in India, China, Switzerland and Sweden as UI/UX Designer and Frontend Developer.</p>
           <div className="call-to-actinon">
             <Row>
-              <Col xs={12} sm={6} md={6} lg={6}>
+            <Col xs={12} sm={2} md={2} lg={2}>
+               
+              </Col>
+              <Col xs={12} sm={4} md={4} lg={4}>
                 <Link to="/resume" style={{ color: "white" }}>
                   <div className="view-cv">
                     <h5>VIEW RESUME</h5>
                   </div>
                 </Link>
               </Col>
-              <Col xs={12} sm={6} md={6} lg={6}>
+              <Col xs={12} sm={4} md={4} lg={4}>
                 <Link to="/portfolio" style={{ color: "white" }}>
                   <div className="view-portfolio">
                     <h5>SEE WORKS</h5>
                   </div>
                 </Link>
+              </Col>
+              <Col xs={12} sm={2} md={2} lg={2}>
+                
               </Col>
             </Row>
           </div>
@@ -46,7 +52,8 @@ class Home extends Component {
                   <div className="portfolio-item-image">
                     <img src={require('../images/portfolio/h2020_cover.png')} />
                     <div className="portfolio-item-content">
-                      <p>Web-based Visualisation Tool of Horizon 2020</p>
+                      <h4>Web-based Visualisation Tool of Horizon 2020</h4>
+                      <p>Work mainly focuses on UI/UX design and front-end development.</p>
                                 <div className="view-more-button">
                         <p style={{ marginBottom: 0 + "px" }}>View More</p>
                       </div>
@@ -61,7 +68,8 @@ class Home extends Component {
                   <div className="portfolio-item-image">
                     <img src={require('../images/portfolio/saw_cover.png')} />
                     <div className="portfolio-item-content">
-                      <p>Interaction Design of Seizure Alert Watch & APP</p>
+                      <h4>Interaction Design of Seizure Alert Watch & APP</h4>
+                      <p>Work mainly focuses on ideation, user research, UI/UX of low-fi and high-fi prototype of the applications.</p>
                       <div className="view-more-button">
                         <p style={{ marginBottom: 0 + "px" }}>View More</p>
                       </div>
