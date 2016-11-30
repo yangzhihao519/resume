@@ -67,6 +67,12 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px){
+    #home-portfolio-item-left{
+      margin-bottom: 30px;
+    }
+}
+
 #contact {
   text-align: center;
 }
