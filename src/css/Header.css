@@ -36,6 +36,23 @@
   padding-bottom: 20px;
 }
 
+#header .navbar-inverse .navbar-toggle {
+  background-color: #1F8B4C;
+  border-color: #1F8B4C;
+}
+
+#header .navbar-inverse .navbar-toggle::hover{
+  background-color: #1F8B4C;
+}
+
+#header .navbar-inverse .navbar-toggle:focus{
+  background-color: #1F8B4C;
+}
+
+#header .navbar-inverse .navbar-collapse {
+  border: none;
+}
+
 .sub-nav-bar {
   padding-left: 100px;
   padding-right: 100px;
