@@ -126,6 +126,74 @@
     },
     {
         "id": 3,
+        "title": "Tellus News: keep up to date",
+        "descriptions": [
+            "Tellus.news is a startup developing a technology to summarise and analyse news from all over the world;", "Work as a UI designer for mobile app and website."
+        ],
+        "cover_image_name": "tellus_cover.png",
+        "period_of_time": "2016.05-09",
+        "location": "Stockholm, Sweden",
+        "team_members": "Sam Strandberg, Joel Pettersson and David Uddare Sevelin",
+        "skills": "UI Design",
+        "website": "http://tellus.news/",
+        "problem": "",
+        "solution": {
+            "text":"Tellus.news is a startup company based in Stockholm. We are developing a technology to summarise and analyse news from all over the world, and then present this information in our news app – to give the user all the world’s news in just a few minutes",
+            "images":[]
+        },
+        "process": "",
+        "result": {
+            "text":"Task 1: Redesign of the iOS App \n Focusing on the reconstructing the navigation, I came up with the redesign that you could take into consideration.",
+            "images":[
+                {
+                    "name": "tellus_redesign_ui_1.png",
+                    "caption": "I suggest that in the first view, we show the daily news in a horizontal view together with the 3D earth indicating the news location and the coverages’ location. In this way, the user could quickly get to know the daily news we present today and understand what is happening around the world by just swiping left and right. When the user is interested in one news, he/she just needs to simply swipe up to read the detail which includes the insights and global coverage."
+                },
+                {
+                    "name": "tellus_redesign_ui_2.png",
+                    "caption": "The “Insights” part contains a short description of this news, and some insights we could offer, such as some information visualization, future prediction, special criticism, as so on."
+                },
+                {
+                    "name": "tellus_redesign_ui_3.png",
+                    "caption": "In the “Coverage” part, a map is shown to show the details (area and number) how this news is reported globally, which cannot be easily shown through the 3D earth. And user could also click on the continents in the map to see the related reports in that area."
+                },
+                {
+                    "name": "",
+                    "caption": "Task 2: Fact Box Design \n These face boxes are designed to give readers a quick overview, categorised into the news type: attact, election, country/person, disaster, and accident."
+                },
+                {
+                    "name": "tellus_factbox_ui_1.png",
+                    "caption": ""
+                },
+                {
+                    "name": "tellus_factbox_ui_2.png",
+                    "caption": ""
+                },
+                {
+                    "name": "tellus_factbox_ui_3.png",
+                    "caption": ""
+                },
+                {
+                    "name": "tellus_factbox_ui_4.png",
+                    "caption": ""
+                },
+                {
+                    "name": "",
+                    "caption": "Task 3: Dashboard Design \n This dashboard is served as a B2B product, providing insights for business people, such as marketing specialists, journalists, etc."
+                },
+                {
+                    "name": "tellus_dashboard_1.png",
+                    "caption": "First design of dashboard: it gives a overview of all the topics that one has followed."
+                },
+                {
+                    "name": "tellus_dashboard_2.png",
+                    "caption": "Redesign of dashboard: it gives the search result of one specific topic, addressing the problems and requirements: \n - use \"purple\" as the main colour; \n - webpage for one single topic: trend, related words, map, news feed; \n - using visualisation: line chart, pie chart, word cloud, geo-map overlay; \n - the trend is shown to be updated every 6 hours."
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
         "title": "Yocktail - Great Platform for Cocktail Lovers",
         "descriptions": [
             "Yocktail is a platform offered to cocktail lovers, allowing users to search, collect, create and share cocktails;", "Work as a full-stack designer and developer, from UI/UX design, to front-end & back-end programming."
@@ -208,7 +276,7 @@
         }
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Vinyo: Buy the wine you love on mobile",
         "descriptions": ["Vinyo APP is a critically-acclaimed, free app that helps you search, find and buy the wine you want;",
                               "Work focuses on the client-end development of this iOS application."],
