@@ -218,9 +218,38 @@
         "skills": "iOS Development(Objective C)",
         "website": "http://vinyo.ch/",
         "team_members": "Adrian Schmidmeister, Andrea Canonica, Dang Nguyen & Giacomo Bordoli",
-        "problem": "",
-        "solution": "",
-        "process": "",
-        "result":""
+        "problem": {
+            "text": "Buying wine is complecated. In case you meet a wine you like at a friend's place, it's too troublesome to note down the name and go to the wine shop near the train station, and carry it back home after a tiring day of work.",
+            "images":[]
+        },
+        "solution": {
+            "text": "Vinyo was born to address the problem. \n 1. Make it easy to buy wine \n It will be super convenient for you to open this mobile application if you come across your loved wine, search the wine and add it to your collection or even directly place the order and wait it to be delivered to your home, giving you the convenience in payment and delivery. \n 2. Shopping with mobile phone is the future trend \n Online purchase is now more and more popular and mature and there are already many web-shops selling wines. However, as the time advancing, mobile phone is now playing an increasingly important role in our daily life, including shopping of course. A mobile application gives you the possibility to process the purchase at anytime and anywhere given a good internet connection, which is no long an obstacle.",
+            "images": [
+
+            ]
+        },
+        "process": {
+            "text":"In the process of implementation, my work focuses on the agile development of the Vinyo native iOS app which mainly includes: \n 1. using AV Foundation framework in iOS to implement online wine recognition; \n 2. design of API protocol for the communication between the client and server for Vinyo; \n 3. using third-party applications Card IO and Braintree to acquire credit card information and conduct mobile online payment; \n 4. using Core Data for local data storage to save user’s viewed wines and using Apple Push Notifications service(APNs) to push user remote notifications which contains discounted wine offers.",
+            "images":[
+                
+            ]
+        },
+        "result":{
+            "text":"The iOS version of Vinyo has already been released in Swiss Apple Store since the summer in 2014. The newly-design and function-improved Version 2.0 just came out few months afterwards after fast iteration. Thousands of downloads prove its popularity in Switzerland.",
+            "images":[
+                {
+                    "name":"vinyo_website_screenshot.png",
+                    "caption": ""
+                },
+                {
+                    "name":"vinyo_app_screenshot.png",
+                    "caption": "Here are the screenshop of Vinyo 2.0."
+                },
+                {
+                    "name":"",
+                    "caption": "During my internship work on Vinyo, the fact that I was deeply involved and focused on the user interaction with my colleagues, and excited to see every positive change for the user, which I was able to conceive and implement, highly developed my interest in Human Computer Interaction (HCI) and confirmed my determination to pursue further study in this filed."
+                }
+            ]
+        }
     }
 ]
