@@ -16,7 +16,7 @@ class PortfolioItemPageImage extends Component<PortfolioItemPageImageProps, {}> 
         var imageCaption = image.caption;
         var captionHTML = (imageCaption === "" ? "" : imageCaption.split("\n").map(function(item, i) {return (<h5 key={i}>{item} <br/></h5>)}))
         var imageName = image.name;
-        var imageHTML = (image.name === "" ? "" : <img src={require('../images/portfolio/' + image.name)}/>)
+        var imageHTML = (imageName === "" ? "" : <img src={require('../images/portfolio/' + imageName)} role="presentation"/>)
 
         return (
             <div className="portfolio-item-page-image">

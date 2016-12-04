@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../css/Header.css'
 import { LinkContainer } from 'react-router-bootstrap';
 import Scrollchor from 'react-scrollchor';

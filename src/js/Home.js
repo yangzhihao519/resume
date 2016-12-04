@@ -50,7 +50,7 @@ class Home extends Component {
               <a href="#/portfolio/1" target="_blank">
                 <div className="portfolio-item" style={{marginBottom: 10}}>
                   <div className="portfolio-item-image">
-                    <img src={require('../images/portfolio/h2020_cover.png')} />
+                    <img src={require('../images/portfolio/h2020_cover.png')} role="presentation"/>
                     <div className="portfolio-item-content">
                       <h4>Web-based Visualisation Tool of Horizon 2020</h4>
                       <p>Work mainly focuses on UI/UX design and front-end development.</p>
@@ -66,7 +66,7 @@ class Home extends Component {
               <a href="#/portfolio/2" target="_blank">
                 <div className="portfolio-item" style={{marginBottom: 0}}>
                   <div className="portfolio-item-image">
-                    <img src={require('../images/portfolio/saw_cover.png')} />
+                    <img src={require('../images/portfolio/saw_cover.png')} role="presentation"/>
                     <div className="portfolio-item-content">
                       <h4>Interaction Design of Seizure Alert Watch & APP</h4>
                       <p>Work mainly focuses on ideation, user research, UI/UX of low-fi and high-fi prototype of the applications.</p>

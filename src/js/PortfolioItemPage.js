@@ -10,7 +10,7 @@ var portfolioItems = require('../data/PortfolioItems.json');
 class PortfolioItemPage extends Component {
     componentDidMount() {
         // from the path `/inbox/messages/:id`
-        const id = this.props.params.id
+        // const id = this.props.params.id
     }
 
     render() {
@@ -48,7 +48,7 @@ class PortfolioItemPage extends Component {
                 </div>
                 <div id="portfolio-item-page-intro">
                     <div id="portfolio-item-page-cover-image">
-                        <img src={require('../images/portfolio/' + coverImageName)} />
+                        <img src={require('../images/portfolio/' + coverImageName)} role="presentation"/>
                     </div>
                     <div id="portfolio-item-page-descriptions">
                         {descriptionsHTML}

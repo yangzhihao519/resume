@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../css/App.css'
 import '../css/Portfolio.css'
-import { Row, Col } from 'react-bootstrap'
 
 interface PortfolioItemProps {
     id: number;
@@ -25,7 +24,7 @@ class PortfolioItem extends Component<PortfolioItemProps, {}> {
                 <a href={"#/portfolio/"+id}>
                     <div className="portfolio-item" >
                         <div className="portfolio-item-image">
-                            <img src={require('../images/portfolio/' + cover_image_name)} />
+                            <img src={require('../images/portfolio/' + cover_image_name)} role="presentation" />
                             <div className="portfolio-item-content">
                                 {descriptionsHTML}
                                 <div className="view-more-button">
