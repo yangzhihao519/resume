@@ -94,31 +94,31 @@ class Resume extends Component {
           <div className="section-box" >
             <div className="section-box-item">
               <h4 style={{ fontWeight: 700 }}>UI/UX Designer & Front-end Developer Intern</h4>
-              <h4>2016.06-2016.09, VINNOVA <span>Stockholm, Sweden</span></h4>
+              <h4>2016.06-2016.09, VINNOVA, <span>Stockholm, Sweden</span></h4>
               <p>UI/UX design and front-end development for a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency</p>
             </div>
             <hr />
             <div className="section-box-item">
               <h4 style={{ fontWeight: 700 }}>UI Design Volunteer</h4>
-              <h4>2016.05-2016.09, Tellus <span>Stockholm, Sweden</span></h4>
+              <h4>2016.05-2016.09, Tellus, <span>Stockholm, Sweden</span></h4>
               <p>Evaluation and redesign of Tellus News APP & UI Design of Tellus's other products including fact Box, dashboard and landing page</p>
             </div>
             <hr />
             <div className="section-box-item">
               <h4 style={{ fontWeight: 700 }}>Mobile Engineer Intern</h4>
-              <h4>2014.02-2015.01, Whitebag GmbH <span>Zurich, Switzerland</span></h4>
+              <h4>2014.02-2015.01, Whitebag GmbH, <span>Zurich, Switzerland</span></h4>
               <p>Development of native iOS app & web apps in Ruby on Rails; Design of API protocol; Start-up working experience</p>
             </div>
             <hr />
             <div className="section-box-item">
               <h4 style={{ fontWeight: 700 }}>R&D Engineer Intern</h4>
-              <h4>2013.10-2014.01, AdMaster Inc. <span>Shanghai, China</span></h4>
+              <h4>2013.10-2014.01, AdMaster Inc., <span>Shanghai, China</span></h4>
               <p>Implementation of the Gender Prediction Algorithm based on Hadoop using Java(Map/Reduce) </p>
             </div>
             <hr />
             <div className="section-box-item">
               <h4 style={{ fontWeight: 700 }}>Web Developer Traninee</h4>
-              <h4>2012.07-2012.09, Manipal Institute of Technology <span>Manipal, India</span></h4>
+              <h4>2012.07-2012.09, Manipal Institute of Technology, <span>Manipal, India</span></h4>
               <p>Design and implementation of Semantic-based website (search for flights, trains, buses and hotels) </p>
             </div>
           </div>
@@ -165,19 +165,19 @@ class Resume extends Component {
           <div className="section-box">
             <div className="section-box-item">
               <h4 style={{ fontWeight: 700 }}>MSc Human Computer Interaction and Design</h4>
-              <h4>2016.09-Present, University College London <span>London, UK</span></h4>
+              <h4>2016.09-Present, University College London, <span>London, UK</span></h4>
               <p>Exit year of EIT Digital Master Program.Minor in Innovation & Entrepreneurship </p>
             </div>
             <hr />
             <div className="section-box-item">
               <h4 style={{ fontWeight: 700 }}>MSc Human Computer Interaction and Design</h4>
-              <h4>2015.08-2016.06, KTH Royal Institute of Technology <span>Stockholm, Sweden</span></h4>
+              <h4>2015.08-2016.06, KTH Royal Institute of Technology, <span>Stockholm, Sweden</span></h4>
               <p>Entry year of EIT Digital Master Program.Minor in Innovation & Entrepreneurship </p>
             </div>
             <hr />
             <div className="section-box-item">
               <h4 style={{ fontWeight: 700 }}>BEn Software Engineering</h4>
-              <h4>2010.09-2015.06, East China Normal University <span>Shanghai, China</span></h4>
+              <h4>2010.09-2015.06, East China Normal University, <span>Shanghai, China</span></h4>
               <p>Graduate with Honor; Selected in the 21st Century Talent Acedemy and Top Innovative Training Program at ECNU</p>
             </div>
           </div>
