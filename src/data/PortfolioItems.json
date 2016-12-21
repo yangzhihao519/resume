@@ -32,11 +32,11 @@
             "images":[
                 {
                     "name": "h2020_process_weekly_meetings.png",
-                    "caption": "This is a agile development process. Apart from daily team briefing, we also had weekly meeting to make sure everything was on track. h2020_process_timeline.png"
+                    "caption": "This is a agile development process. Apart from daily team briefing, we also had weekly meeting to make sure everything was on track."
                 },
                 {
                     "name": "h2020_process_sketch.png",
-                    "caption": "Sketch: two types of sketches(shown below) were come up with in the initial stage. Although both of them used sankey diagram, they were in diffrent directions: the tree in the left one speaded horizontally, while the right one speaded vertically. After a debate on which one was better to support the purpose and also a discussion with our supervisor and metor, we thought the horizontal tree was a better solution since it enabled a natural interaction without scroll the webpage down, and it was easier and clearer to show the labels for each box."
+                    "caption": "Sketch: two types of sketches(shown below) were come up within the initial stage. Although both of them used sankey diagram, they were in diffrent directions: the tree in the left one speaded horizontally, while the right one speaded vertically. After a debate on which one was better to support the purpose and also a discussion with our supervisor and metor, we thought the horizontal tree was a better solution since it enabled a natural interaction without scrolling the webpage down, and it was easier and clearer to show the labels for each box."
                 },
                 {
                     "name": "h2020_process_midfi_prototype.png",
