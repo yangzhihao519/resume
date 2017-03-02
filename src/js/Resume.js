@@ -13,75 +13,57 @@ class Resume extends Component {
           </div>
           <div className="section-box" >
             <h3>Zhihao Yang</h3>
-            <h4>Master Student at University College London, UI/UX Designer & Front-end Developer</h4>
-            <Row id="section-profile-info">
-              <Col xs={12} sm={6} md={6} lg={6}>
-                <Row>
-                  <Col xs={4} sm={4} md={4} lg={3} className="title">
-                    <h4>Age</h4>
-                  </Col>
-                  <Col xs={8} sm={8} md={8} lg={9} className="content">
-                    <h4>24</h4>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={4} sm={4} md={4} lg={3} className="title">
-                    <h4>Location</h4>
-                  </Col>
-                  <Col xs={8} sm={8} md={8} lg={9} className="content">
-                    <h4>London, UK</h4>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={4} sm={4} md={4} lg={3} className="title">
-                    <h4>Email</h4>
-                  </Col>
-                  <Col xs={8} sm={8} md={8} lg={9} className="content">
-                    <h4><a href="mailto:yang_zhihao@live.com">yang_zhihao@live.com</a></h4>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={4} sm={4} md={4} lg={3} className="title">
-                    <h4>Graduate</h4>
-                  </Col>
-                  <Col xs={8} sm={8} md={8} lg={9} className="content">
-                    <h4>Sep, 2017</h4>
-                  </Col>
-                </Row>
+            <Row>
+                <Col xs={12} sm={12} md={2} lg={2}>
+                  London, UK
+                </Col>
+                <Col xs={12} sm={12} md={3} lg={3}>
+                  <a href="mailto:yang_zhihao@live.com">yang_zhihao@live.com</a>
+                </Col>
+                <Col xs={12} sm={12} md={3} lg={3}>
+                  <a href="https://www.linkedin.com/in/yangzhihao" target="_blank">Linkedin</a>
+                </Col>
+            </Row>
+            <h4>HCI Master Student at University College London, UX Designer & Front-end Developer</h4>
+            <p>
+              Zhihao is fascinated about using digital solution to change the way we are living using the skills he has: high creativity and efficiency in sketching out prototypes and solid skills in front-end development to bring pure ideas into life. 
+            </p>
+            <p>
+              Zhihao is currently looking for full-time job starting from September, 2017 regarding UX Design, Research and Development. (Visa sponsorship is needed for him to apply work permit in UK.)
+            </p>
+            
+          </div>
+        </div>
+
+        <div id="section-skills">
+          <div className="section-title">
+            <h3>Skills</h3>
+          </div>
+          <div className="section-box" >
+            <Row>
+              <Col xs={12} sm={6} md={6} lg={6} className="left">
+                <h4>Sketch</h4>
+                <ProgressBar now={90} />
+                <h4>InVision</h4>
+                <ProgressBar now={90} />
+                <h4>Photoshop</h4>
+                <ProgressBar now={60} />
+                <h4>Evaluation</h4>
+                <ProgressBar now={80} />
+                <h4>Visualisation</h4>
+                <ProgressBar now={85} />
               </Col>
-              <Col xs={12} sm={6} md={6} lg={6}>
-                <Row>
-                  <Col xs={4} sm={4} md={4} lg={3} className="title">
-                    <h4>Website</h4>
-                  </Col>
-                  <Col xs={8} sm={8} md={8} lg={9} className="content">
-                    <h4><a href="https://www.yangzhihao.info" target="_blank">yangzhihao.info</a></h4>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={4} sm={4} md={4} lg={3} className="title">
-                    <h4>Linkedin</h4>
-                  </Col>
-                  <Col xs={8} sm={8} md={8} lg={9} className="content">
-                    <h4><a href="https://www.linkedin.com/in/yangzhihao" target="_blank">yangzhihao</a></h4>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={4} sm={4} md={4} lg={3} className="title">
-                    <h4>Github</h4>
-                  </Col>
-                  <Col xs={8} sm={8} md={8} lg={9} className="content">
-                    <h4><a href="https://www.github.com/yangzhihao519" target="_blank">yangzhihao519</a></h4>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={4} sm={4} md={4} lg={3} className="title">
-                    <h4>Behance</h4>
-                  </Col>
-                  <Col xs={8} sm={8} md={8} lg={9} className="content">
-                    <h4><a href="https://www.behance.net/yangzhihao" target="_blank">yangzhihao</a></h4>
-                  </Col>
-                </Row>
+              <Col xs={12} sm={6} md={6} lg={6} className="right">
+                <h4>Javascript</h4>
+                <ProgressBar now={90} />
+                <h4>CSS</h4>
+                <ProgressBar now={90} />
+                <h4>React</h4>
+                <ProgressBar now={75} />
+                <h4>Angular</h4>
+                <ProgressBar now={80} />
+                <h4>Java</h4>
+                <ProgressBar now={85} />
               </Col>
             </Row>
           </div>
@@ -121,40 +103,6 @@ class Resume extends Component {
               <h4>2012.07-2012.09, Manipal Institute of Technology, <span>Manipal, India</span></h4>
               <p>Design and implementation of Semantic-based website (search for flights, trains, buses and hotels) </p>
             </div>
-          </div>
-        </div>
-
-        <div id="section-skills">
-          <div className="section-title">
-            <h3>Skills</h3>
-          </div>
-          <div className="section-box" >
-            <Row>
-              <Col xs={12} sm={6} md={6} lg={6} className="left">
-                <h4>Sketch</h4>
-                <ProgressBar now={90} />
-                <h4>InVision</h4>
-                <ProgressBar now={90} />
-                <h4>Photoshop</h4>
-                <ProgressBar now={60} />
-                <h4>Evaluation</h4>
-                <ProgressBar now={80} />
-                <h4>Visualisation</h4>
-                <ProgressBar now={85} />
-              </Col>
-              <Col xs={12} sm={6} md={6} lg={6} className="right">
-                <h4>Javascript</h4>
-                <ProgressBar now={90} />
-                <h4>CSS</h4>
-                <ProgressBar now={90} />
-                <h4>React</h4>
-                <ProgressBar now={75} />
-                <h4>Angular</h4>
-                <ProgressBar now={80} />
-                <h4>Java</h4>
-                <ProgressBar now={85} />
-              </Col>
-            </Row>
           </div>
         </div>
 

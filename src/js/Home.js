@@ -17,7 +17,7 @@ class Home extends Component {
           <p>Previously I have worked at university, startups and governmental agency in India, China, Switzerland and Sweden as UI/UX Designer and Frontend Developer.</p>
           <div className="call-to-actinon">
             <Row>
-            <Col xs={12} sm={2} md={2} lg={2}>
+              <Col xs={12} sm={2} md={2} lg={2}>
                
               </Col>
               <Col xs={12} sm={4} md={4} lg={4}>
