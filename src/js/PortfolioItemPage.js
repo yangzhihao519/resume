@@ -54,28 +54,13 @@ class PortfolioItemPage extends Component {
                         {descriptionsHTML}
                     </div>
                     <div id="portfolio-item-page-info">
-                        <Row>
-                            <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                <h4>Time</h4>
-                            </Col>
-                            <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                <h4>{periodOfTime}</h4>
-                            </Col>
-                        </Row>
+                        
                         <Row>
                             <Col xs={4} sm={4} md={4} lg={3} className="title">
                                 <h4>Location</h4>
                             </Col>
                             <Col xs={8} sm={8} md={8} lg={9} className="content">
                                 <h4>{location}</h4>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                <h4>Team members</h4>
-                            </Col>
-                            <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                <h4>{teamMembers}</h4>
                             </Col>
                         </Row>
                         <Row>
@@ -95,6 +80,14 @@ class PortfolioItemPage extends Component {
                                     <a href={website} target="_blank"><h4>{website}</h4></a>
                                 </Col>
                             </Row>}
+                        <Row>
+                            <Col xs={4} sm={4} md={4} lg={3} className="title">
+                                <h4>Date</h4>
+                            </Col>
+                            <Col xs={8} sm={8} md={8} lg={9} className="content">
+                                <h4>{periodOfTime}</h4>
+                            </Col>
+                        </Row>
                     </div>
                 </div>
                 {

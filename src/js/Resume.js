@@ -75,9 +75,9 @@ class Resume extends Component {
           </div>
           <div className="section-box" >
             <div className="section-box-item">
-              <h4 style={{ fontWeight: 700 }}>UI/UX Designer & Front-end Developer Intern</h4>
+              <h4 style={{ fontWeight: 700 }}>UI & UX Designer & Front-end Developer Intern</h4>
               <h4>2016.06-2016.09, VINNOVA, <span>Stockholm, Sweden</span></h4>
-              <p>UI/UX design and front-end development for a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency</p>
+              <p>UI & UX design and front-end development for a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency</p>
             </div>
             <hr />
             <div className="section-box-item">
