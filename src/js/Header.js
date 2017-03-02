@@ -54,7 +54,7 @@ class Header extends Component<HeaderProps, {}> {
               </LinkContainer>
             </Nav>
             <Nav pullRight>
-              <a id="download-cv" href="https://drive.google.com/file/d/0B209VNQwXS5QeUpOaHBENTBxQUE/view?usp=sharing" target="_blank">DOWNLOAD CV <span className="glyphicon glyphicon-download-alt"></span></a>
+              <a id="download-cv" href="https://drive.google.com/file/d/0B209VNQwXS5QVHdNNDNqS0J4NkE/view?usp=sharing" target="_blank">DOWNLOAD CV <span className="glyphicon glyphicon-download-alt"></span></a>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
