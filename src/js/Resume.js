@@ -24,12 +24,12 @@ class Resume extends Component {
                   <a href="https://www.linkedin.com/in/yangzhihao" target="_blank">Linkedin</a>
                 </Col>
             </Row>
-            <h4>HCI Master Student at University College London, UX Designer & Front-end Developer</h4>
+            <h4>HCI Master Student at UCL, UX Designer & Front-end Developer</h4>
             <p>
               Zhihao is fascinated about using digital solution to change the way we are living using the skills he has: high creativity and efficiency in sketching out prototypes and solid skills in front-end development to bring pure ideas into life. 
             </p>
             <p>
-              Zhihao is currently looking for full-time job starting from September, 2017 regarding UX Design, Research and Development. (Visa sponsorship is needed for him to apply work permit in UK.)
+              Zhihao is currently looking for full-time job starting from September 2017 regarding UX Design, Research and Development. (Visa sponsorship is needed for him to apply work permit in UK.)
             </p>
             
           </div>
@@ -99,7 +99,7 @@ class Resume extends Component {
             </div>
             <hr />
             <div className="section-box-item">
-              <h4 style={{ fontWeight: 700 }}>Web Developer Traninee</h4>
+              <h4 style={{ fontWeight: 700 }}>Web Developer Trainee</h4>
               <h4>2012.07-2012.09, Manipal Institute of Technology, <span>Manipal, India</span></h4>
               <p>Design and implementation of Semantic-based website (search for flights, trains, buses and hotels) </p>
             </div>
@@ -126,14 +126,14 @@ class Resume extends Component {
             <div className="section-box-item">
               <h4 style={{ fontWeight: 700 }}>BEn Software Engineering</h4>
               <h4>2010.09-2015.06, East China Normal University, <span>Shanghai, China</span></h4>
-              <p>Graduate with Honor; Selected in the 21st Century Talent Acedemy and Top Innovative Training Program at ECNU</p>
+              <p>Graduate with Honour; Selected in the 21st Century Talent Academy and Top Innovative Training Program at ECNU</p>
             </div>
           </div>
         </div>
 
         <div id="section-awards">
           <div className="section-title">
-            <h3>Honors & Awards</h3>
+            <h3>Honours & Awards</h3>
           </div>
           <div className="section-box">
             <div className="section-box-item">
