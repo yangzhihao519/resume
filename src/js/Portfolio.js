@@ -22,7 +22,7 @@ class Portfolio extends Component {
         return (
             <div className="Portfolio">
                 <div className="section-title">
-                    <h2>Portfolio</h2>
+                    
                 </div>
                 <Row>
                     {PortfolioItemsHTML}

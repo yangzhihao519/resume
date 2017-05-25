@@ -11,9 +11,8 @@ class Home extends Component {
         <div className="section-box" id="section-about">
           <h3 id="hello">Hello!</h3>
           <h2><span>I'm</span>&nbsp; Zhihao Yang</h2>
-          <h4>UX Designer & Front-end Developer</h4>
-          <br />
-          <p>Born and grew up in Sichuan, China, I got my bachelor degree of Software Engineering at East China Normal University and am now pursuing my master degree at University College London in Human Computer Interaction and Design.</p>
+          <h4>UX Engineer</h4>
+          <p>I am a Master student at UCL studying Human Computer Interaction. I am fascinated about using digital solutions to bring pure ideas into life.</p>
           <p>Previously I have worked at university, startups and governmental agency in India, China, Switzerland and Sweden as UI & UX Designer and Frontend Developer.</p>
           <div className="call-to-actinon">
             <Row>
@@ -55,7 +54,7 @@ class Home extends Component {
                       <h4>Web-based Visualisation Tool of Horizon 2020</h4>
                       <p>Work mainly focuses on UI & UX design and front-end development.</p>
                                 <div className="view-more-button">
-                        <p style={{ marginBottom: 0 + "px" }}>View More</p>
+                        <p style={{ marginBottom: 0 + "px" }}>VIEW MORE</p>
                       </div>
                     </div>
                   </div>
@@ -71,12 +70,26 @@ class Home extends Component {
                       <h4>Interaction Design of Seizure Alert Watch & APP</h4>
                       <p>Work mainly focuses on ideation, user research, UI & UX of low-fi and high-fi prototype of the applications.</p>
                       <div className="view-more-button">
-                        <p style={{ marginBottom: 0 + "px" }}>View More</p>
+                        <p style={{ marginBottom: 0 + "px" }}>VIEW MORE</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </a>
+            </Col>
+          </Row>
+          <br/>
+          <Row>
+            <Col xs={0} sm={4} md={4} lg={4}>
+            </Col>
+            <Col xs={12} sm={4} md={4} lg={4}>
+              <Link to="/portfolio" style={{ color: "white" }}>
+                <div className="view-portfolio">
+                  <h5 style={{textAlign: "center", fontWeight: 400}}>ALL WORKS</h5>
+                </div>
+              </Link>
+            </Col>
+            <Col xs={0} sm={4} md={4} lg={4}>
             </Col>
           </Row>
         </div>
@@ -86,7 +99,7 @@ class Home extends Component {
         </div>
         <div className="section-box">
           <div id="contact">
-            <h4>Currently I am interested in part-time job and looking for full-time job starting from Sep, 2017.</h4>
+            <h4>Currently I am looking for a full-time job in UX Design & Development after September, 2017.</h4>
             <h4 style={{fontWeight: 300}}>Let me know if you have any interesting ideas/projects to work on!</h4>
             <a href="mailto:yang_zhihao@live.com" id="email-box"><h5>SEND ME AN EMAIL</h5></a>
           </div>
@@ -114,7 +127,7 @@ class Home extends Component {
             </Row>
           </div>
         </div>
-
+        <br/><br/>
       </div>
     );
   }

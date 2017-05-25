@@ -20,7 +20,6 @@ class PortfolioItemPage extends Component {
         const coverImageName = portfolioItem.cover_image_name;
         const periodOfTime = portfolioItem.period_of_time;
         const location = portfolioItem.location;
-        const teamMembers = portfolioItem.team_members;
         const skills = portfolioItem.skills;
         const website = portfolioItem.website;
 

@@ -9,7 +9,7 @@ class Resume extends Component {
       <div className="Resume">
         <div id="section-profile">
           <div className="section-title">
-            <h2>Resume</h2>
+            
           </div>
           <div className="section-box" >
             <h3>Zhihao Yang</h3>

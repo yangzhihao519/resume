@@ -28,7 +28,7 @@ class PortfolioItem extends Component<PortfolioItemProps, {}> {
                             <div className="portfolio-item-content">
                                 {descriptionsHTML}
                                 <div className="view-more-button">
-                                    <p style={{ marginBottom: 0 + "px" }}>View More</p>
+                                    <p style={{ marginBottom: 0 + "px" }}>VIEW MORE</p>
                                 </div>
                             </div>
                         </div>
