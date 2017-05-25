@@ -29,7 +29,7 @@ class Home extends Component {
               <Col xs={12} sm={4} md={4} lg={4}>
                 <Link to="/portfolio" style={{ color: "white" }}>
                   <div className="view-portfolio">
-                    <h5>SEE WORKS</h5>
+                    <h5>SEE WORK</h5>
                   </div>
                 </Link>
               </Col>
@@ -85,7 +85,7 @@ class Home extends Component {
             <Col xs={12} sm={4} md={4} lg={4}>
               <Link to="/portfolio" style={{ color: "white" }}>
                 <div className="view-portfolio">
-                  <h5 style={{textAlign: "center", fontWeight: 400}}>ALL WORKS</h5>
+                  <h5 style={{textAlign: "center", fontWeight: 400}}>ALL WORK</h5>
                 </div>
               </Link>
             </Col>
