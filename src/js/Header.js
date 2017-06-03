@@ -44,17 +44,14 @@ class Header extends Component<HeaderProps, {}> {
           <Navbar.Collapse>
             <Nav>
               <LinkContainer to={{ pathname: '/home' }} style={{color: "white"}}>
-                <NavItem eventKey={1}>HOME</NavItem>
+                <NavItem eventKey={1}>Home</NavItem>
               </LinkContainer>
               <LinkContainer to={{ pathname: '/resume' }} style={{color: "white"}}>
-                <NavItem eventKey={2}>RESUME</NavItem>
+                <NavItem eventKey={2}>About</NavItem>
               </LinkContainer>
               <LinkContainer to={{ pathname: '/portfolio' }} style={{color: "white"}}>
-                <NavItem eventKey={3}>PORTFOLIO</NavItem>
+                <NavItem eventKey={3}>Work</NavItem>
               </LinkContainer>
-            </Nav>
-            <Nav pullRight>
-              <a id="download-cv" href="https://drive.google.com/file/d/0B209VNQwXS5QNFhvRmtDUER1Uzg/view?usp=sharing" target="_blank">DOWNLOAD CV <span className="glyphicon glyphicon-download-alt"></span></a>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
