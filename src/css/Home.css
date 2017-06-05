@@ -59,16 +59,17 @@
 }
 
 #download-cv {
+  margin-top: 20px;
   display: inline-block;
   text-align: center;
   border-radius: 3px;
   background-color: #1F8B4C;
-  padding: 4px 35px 4px 35px;
+  padding: 4px 30px 4px 30px;
 }
 
 #download-cv a {
   color: white;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #work h3{
@@ -92,6 +93,23 @@
   background-color: #21D374;
 }
 
+#work-item-2 {
+  background-color: #79BAE5;
+}
+
+#work-item-3 {
+  background-color: #FFF7E1;
+  color: #4A4A4A;
+}
+
+#work-item-4 {
+  background-color: #212121;
+}
+
+#work-item-5 {
+  background-color:  #EDCB21; 
+}
+
 .view-more-button {
   display: inline-block;
   margin-top: 10px;
@@ -109,6 +127,10 @@
 .work-item-image img{
   width: 100%;
   height: auto;
+}
+
+#references {
+  padding: 50px;
 }
 
 #contact {
