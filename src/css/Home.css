@@ -55,7 +55,7 @@
 
 #about-me h3{
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #download-cv {
@@ -130,7 +130,20 @@
 }
 
 #references {
-  padding: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#references h2 {
+  color: #4A4A4A;
+  font-weight: 300;
+  font-style: oblique;
+  line-height: 1.25;
+}
+
+#references h3 {
+  color: #4990E2;
+  font-weight: 300;
 }
 
 #contact {

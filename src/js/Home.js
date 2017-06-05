@@ -4,7 +4,10 @@ import '../css/App.css';
 import '../css/Home.css'
 import { Link } from 'react-router'
 
+
+
 class Home extends Component {
+
   render() {
     return (
       <div className="Home">
@@ -176,7 +179,19 @@ class Home extends Component {
         </div>
 
         <div id="references">
-            
+            <Row style={{marginLeft:0, marginRight:0}}>
+              <Col xs={0} sm={1} md={1} lg={1}></Col>
+              <Col xs={12} sm={4} md={4} lg={4}>
+                  <h2>“Yang showed excellent analytical skills and he distinguished himself by being very fast in finding as well as implementing original and innovative solutions to problems throughout the whole project.”</h2>
+                  <h3>Linda Bell, Head of Unit, EU R&D Relations, VINNOVA</h3>
+              </Col>
+              <Col xs={0} sm={1} md={1} lg={1}></Col>
+              <Col xs={12} sm={5} md={5} lg={5}>
+                  <h2>“We came to appreciate Mr Yang as a flexible and highly motivated employee who approached his tasks in a constructive and consistently solution-driven way. His exceptionally helpful and team-focused nature ensured that all of his coworkers held him equally high regard.”</h2>
+                  <h3>Giacomo Bordoli, CEO, WHITEBAG GmbH</h3>
+              </Col>
+              <Col xs={0} sm={1} md={1} lg={1}></Col>
+            </Row>
         </div>
 
         <div id="contact">
