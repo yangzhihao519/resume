@@ -54,22 +54,29 @@ class Home extends Component {
         </div>
         
         <div id="work">
-          <Row style={{marginLeft:0, marginRight:0}}>
-              <a href="#/portfolio/1" target="_blank">
-                <div className="portfolio-item" style={{marginBottom: 10}}>
-                  <div className="portfolio-item-image">
-                    <img src={require('../images/portfolio/h2020_cover.png')} role="presentation"/>
-                    <div className="portfolio-item-content">
-                      <h4>Web-based Visualisation Tool of Horizon 2020</h4>
-                      <p>Work mainly focuses on UI & UX design and front-end development.</p>
-                      <div className="view-more-button">
-                        <p style={{ marginBottom: 0 + "px" }}>VIEW MORE</p>
-                      </div>
+          <div className="work-item" id="work-item-1">
+            <Row style={{marginLeft:0, marginRight:0}}>
+                <Col xs={0} sm={0} md={1} lg={1}></Col>
+                <Col xs={12} sm={6} md={4} lg={4}>
+                    <h3>UX Design & Development</h3>
+                    <h1>A Web-based Visualisation Tool for Horizon 2020</h1>
+                    <h4>Making it possible to present thousands entries of data in a colorful tree.</h4>
+                    <a href="#/portfolio/1" target="_blank">
+                       <div className="view-more-button">
+                          <h4 style={{fontWeight: 600, margin: 0}}>View more</h4>
+                       </div>
+                    </a>
+                </Col>
+                <Col xs={0} sm={0} md={1} lg={1}>
+                </Col>
+                <Col xs={12} sm={6} md={5} lg={5}>
+                    <div className="work-item-image">
+                        <img src={require('../images/portfolio/h2020_cover.png')} role="presentation"/>
                     </div>
-                  </div>
-                </div>
-              </a>
-          </Row>
+                </Col>
+                <Col xs={0} sm={0} md={1} lg={1}></Col>
+            </Row>
+          </div>
         </div>
 
         <div id="contact">

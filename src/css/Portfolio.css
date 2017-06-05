@@ -46,7 +46,7 @@ a :hover .portfolio-item-title {
   background-color: rgba(31, 139, 76, 0.8);
 }
 
-.view-more-button {
+/*.view-more-button {
   display: inline-block;
   margin-top: 10px;
   padding: 10px;
@@ -56,7 +56,7 @@ a :hover .portfolio-item-title {
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
   border-radius: 1px;
-}
+}*/
 
 /* Portfolio Item Page */
 #portfolio-item-page{

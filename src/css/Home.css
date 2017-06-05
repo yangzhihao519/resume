@@ -55,6 +55,7 @@
 
 #about-me h3{
   line-height: 1.5;
+  font-weight: 400;
 }
 
 #download-cv {
@@ -70,8 +71,44 @@
   font-weight: 700;
 }
 
-#work {
-  padding: 50px;
+#work h3{
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#work h4{
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.work-item {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+#work-item-1 {
+  background-color: #21D374;
+}
+
+.view-more-button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 10px 20px 10px 20px;
+  background-color: #4A4A4A;
+  color: white;
+  border-radius: 3px;
+}
+
+.work-item-image{
+
+}
+
+.work-item-image img{
+  width: 100%;
+  height: auto;
 }
 
 #contact {
