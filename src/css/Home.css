@@ -49,27 +49,13 @@
 #about-me {
   text-align: center;
   background-color: #eee;
-  padding-top: 50px;
-  padding-bottom: 70px;  
+  padding-top: 60px;
+  padding-bottom: 170px;  
 }
 
 #about-me h3{
   line-height: 1.5;
   font-weight: 300;
-}
-
-#download-cv {
-  margin-top: 20px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 3px;
-  background-color: #1F8B4C;
-  padding: 4px 30px 4px 30px;
-}
-
-#download-cv a {
-  color: white;
-  font-weight: 400;
 }
 
 #work h3{
@@ -81,6 +67,19 @@
   font-weight: 300;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.home-work {
+  margin-top: -100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.home-work-item {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .work-item {
@@ -127,6 +126,26 @@
 .work-item-image img{
   width: 100%;
   height: auto;
+}
+
+#more-work {
+  text-align: center;
+}
+
+#more-work-button {
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 2px;
+  background-color: #1F8B4C;
+  padding: 15px 35px 15px 35px;
+}
+
+#more-work-button h4 {
+  color: white;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #references {
