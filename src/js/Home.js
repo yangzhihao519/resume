@@ -28,9 +28,11 @@ class Home extends Component {
                         </Link>
                       </Col>
                       <Col xs={4} sm={2} md={2} lg={2}>
-                        <div id="view-cv">
-                            <h5><a href="https://drive.google.com/file/d/0B209VNQwXS5QNFhvRmtDUER1Uzg/view?usp=sharing" target="_blank" style={{color: "white"}}>View Resume</a></h5>
+                        <Link to="/resume" style={{ color: "white" }}>
+                          <div id="view-cv">
+                            <h5>View Resume</h5>
                           </div>
+                        </Link>
                       </Col>
                     </Row>
                   </div>

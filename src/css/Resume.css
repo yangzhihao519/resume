@@ -1,3 +1,38 @@
+.Resume {
+  margin-top: 40px;
+}
+
+.section-title{
+  padding: 20px 40px;
+}
+
+.section-title h2{
+  border-left: 10px solid #1F8B4C;
+  padding-left: 15px;
+}
+
+.section-box{
+  padding: 20px 40px;
+  background-color: white;
+  color: #555;
+  /*box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);*/
+}
+
+.section-box-item{
+  margin: -20px -40px;
+  padding: 20px 40px;
+  background-color: white;
+  transition-property: background;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+}
+
+/*.section-box-item:hover {
+  color: white;
+  background-color: #1F8B4C;
+}*/
+
+
 #section-profile {
 }
 
@@ -22,6 +57,16 @@
 
 #section-skills {
 
+}
+
+#download-cv {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-block;
+  background-color: #1F8B4C;
+  border-radius: 3px;
 }
 
 #section-skills .progress {
