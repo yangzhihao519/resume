@@ -47,10 +47,10 @@ class Header extends Component<HeaderProps, {}> {
                 <NavItem eventKey={1}>Home</NavItem>
               </LinkContainer>
               <LinkContainer to={{ pathname: '/portfolio' }} style={{color: "white"}}>
-                <NavItem eventKey={3}>Selected Work</NavItem>
+                <NavItem eventKey={3}>Work</NavItem>
               </LinkContainer>
               <LinkContainer to={{ pathname: '/resume' }} style={{color: "white"}}>
-                <NavItem eventKey={3}>About</NavItem>
+                <NavItem eventKey={3}>Profile</NavItem>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>

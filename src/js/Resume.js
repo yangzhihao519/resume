@@ -23,7 +23,7 @@ class Resume extends Component {
                             </Col>
                             <Col xs={12} sm={12} md={5} lg={5}>
                                 <div id="download-cv">
-                                  <h4 style={{fontWeight: 300}}><a href="https://drive.google.com/file/d/0B209VNQwXS5QNFhvRmtDUER1Uzg/view?usp=sharing" target="_blank" style={{color: "white"}}>Download CV</a></h4>
+                                  <h4 style={{fontWeight: 300}}><a href="https://drive.google.com/file/d/0B209VNQwXS5QNFhvRmtDUER1Uzg/view?usp=sharing" target="_blank" style={{color: "white"}}>Download CV <span className="glyphicon glyphicon-download-alt"></span></a></h4>
                               </div>
                             </Col>
                         </Row>

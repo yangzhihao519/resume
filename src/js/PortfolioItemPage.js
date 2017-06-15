@@ -22,6 +22,12 @@ class PortfolioItemPage extends Component {
         const location = portfolioItem.location;
         const skills = portfolioItem.skills;
         const website = portfolioItem.website;
+        var columnNumber = 3;
+        if(website === "" ) {
+            columnNumber = 4;
+        }else{
+            // do nothing
+        }
 
         var descriptionsHTML = [];
         var descriptions = portfolioItem.descriptions;
@@ -36,57 +42,40 @@ class PortfolioItemPage extends Component {
         const result = portfolioItem.result
 
         return (
-            <div id="portfolio-item-page">
+            <div className="portfolio-item-page">
+                <div className="portfolio-item-page-header">
+                    <h1>{title}</h1>
+                    {descriptionsHTML}
+                </div>
+                <div className="portfolio-item-page-intro">
+                    <Row style={{marginLeft:0, marginRight:0}}>
+                        <Col xs={12} sm={6} md={columnNumber} lg={columnNumber}>
+                            <h4 style={{fontWeight: 700}}>Location</h4>
+                            <hr/>
+                            <h4 style={{fontWeight: 300}}>{location}</h4>
+                        </Col>
+                        <Col xs={12} sm={6} md={columnNumber} lg={columnNumber}>
+                            <h4 style={{fontWeight: 700}}>Skills Used</h4>
+                            <hr/>
+                            <h4 style={{fontWeight: 300}}>{skills}</h4>
+                        </Col>
+                    {website === "" ? "" :
+                        <Col xs={12} sm={6} md={columnNumber} lg={columnNumber}>
+                            <h4 style={{fontWeight: 700}}>Website</h4>
+                            <hr/>
+                            <a href={website} target="_blank"><h4 style={{fontWeight: 300}}>{website}</h4></a>
+                        </Col>}
+                        
+                        <Col xs={12} sm={6} md={columnNumber} lg={columnNumber}>
+                            <h4 style={{fontWeight: 700}}>Date</h4>
+                            <hr/>
+                            <h4 style={{fontWeight: 300}}>{periodOfTime}</h4>
+                        </Col>
+                    </Row>
+                </div>
                 <Row style={{marginLeft:0, marginRight:0}}>
                     <Col xs={0} sm={1} md={1} lg={1}></Col>
                     <Col xs={12} sm={10} md={10} lg={10}>
-                        <div className="section-title">
-                            <h2>{title}</h2>
-                        </div>
-                        <div id="portfolio-item-page-intro">
-                            <div id="portfolio-item-page-cover-image">
-                                <img src={require('../images/portfolio/' + coverImageName)} role="presentation"/>
-                            </div>
-                            <div id="portfolio-item-page-descriptions">
-                                {descriptionsHTML}
-                            </div>
-                            <div id="portfolio-item-page-info">
-                                
-                                <Row>
-                                    <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                        <h4>Location</h4>
-                                    </Col>
-                                    <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                        <h4>{location}</h4>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                        <h4>Skills Used</h4>
-                                    </Col>
-                                    <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                        <h4>{skills}</h4>
-                                    </Col>
-                                </Row>
-                                {website === "" ? "" :
-                                    <Row>
-                                        <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                            <h4>Website</h4>
-                                        </Col>
-                                        <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                            <a href={website} target="_blank"><h4>{website}</h4></a>
-                                        </Col>
-                                    </Row>}
-                                <Row>
-                                    <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                        <h4>Date</h4>
-                                    </Col>
-                                    <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                        <h4>{periodOfTime}</h4>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </div>
                         {
                             (problem === "" && solution === "" && process === "" && result === "") ? <div /> :
                                 (<div>
@@ -119,10 +108,7 @@ class PortfolioItemPage extends Component {
                         </Row>
                     </Col>
                 </Row>
-                
-
             </div>
-
         );
     }
 }

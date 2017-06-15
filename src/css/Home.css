@@ -75,6 +75,13 @@
   padding-right: 100px;
 }
 
+@media only screen and (max-width: 500px) {
+    .home-work {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+}
+
 .home-work-item {
   padding-top: 80px;
   padding-bottom: 40px;

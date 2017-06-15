@@ -40,16 +40,20 @@
 }
 
 #header .navbar-inverse .navbar-toggle {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+#header .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #333;
-  border-color: #333;
 }
 
 #header .navbar-inverse .navbar-toggle::hover{
-  background-color: #333;
+  background-color: #fff;
 }
 
 #header .navbar-inverse .navbar-toggle:focus{
-  background-color: #333;
+  background-color: #fff;
 }
 
 #header .navbar-inverse .navbar-collapse {
