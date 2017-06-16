@@ -21,16 +21,16 @@ class Home extends Component {
                   <div className="call-to-actinon">
                     <Row>
                       <Col xs={4} sm={2} md={2} lg={2}>
-                        <Link to="/portfolio" style={{ color: "white" }}>
-                          <div id="view-portfolio">
-                            <h5>See Work</h5>
+                        <Link to="/resume" style={{ color: "white" }}>
+                          <div id="view-cv">
+                            <h5>About Me</h5>
                           </div>
                         </Link>
                       </Col>
                       <Col xs={4} sm={2} md={2} lg={2}>
-                        <Link to="/resume" style={{ color: "white" }}>
-                          <div id="view-cv">
-                            <h5>About Me</h5>
+                        <Link to="/portfolio" style={{ color: "white" }}>
+                          <div id="view-portfolio">
+                            <h5>See Work</h5>
                           </div>
                         </Link>
                       </Col>

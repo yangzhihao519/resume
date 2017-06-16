@@ -16,7 +16,7 @@ class PortfolioItemPageSection extends Component<PortfolioItemPageSectionProps, 
     render() {
         const title = this.props.title;
         const text = this.props.content.text;
-        var textHTML = text.split("\n").map(function(item, i) {return (<h5 key={i}>{item} <br/></h5>)})
+        var textHTML = text.split("\n").map(function(item, i) {return (<h4 key={i}>{item} <br/></h4>)})
 
         var imagesHTML = [];
         var images = this.props.content.images;
@@ -27,10 +27,10 @@ class PortfolioItemPageSection extends Component<PortfolioItemPageSectionProps, 
 
         return (
             <div className="portfolio-item-page-section">
-                <div className="title">
-                    <h4 style={{fontWeight: 700}}>{title}</h4>
+                <div className="portfolio-item-page-section-title">
+                    <h2>{title}</h2>
                 </div>
-                <div className="content">
+                <div className="portfolio-item-page-section-content">
                     <div className="text">
                         {textHTML}
                     </div>

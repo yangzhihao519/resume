@@ -42,7 +42,7 @@ class PortfolioItemPage extends Component {
         const result = portfolioItem.result
 
         return (
-            <div className="portfolio-item-page">
+            <div className="portfolio-item-page" id="top-of-page">
                 <div className="portfolio-item-page-header">
                     <h1>{title}</h1>
                     {descriptionsHTML}
@@ -80,7 +80,7 @@ class PortfolioItemPage extends Component {
                             (problem === "" && solution === "" && process === "" && result === "") ? <div /> :
                                 (<div>
                                     <div className="section-title">
-                                        <h3>The Story</h3>
+                                        <h1>The Story</h1>
                                     </div>
                                     <div id="portfolio-item-page-story">
                                         {problem === "" ? "" : <PortfolioItemPageSection title={"Problem"} content={problem} />}
@@ -99,7 +99,7 @@ class PortfolioItemPage extends Component {
                                 </a>
                             </Col>
                             <Col xs={6} sm={6} md={6} lg={6}>
-                                <Scrollchor to="#portfolio-item-page" className="pull-right">
+                                <Scrollchor to="#top-of-page" className="pull-right">
                                     <div className="back-to-top-button">
                                         <h5>Back to Top<span className="glyphicon glyphicon-arrow-up" /></h5>
                                     </div>
