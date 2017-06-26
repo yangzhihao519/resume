@@ -6,7 +6,7 @@
   margin-bottom: 30px;
   padding: 0px;
   background-color: white;
-  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);*/
   cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ a :hover .portfolio-item-title {
   background-color: rgba(31, 139, 76, 0.8);
 }
 
-.view-more-button {
+/*.view-more-button {
   display: inline-block;
   margin-top: 10px;
   padding: 10px;
@@ -56,10 +56,17 @@ a :hover .portfolio-item-title {
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
   border-radius: 1px;
-}
+}*/
 
 /* Portfolio Item Page */
-#portfolio-item-page{
+.portfolio-item-page{
+}
+
+.portfolio-item-page-header {
+  padding: 80px 40px;
+  color: white;
+  text-align: center;
+  background-color: #21D374;
 }
 
 .back-to-portfolio-button {
@@ -75,25 +82,26 @@ a :hover .portfolio-item-title {
 .back-to-top-button {
   color: #333;
   background-color: white;
-  border-radius: 3px;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 3px;
 }
 
-#portfolio-item-page-intro{
+.portfolio-item-page-intro{
   padding: 40px;
-  background-color: white;
-  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  /*background-color: white;*/
+  /*box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);*/
 }
 
-#portfolio-item-page-cover-image {
-  margin-top: -40px;
-  margin-left: -40px;
-  margin-right: -40px;
-  text-align: center;
-  position: relative;
+#portfolio-item-page-cover-image img{
+  width: 100%;
+  height: auto;
 }
 
 #portfolio-item-page-cover-image img{
@@ -122,13 +130,13 @@ a :hover .portfolio-item-title {
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: white;
-  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+  /*background-color: white;*/
+  /*box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);*/
 }
 
 /* Portfolio Item Page Section */
 .portfolio-item-page-section {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .portfolio-item-page-section h4{
@@ -137,6 +145,15 @@ a :hover .portfolio-item-title {
 
 .portfolio-item-page-section h5{
   line-height: 25px;
+}
+
+.portfolio-item-page-section-title h2{
+  border-left: 10px solid #1F8B4C;
+  padding-left: 15px;
+}
+
+.portfolio-item-page-section-content h4{
+  font-weight: 300;
 }
 
 /* Portfolio Item Page Image */

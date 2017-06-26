@@ -12,73 +12,180 @@
   text-align: center;
 }
 
+#introduction {
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
 #hello {
   color: #1F8B4C;
 }
 
-@keyframes changeGreetings {
-  0% {
-    content: "Hello!";
-    color: #FF8F00;
-  }
-  25% {
-    content: "你好!";
-    color: #D50000;
-  }
-  50% {
-    content: "Namaste!";
-    color: #673AB7;
-  }
-  75% {
-    content: "Hallo!";
-    color: #2196F3;
-  }
-  100% {
-    content: "Hej!";
-    color: #8BC34A;
-  }
-}
-
-.greetings::after{
-  content: "Hello!";
-  color: #FF8F00;
-  animation-name:    changeGreetings;
-  animation-duration: 12s;
-  animation-direction: normal;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  transition:        color .1s ease;
-  animation-delay:   2s;
-}
-
 .call-to-actinon {
   margin-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .call-to-actinon h5 {
-  font-weight: 400;
+  font-weight: 700;
 }
 
-.view-cv {
+#view-cv {
+  text-align: center;
   color: white;
-  padding: 10px;
-  border-radius: 1px;
+  padding: 4px 15px 4px 15px;
+  border-radius: 3px;
   background-color: #2196F3;
   margin-bottom: 20px;
 }
 
-.view-portfolio {
+#view-portfolio {
+  text-align: center;
   color: white;
-  padding: 10px;
-  border-radius: 1px;
+  padding: 4px 15px 4px 15px;
+  border-radius: 3px;
   background-color: #8BC34A;
   margin-bottom: 20px;
 }
 
-#contact {
+#about-me {
   text-align: center;
+  background-color: #eee;
+  padding-top: 60px;
+  padding-bottom: 170px;  
+}
+
+#about-me h3{
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+#work h3{
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#work h4{
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.home-work {
+  margin-top: -100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+    .home-work {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+}
+
+.home-work-item {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.work-item {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+#work-item-1 {
+  background-color: #21D374;
+}
+
+#work-item-2 {
+  background-color: #79BAE5;
+}
+
+#work-item-3 {
+  background-color: #FFF7E1;
+  color: #4A4A4A;
+}
+
+#work-item-4 {
+  background-color: #212121;
+}
+
+#work-item-5 {
+  background-color:  #EDCB21; 
+}
+
+.view-more-button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 10px 20px 10px 20px;
+  background-color: #4A4A4A;
+  color: white;
+  border-radius: 3px;
+}
+
+.work-item-image{
+
+}
+
+.work-item-image img{
+  width: 100%;
+  height: auto;
+}
+
+#more-work {
+  text-align: center;
+}
+
+#more-work-button {
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 2px;
+  background-color: #1F8B4C;
+  padding: 15px 35px 15px 35px;
+}
+
+#more-work-button h4 {
+  color: white;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#references {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#references h2 {
+  color: #4A4A4A;
+  font-weight: 300;
+  font-style: oblique;
+  line-height: 1.25;
+}
+
+#references h3 {
+  color: #4990E2;
+  font-weight: 300;
+}
+
+#contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: white;
+  background-color: #9012FE;
+}
+
+#contact h1 {
+  font-weight: 300;
+}
+
+#contact a {
+  font-weight: 700;
+  color: white;
 }
 
 #email-box {

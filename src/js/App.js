@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Col} from 'react-bootstrap';
 import '../css/App.css';
 import {Header} from './Header'
 import Footer from './Footer'
@@ -16,13 +15,7 @@ class App extends Component {
             <Header currentPathName={currentPathName}/>
           </div>
           <div className="App-body">
-            <Row style={{marginLeft:0, marginRight:0}}>
-              <Col xs={0} sm={1} md={2} lg={2}></Col>
-              <Col xs={12} sm={10} md={8} lg={8}>
-                {this.props.children}
-              </Col>
-              <Col xs={0} sm={1} md={2} lg={2}></Col>
-            </Row>
+            {this.props.children}
           </div>
           <div className="App-footer">
             <Footer />

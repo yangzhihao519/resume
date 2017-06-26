@@ -22,6 +22,12 @@ class PortfolioItemPage extends Component {
         const location = portfolioItem.location;
         const skills = portfolioItem.skills;
         const website = portfolioItem.website;
+        var columnNumber = 3;
+        if(website === "" ) {
+            columnNumber = 4;
+        }else{
+            // do nothing
+        }
 
         var descriptionsHTML = [];
         var descriptions = portfolioItem.descriptions;
@@ -36,92 +42,73 @@ class PortfolioItemPage extends Component {
         const result = portfolioItem.result
 
         return (
-            <div id="portfolio-item-page">
-                <a href="#/portfolio">
-                    <div className="back-to-portfolio-button">
-                        <h5><span className="glyphicon glyphicon-chevron-left" />Back to portfolio</h5>
-                    </div>
-                </a>
-                <div className="section-title">
-                    <h2>{title}</h2>
+            <div className="portfolio-item-page" id="top-of-page">
+                <div className="portfolio-item-page-header">
+                    <h1>{title}</h1>
+                    {descriptionsHTML}
                 </div>
-                <div id="portfolio-item-page-intro">
-                    <div id="portfolio-item-page-cover-image">
-                        <img src={require('../images/portfolio/' + coverImageName)} role="presentation"/>
-                    </div>
-                    <div id="portfolio-item-page-descriptions">
-                        {descriptionsHTML}
-                    </div>
-                    <div id="portfolio-item-page-info">
+                <div className="portfolio-item-page-intro">
+                    <Row style={{marginLeft:0, marginRight:0}}>
+                        <Col xs={12} sm={6} md={columnNumber} lg={columnNumber}>
+                            <h4 style={{fontWeight: 700}}>Location</h4>
+                            <hr/>
+                            <h4 style={{fontWeight: 300}}>{location}</h4>
+                        </Col>
+                        <Col xs={12} sm={6} md={columnNumber} lg={columnNumber}>
+                            <h4 style={{fontWeight: 700}}>Skills Used</h4>
+                            <hr/>
+                            <h4 style={{fontWeight: 300}}>{skills}</h4>
+                        </Col>
+                    {website === "" ? "" :
+                        <Col xs={12} sm={6} md={columnNumber} lg={columnNumber}>
+                            <h4 style={{fontWeight: 700}}>Website</h4>
+                            <hr/>
+                            <a href={website} target="_blank"><h4 style={{fontWeight: 300}}>{website}</h4></a>
+                        </Col>}
                         
-                        <Row>
-                            <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                <h4>Location</h4>
-                            </Col>
-                            <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                <h4>{location}</h4>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                <h4>Skills Used</h4>
-                            </Col>
-                            <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                <h4>{skills}</h4>
-                            </Col>
-                        </Row>
-                        {website === "" ? "" :
-                            <Row>
-                                <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                    <h4>Website</h4>
-                                </Col>
-                                <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                    <a href={website} target="_blank"><h4>{website}</h4></a>
-                                </Col>
-                            </Row>}
-                        <Row>
-                            <Col xs={4} sm={4} md={4} lg={3} className="title">
-                                <h4>Date</h4>
-                            </Col>
-                            <Col xs={8} sm={8} md={8} lg={9} className="content">
-                                <h4>{periodOfTime}</h4>
-                            </Col>
-                        </Row>
-                    </div>
+                        <Col xs={12} sm={6} md={columnNumber} lg={columnNumber}>
+                            <h4 style={{fontWeight: 700}}>Date</h4>
+                            <hr/>
+                            <h4 style={{fontWeight: 300}}>{periodOfTime}</h4>
+                        </Col>
+                    </Row>
                 </div>
-                {
-                    (problem === "" && solution === "" && process === "" && result === "") ? <div /> :
-                        (<div>
-                            <div className="section-title">
-                                <h3>The Story</h3>
-                            </div>
-                            <div id="portfolio-item-page-story">
-                                {problem === "" ? "" : <PortfolioItemPageSection title={"Problem"} content={problem} />}
-                                {solution === "" ? "" : <PortfolioItemPageSection title={"Solution"} content={solution} />}
-                                {process === "" ? "" : <PortfolioItemPageSection title={"Process"} content={process} />}
-                                {result === "" ? "" : <PortfolioItemPageSection title={"Result"} content={result} />}
-                            </div>
-                        </div>)
-                }
-                <Row>
-                    <Col xs={6} sm={6} md={6} lg={6}>
-                        <a href="#/portfolio">
-                            <div className="back-to-portfolio-button">
-                                <h5><span className="glyphicon glyphicon-chevron-left" />Back to portfolio</h5>
-                            </div>
-                        </a>
-                    </Col>
-                    <Col xs={6} sm={6} md={6} lg={6}>
-                        <Scrollchor to="#portfolio-item-page" className="pull-right">
-                            <div className="back-to-top-button">
-                                <h5>Back to Top<span className="glyphicon glyphicon-arrow-up" /></h5>
-                            </div>
-                        </Scrollchor>
+                <Row style={{marginLeft:0, marginRight:0}}>
+                    <Col xs={0} sm={1} md={1} lg={1}></Col>
+                    <Col xs={12} sm={10} md={10} lg={10}>
+                        {
+                            (problem === "" && solution === "" && process === "" && result === "") ? <div /> :
+                                (<div>
+                                    <div className="section-title">
+                                        <h1>The Story</h1>
+                                    </div>
+                                    <div id="portfolio-item-page-story">
+                                        {problem === "" ? "" : <PortfolioItemPageSection title={"Problem"} content={problem} />}
+                                        {solution === "" ? "" : <PortfolioItemPageSection title={"Solution"} content={solution} />}
+                                        {process === "" ? "" : <PortfolioItemPageSection title={"Process"} content={process} />}
+                                        {result === "" ? "" : <PortfolioItemPageSection title={"Result"} content={result} />}
+                                    </div>
+                                </div>)
+                        }
+                        <Row>
+                            <Col xs={6} sm={6} md={6} lg={6}>
+                                <a href="#/portfolio">
+                                    <div className="back-to-portfolio-button">
+                                        <h5><span className="glyphicon glyphicon-chevron-left" />Back to portfolio</h5>
+                                    </div>
+                                </a>
+                            </Col>
+                            <Col xs={6} sm={6} md={6} lg={6}>
+                                <Scrollchor to="#top-of-page" className="pull-right">
+                                    <div className="back-to-top-button">
+                                        <h5>Back to Top<span className="glyphicon glyphicon-arrow-up" /></h5>
+                                    </div>
+                                </Scrollchor>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
-
             </div>
-
         );
     }
 }
