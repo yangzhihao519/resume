@@ -133,7 +133,7 @@ class Resume extends Component {
                         <hr />
                         <div className="section-box-item">
                           <h3>Summer School / Entrepreneurship for Engineer in Health and Wellbeing</h3>
-                          <h4 style={{ fontWeight: 300 }}>2016.08, Eindhoven University of Technology, <span>Eindhoven, Netherlands</span></h4>
+                          <h4>2016.08, Eindhoven University of Technology, <span>Eindhoven, Netherlands</span></h4>
                           <h4></h4>
                         </div>
                       </div>
