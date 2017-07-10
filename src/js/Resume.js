@@ -23,7 +23,7 @@ class Resume extends Component {
                             </Col>
                             <Col xs={12} sm={12} md={5} lg={5}>
                                 <div id="download-cv">
-                                  <h4 style={{fontWeight: 300}}><a href="https://drive.google.com/file/d/0B209VNQwXS5QNFhvRmtDUER1Uzg/view?usp=sharing" target="_blank" style={{color: "white"}}>Download CV <span className="glyphicon glyphicon-download-alt"></span></a></h4>
+                                  <h4 style={{fontWeight: 300}}><a href="https://drive.google.com/file/d/0B209VNQwXS5QbEtkajg2eWNIUlE/view?usp=sharing" target="_blank" style={{color: "white"}}>Download CV <span className="glyphicon glyphicon-download-alt"></span></a></h4>
                               </div>
                             </Col>
                         </Row>
@@ -77,13 +77,13 @@ class Resume extends Component {
                       </div>
                       <div className="section-box" >
                         <div className="section-box-item">
-                          <h3 style={{ fontWeight: 700 }}>UI & UX Designer & Front-end Developer Intern</h3>
+                          <h3 style={{ fontWeight: 700 }}>UX Engineer</h3>
                           <h4>2016.06-2016.09, VINNOVA, <span>Stockholm, Sweden</span></h4>
                           <h4 style={{ fontWeight: 300 }}>UI & UX design and front-end development for a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency</h4>
                         </div>
                         <hr />
                         <div className="section-box-item">
-                          <h3 style={{ fontWeight: 700 }}>UI Design Volunteer</h3>
+                          <h3 style={{ fontWeight: 700 }}>UI Designer</h3>
                           <h4>2016.05-2016.09, Tellus, <span>Stockholm, Sweden</span></h4>
                           <h4 style={{ fontWeight: 300 }}>Evaluation and redesign of Tellus News APP & UI Design of Tellus's other products including fact Box, dashboard and landing page</h4>
                         </div>
