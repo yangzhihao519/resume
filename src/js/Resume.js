@@ -22,17 +22,11 @@ class Resume extends Component {
                               <h4 style={{fontWeight: 300}}><a href="mailto:yang_zhihao@live.com">Email</a> | <a href="https://www.linkedin.com/in/yangzhihao" target="_blank">Linkedin</a> | <a href="https://www.github.com/yangzhihao519" target="_blank">Github</a> | <a href="https://www.twitter.com/yangzhihao519" target="_blank">Twitter</a> | <a href="https://www.behance.net/yangzhihao" target="_blank">Behance</a></h4>
                             </Col>
                             <Col xs={12} sm={12} md={5} lg={5}>
-                                <div id="download-cv">
-                                  <h4 style={{fontWeight: 300}}><a href="https://drive.google.com/file/d/0B209VNQwXS5QbEtkajg2eWNIUlE/view?usp=sharing" target="_blank" style={{color: "white"}}>Download CV <span className="glyphicon glyphicon-download-alt"></span></a></h4>
-                              </div>
                             </Col>
                         </Row>
-                        <h3>HCI Master Student at UCL, UX Engineer</h3>
+                        <h3>MSc in HCI at UCL, UX Engineer</h3>
                         <h4 style={{fontWeight: 300}}>
                           I am fascinated about using digital solution to change the way we are living using the skills I have: high creativity and efficiency in sketching out prototypes and solid skills in front-end development to bring pure ideas into life. 
-                        </h4>
-                        <h4 style={{fontWeight: 300}}>
-                          I am currently looking for full-time job starting from September 2017 regarding UX Design, Research and Development.
                         </h4>
                       </div>
                     </div>
@@ -76,34 +70,40 @@ class Resume extends Component {
                         <h2>Experience</h2>
                       </div>
                       <div className="section-box" >
+                      <div className="section-box-item">
+                          <h3 style={{ fontWeight: 700 }}>Front-end Engineer Intern</h3>
+                          <h4>2017.09-2018.01, viagogo, <span>London, UK</span></h4>
+                          <h4 style={{ fontWeight: 300 }}>UI & UX design and front-end development for viagogo's website.</h4>
+                        </div>
+                        <hr />
                         <div className="section-box-item">
-                          <h3 style={{ fontWeight: 700 }}>UX Engineer</h3>
+                          <h3 style={{ fontWeight: 700 }}>UX Engineer Intern</h3>
                           <h4>2016.06-2016.09, VINNOVA, <span>Stockholm, Sweden</span></h4>
-                          <h4 style={{ fontWeight: 300 }}>UI & UX design and front-end development for a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency</h4>
+                          <h4 style={{ fontWeight: 300 }}>UI & UX design and front-end development for a web-based visualisation tool of Horizon 2020 at the Swedish Innovation Agency.</h4>
                         </div>
                         <hr />
                         <div className="section-box-item">
-                          <h3 style={{ fontWeight: 700 }}>UI Designer</h3>
+                          <h3 style={{ fontWeight: 700 }}>UI Designer Volunteer</h3>
                           <h4>2016.05-2016.09, Tellus, <span>Stockholm, Sweden</span></h4>
-                          <h4 style={{ fontWeight: 300 }}>Evaluation and redesign of Tellus News APP & UI Design of Tellus's other products including fact Box, dashboard and landing page</h4>
+                          <h4 style={{ fontWeight: 300 }}>Evaluation and redesign of Tellus News APP & UI Design of Tellus's other products including fact Box, dashboard and landing page.</h4>
                         </div>
-                        <hr />
+                        <hr /> 
                         <div className="section-box-item">
                           <h3 style={{ fontWeight: 700 }}>Mobile Engineer Intern</h3>
                           <h4>2014.02-2015.01, Whitebag GmbH, <span>Zurich, Switzerland</span></h4>
-                          <h4 style={{ fontWeight: 300 }}>Development of native iOS app & web apps in Ruby on Rails; Design of API protocol; Start-up working experience</h4>
+                          <h4 style={{ fontWeight: 300 }}>Development of native iOS app & web apps in Ruby on Rails; Design of API protocol; Start-up working experience.</h4>
                         </div>
                         <hr />
                         <div className="section-box-item">
                           <h3 style={{ fontWeight: 700 }}>R&D Engineer Intern</h3>
                           <h4>2013.10-2014.01, AdMaster Inc., <span>Shanghai, China</span></h4>
-                          <h4 style={{ fontWeight: 300 }}>Implementation of the Gender Prediction Algorithm based on Hadoop using Java(Map/Reduce) </h4>
+                          <h4 style={{ fontWeight: 300 }}>Implementation of the Gender Prediction Algorithm based on Hadoop using Java(Map/Reduce).</h4>
                         </div>
                         <hr />
                         <div className="section-box-item">
                           <h3 style={{ fontWeight: 700 }}>Web Developer Trainee</h3>
                           <h4>2012.07-2012.09, Manipal Institute of Technology, <span>Manipal, India</span></h4>
-                          <h4 style={{ fontWeight: 300 }}>Design and implementation of Semantic-based website (search for flights, trains, buses and hotels) </h4>
+                          <h4 style={{ fontWeight: 300 }}>Design and implementation of Semantic-based website (search for flights, trains, buses and hotels).</h4>
                         </div>
                       </div>
                     </div>
@@ -115,8 +115,10 @@ class Resume extends Component {
                       <div className="section-box">
                         <div className="section-box-item">
                           <h3>MSc / Human Computer Interaction and Design</h3>
-                          <h4>2016.09-Present, University College London, <span>London, UK</span></h4>
+                          <h4>2016.09-2017.09, University College London, <span>London, UK</span></h4>
                           <h4 style={{ fontWeight: 300 }}>Exit year of EIT Digital Master Program.Minor in Innovation & Entrepreneurship </h4>
+                          <h4 style={{ fontWeight: 300 }}><span style={{ fontWeight: 400 }}>Master thesis:</span> <span style={{ fontStyle: "italic"}}>Viewing Augmented Reality at Close Range with Optical See-Through Head-Mounted Display</span></h4>
+                          <h4 style={{ fontWeight: 300 }}><span style={{ fontWeight: 400 }}>Minor thesis:</span> <span style={{ fontStyle: "italic"}}>Barriers for Educational Optical See-through Head-mounted Display Augmented Reality to Entering Schools</span></h4>
                         </div>
                         <hr />
                         <div className="section-box-item">
