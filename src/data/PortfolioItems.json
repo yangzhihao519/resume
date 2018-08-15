@@ -15,7 +15,7 @@
             "images": []
         },
         "solution": {
-            "text":"To make it easier to understand Horizon 2020's data set and create a easy data manipulation, a web-based online data visualisation tool was created to support data analysis within Horizon 2020. This visualisation tool is able to: \n 1. Allow organizations & countries to monitor their participation in H2020; \n 2. Elicit collaboration patterns; \n 3. Provide an overview of the data;",
+            "text":"To make it easier to understand Horizon 2020's data set and create a easy data manipulation, a web-based online data visualisation tool was created to support data analysis within Horizon 2020. This visualisation tool is able to: \n 1. Provide an overview of the data; \n 2. Allow organizations & countries to view their participation in H2020; \n 3. Elicit collaboration patterns.",
             "images":[
                 {
                     "name": "h2020_solution_data_structure.png",
@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "h2020_process_midfi_prototype.png",
-                    "caption": "Mid-Fi Prototype: based on the sketch, a mid-fi prototype was designed using Sketch. By using InVision App, we built an interactive prototype to present our visualisation idea in a department meeting and tried. Positive feedback was received."
+                    "caption": "Mid-Fi Prototype: based on the sketch, a mid-fi prototype was designed using Sketch. By using InVision App, we built an interactive prototype to present our visualisation idea in a department meeting and received positive feedback."
                 },
                 {
                     "name": "h2020_process_highfi_prototype.png",
@@ -90,15 +90,15 @@
             "images": []
         },
         "process": {
-            "text": "Starting with observation and research, we decided the track to go: design a smartwatch application for epileptic patient.",
+            "text": "Starting with observation and research, we decided the track to go: design a smart device for epileptic patient.",
             "images": [
                 {
                     "name": "saw_process_brainstorming.png",
-                    "caption": "Before the group gathering, every group member did observations and research to find out the fields related to epilepsy. During the group meeting, each person wrote down his/her ideas on post-its, and explained the ideas based his/her observations and thoughts. Then, we grouped those post-its into several categories to generate an affinity diagram. The affinity process has been iterated twice, because new ideas always come up during discussion. Then we vote for all the ideas and chose the top rated one: A smartwatch that can monitor an epilepsy patient’s daily activity . "
+                    "caption": "Before the group gathering, every group member did observations and research to find out the fields related to epilepsy. During the group meeting, each person wrote down his/her ideas on post-its, and explained the ideas based his/her observations and thoughts. Then, we grouped those post-its into several categories to generate an affinity diagram. The affinity process has been iterated twice, because new ideas always come up during discussion. Then we vote for all the ideas and chose the top rated one: A smart device that can monitor an epilepsy patient’s daily activity . "
                 },
                 {
                     "name": "saw_process_persona.png",
-                    "caption": "Based on the observations, online surveys as well as the interview( with two epilepsy experts at the Swedish Epilepsy Association, we found several behaviour variables of the target group. Then we listed all the behaviour variables with certain people and try to find the behaviour patterns. After that, we synthesize those characters into several personas. Also, according to the primary target of our interface design, we selected a primary persona, a 40-year-old stay-at-home mom Whitney."
+                    "caption": "Based on the observations, online surveys as well as the interview with two epilepsy experts at the Swedish Epilepsy Association, we found several behaviour variables of the target group. Then we listed all the behaviour variables with certain people and try to find the behaviour patterns. After that, we synthesize those characters into several personas. Also, according to the primary target of our interface design, we selected a primary persona, a 40-year-old stay-at-home mom Whitney."
                 },
                 {
                     "name": "saw_process_sketch.png",
@@ -119,7 +119,7 @@
                 },
                 {
                     "name": "saw_result_smartphone.png",
-                    "caption": "Features in smartphone application: 1) The electronic seizure diary shows a detailed overview of your seizure tracking records; 2) Medication and appointments reminder."
+                    "caption": "Features in smartphone application: 1) The electronic seizure diary shows a detailed overview of your seizure tracking records; 2) Medication and appointments record and reminder."
                 }
             ]
         }
