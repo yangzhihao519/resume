@@ -70,9 +70,15 @@ class Resume extends Component {
                         <h2>Experience</h2>
                       </div>
                       <div className="section-box" >
-                      <div className="section-box-item">
-                          <h3 style={{ fontWeight: 700 }}>UX Designer & Engineer</h3>
-                          <h4>2017.09-Present, viagogo, <span>London, UK</span></h4>
+                        <div className="section-box-item">
+                          <h3 style={{ fontWeight: 700 }}>Front-end Developer</h3>
+                          <h4>2018.11-Present, Core Technology Systems, <span>London, UK</span></h4>
+                          <h4 style={{ fontWeight: 300 }}>Front-end development of enterprise-level websites and web apps in SharePoint Classic and Modern Framework.</h4>
+                        </div>
+                        <hr />
+                        <div className="section-box-item">
+                          <h3 style={{ fontWeight: 700 }}>Front-end Engineer(UX-Focused)</h3>
+                          <h4>2017.09-2018.10, viagogo, <span>London, UK</span></h4>
                           <h4 style={{ fontWeight: 300 }}>UI/UX design and front-end development to improve the usability and conversion rate of the ticket-selling web platform.</h4>
                         </div>
                         <hr />
