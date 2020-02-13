@@ -6,12 +6,12 @@ import Scrollchor from 'react-scrollchor';
 import { Sticky } from 'react-sticky';
 
 interface HeaderProps {
-  currentPathName: string;
+  currentPathName?: string;
 }
 
 class Header extends Component<HeaderProps, {}> {
   render() {
-    const currentPathName =  this.props.currentPathName;
+    const currentPathName =  "";
     var subNav = '';
     switch (currentPathName) {
       case "/resume":

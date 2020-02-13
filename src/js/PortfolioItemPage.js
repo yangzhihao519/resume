@@ -4,6 +4,7 @@ import '../css/Portfolio.css'
 import { Row, Col } from 'react-bootstrap'
 import { PortfolioItemPageSection } from './PortfolioItemPageSection'
 import Scrollchor from 'react-scrollchor';
+import {useParams} from 'react-router-dom';
 
 var portfolioItems = require('../data/PortfolioItems.json');
 
@@ -14,7 +15,7 @@ class PortfolioItemPage extends Component {
     }
 
     render() {
-        const id = this.props.params.id;
+        const id = this.props.match.params.id;
         const portfolioItem = portfolioItems[id - 1];
         const title = portfolioItem.title;
         const coverImageName = portfolioItem.cover_image_name;
