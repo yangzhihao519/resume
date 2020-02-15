@@ -15,7 +15,7 @@ class Home extends Component {
             <h1><span>I'm</span>&nbsp; Zhihao Yang,</h1>
             <h1><span>a</span>&nbsp; UX Engineer &nbsp;<span>based in London.</span></h1>
             <div className="call-to-actinon">
-                <Link to="/resume">
+                <Link to="/about">
                   <Button type="primary">About Me</Button>
                 </Link>
                 <Link to="/portfolio">

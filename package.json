@@ -10,6 +10,8 @@
   "dependencies": {
     "antd": "^3.26.9",
     "bootstrap": "^4.4.1",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
     "react": "^16.12.0",
     "react-bootstrap": "^0.33.1",
     "react-dom": "^16.12.0",

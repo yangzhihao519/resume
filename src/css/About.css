@@ -1,5 +1,6 @@
-.Resume {
+.About {
   margin-top: 40px;
+  padding: 0 10%;
 }
 
 .section-title{
@@ -32,6 +33,13 @@
   background-color: #1F8B4C;
 }*/
 
+#section-profile__intro{
+  display: flex;
+}
+
+#section-profile__intro h3, h4{
+  margin-right: 10px;
+}
 
 #section-profile {
 }

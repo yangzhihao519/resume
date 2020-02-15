@@ -27,8 +27,8 @@ class Header extends Component {
         <Menu.Item key="home">
           <Link to="/">Home</Link>
         </Menu.Item>
-        <Menu.Item key="resume">
-          <Link to="/resume">Resume</Link>
+        <Menu.Item key="about">
+          <Link to="/about">About</Link>
         </Menu.Item>
         <Menu.Item key="work">
           <Link to="/portfolio">Work</Link>
