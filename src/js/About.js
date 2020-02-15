@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Col, ProgressBar} from 'react-bootstrap';
 import '../css/App.css';
 import '../css/About.css';
 

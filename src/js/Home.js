@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
 import '../css/App.css';
 import '../css/Home.css'
 import { Link } from 'react-router-dom'

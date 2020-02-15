@@ -9,66 +9,7 @@
         "location": "Vinnova, the Swedish Innovation Agency, Stockholm, Sweden",
         "team_members": "Rodrigo Roa Rodríguez & Jacob Norlin Andersson ",
         "skills": "Interaction design, UI design, HTML, Javascript, CSS & React JS",
-        "website": "http://h2020viz.vinnova.se/",
-        "problem": {
-            "text": "HORIZON 2020 is the EU Framework Programme for Research and Innovation. There are 31638 rows in Horizon 2020's database for participations, while there is another table for projects which contains 7553 rows. It's not easy to find out useful information from plain texts and it also requires technical skills to understand the data. \n Vinnova, the Swedish Innovation Agency, is in charge of the management of Horizon 2020 in Sweden. In order to understand their performances in this program and make strategic future plan, specialists from Swedish companies, universities, organisations and other governmental agencies will need to spend hours or even days of work in generating a report based on the complicated data from European Commission, and they do send requests to Vinnova for instructions and more complex questions. Although Vinnova organizes regular workshops for training specialists from external organizations how to use Horizon 2020's database, it requires time and energy. \n The most common questions regarding Horizon 2020 are: \n 1. How does the participation look like per region/county for a certain country? Which pillars, programmes and subprogrammes do a chosen organisation participate in and what are the projects (ID, title and abstract)? \n 2. How does the participation look like per programme for a given country (one or all) and region (one, several or all)?; Which organisations participate in which programmes and topic. \n 3. How are the collaboration patterns for 1) Countries 2) for a given Organisation look like?",
-            "images": []
-        },
-        "solution": {
-            "text":"To make it easier to understand Horizon 2020's data set and create a easy data manipulation, a web-based online data visualisation tool was created to support data analysis within Horizon 2020. This visualisation tool is able to: \n 1. Provide an overview of the data; \n 2. Allow organizations & countries to view their participation in H2020; \n 3. Elicit collaboration patterns.",
-            "images":[
-                {
-                    "name": "h2020_solution_data_structure.png",
-                    "caption": "Horizon 2020's data is hierarchical and includes several levels from pillars all the way down to projects. And organisations are involved in every level. "
-                },
-                {
-                    "name": "h2020_solution_data_visualisation.png",
-                    "caption": "In our solution, to show the hierarchical structure more clearly and support intuitive data manipulation, sankey diagram is utilized to present the data."
-                }
-            ]
-        },
-        "process": {
-            "text": "We utilized an iterative process during the development. Starting with understanding the requirements, we make design proposals, which later on were turned into working prototype that can be evaluated though usability testing. And based on the results of the evaluation, new design will be proposed, and a circle of development will begin.",
-            "images":[
-                {
-                    "name": "h2020_process_weekly_meetings.png",
-                    "caption": "This is a agile development process. Apart from daily team briefing, we also had weekly meeting to make sure everything was on track."
-                },
-                {
-                    "name": "h2020_process_sketch.png",
-                    "caption": "Sketch: two types of sketches(shown below) were come up within the initial stage. Although both of them used sankey diagram, they were in different directions: the tree in the left one spread horizontally, while the right one spread vertically. After a debate on which one was better to support the purpose and also a discussion with our supervisor and mentor, we thought the horizontal tree was a better solution since it enabled a natural interaction without scrolling the webpage down, and it was easier and clearer to show the labels for each box."
-                },
-                {
-                    "name": "h2020_process_midfi_prototype.png",
-                    "caption": "Mid-Fi Prototype: based on the sketch, a mid-fi prototype was designed using Sketch. By using InVision App, we built an interactive prototype to present our visualisation idea in a department meeting and received positive feedback."
-                },
-                {
-                    "name": "h2020_process_highfi_prototype.png",
-                    "caption": "Hi-Fi Prototype and Redesign: using the mid-fi prototype, a working prototype was built, based on which we had our first round of usability testing. From the testing, lots of usability issues were exposed. After the analysis of the evaluation results, a major redesign was carried out and the Hi-Fi prototype was built.    One important change in the redesign was to move sidebar from right to left. The sidebar is served to show detailed information according to the selection in the visualisation. In the usability testing, we found that many participants ignored the right sidebar and had a difficult time in finding information. One reason we found was that people are used to view things from left to right, and the participants focused on the visualisation on the left and didn't pay much attention on the right sidebar."
-                },
-                {
-                    "name": "h2020_process_implementation.png",
-                    "caption": "Implementation: The front-end components was built by ReactJs. And D3 Js library was used to create the visualisation. The front-end and back-end communicate with each other by the REST APIs. The image below shows the implementation structure."
-                },
-                {
-                    "name": "h2020_process_evaluation.png",
-                    "caption": "Evaluation: Mainly two round of usability testing were carried out, one was for the mid-fi working prototype, and the another for the Hi-Fi working prototype. \n - First round(6 participants): the evaluation was mainly used to find out the usability issues within the visualisation tool. Using a screen video recorder, we ask our participants to answer 25 pre-defined short questions by using our tool while thinking aloud. Time spent and error rate were noted for analysis afterwards. \n - Second round(4 participants)): the tests were designed to observe how participants would use our tool to solve real problem in their daily work. We prepared 3 tasks and 5 topics. Participants were told to think aloud and use our tool to complete their chosen task(e.g. create 3 powerpoint slides) regarding the chosen topic(e.g. \"How is Sweden doing in Horizon 2020 compared to other Nordic countries?\")."
-                }
-            ]
-        },
-        "result":{
-            "text": "It took 4 months to complete this project. Our visualisation tool was released on Oct 26, 2016 and is now online at http://h2020viz.vinnova.se.",
-            "images": [
-                {
-                    "name": "h2020_results_final.png",
-                    "caption": ""
-                },
-                {
-                    "name": "h2020_results_conference.png",
-                    "caption": "We were invited to present this visualisation tool at the conference \"Spelplan Europa (Gameplan Europe) \" held in Stockholm to demonstrate how this visualisation tool could be used for strategic plan."
-                }
-            ]
-        }
+        "website": "http://h2020viz.vinnova.se/"
     },
     {
         "id": 2,
@@ -80,49 +21,7 @@
         "location": "KTH Royal Institute of Technology, Stockholm, Sweden",
         "team_members": "Chengcheng Qu & Viola Bazanye",
         "skills": "Interaction design & UI design",
-        "website": "",
-        "problem": {
-            "text": "According to World Health Organization(WHO), there are about 50 million people worldwide have epilepsy. People with epilepsy are suffering from the anxiety of unexpected seizure.",
-            "images": []
-        },
-        "solution": {
-            "text": "Researchers at MIT working on a wristband that measures skin conductance, which is a measure of how much you’re sweating. It’s been discovered that conductance spikes just before someone has a seizure. The device can tell the severity of a seizure, and it may lead to seizure forecasting in the end. \n By forecasting the coming seizures and sending seizure alert to the patient in advance, he/she could be able to stop the current activity and get prepared for the seizure, which can be able to prevent potential danger and save lives. The ability to forecast seizures has long been desired, discussed, and explored. Scientists are now detecting abnormal brain waves or changes in nervous system measurements, like heart rate and breathing to predict seizures. \n By monitoring the patient activity and data analysis, the smartwatch can be able to detect irregular shaking of the patient and record the ongoing seizure, as well as sending emergency message in case the tonic-clonic(shaking) seizure lasts more than 5 minutes, which could be dangerous and he/she must be sent to hospital according to doctor.",
-            "images": []
-        },
-        "process": {
-            "text": "Starting with observation and research, we decided the track to go: design a smart device for epileptic patient.",
-            "images": [
-                {
-                    "name": "saw_process_brainstorming.png",
-                    "caption": "Before the group gathering, every group member did observations and research to find out the fields related to epilepsy. During the group meeting, each person wrote down his/her ideas on post-its, and explained the ideas based his/her observations and thoughts. Then, we grouped those post-its into several categories to generate an affinity diagram. The affinity process has been iterated twice, because new ideas always come up during discussion. Then we vote for all the ideas and chose the top rated one: A smart device that can monitor an epilepsy patient’s daily activity . "
-                },
-                {
-                    "name": "saw_process_persona.png",
-                    "caption": "Based on the observations, online surveys as well as the interview with two epilepsy experts at the Swedish Epilepsy Association, we found several behaviour variables of the target group. Then we listed all the behaviour variables with certain people and try to find the behaviour patterns. After that, we synthesize those characters into several personas. Also, according to the primary target of our interface design, we selected a primary persona, a 40-year-old stay-at-home mom Whitney."
-                },
-                {
-                    "name": "saw_process_sketch.png",
-                    "caption": "In the stage of sketch and low-fi prototype, we focused our design on these three functions: 1)The forecasting function to inform the user that a seizure is about to happen; 2) The alert and record function while a seizure is happening, as well as the automatic emergency call function; 3) The electronic seizure diary function."
-                },
-                {
-                    "name": "saw_process_pop.png",
-                    "caption": "Using \"Sketch\", we built a set of high fidelity prototypes for the device we want to design for people with epilepsy in the hope of helping and supporting their lives. The prototypes are mainly for the application on smartwatch and smartphone. Using an online prototyping software POP App allows us to built the prototype interactively by adding the actions and transitions that can be shown online or on mobile phones."
-                }
-            ]
-        },
-        "result":{
-            "text": "A technical solution comprising a smartwatch and mobile application that will serve as an aid to people living with epilepsy helping them to live normal lives.",
-            "images": [
-                {
-                    "name": "saw_result_smartwatch.png",
-                    "caption": "Features in smartwatch application: 1) Forecasting function to inform the user that a seizure is about to happen; 2) Alert and record function while a seizure is happening, as well as the automatic emergency message function."
-                },
-                {
-                    "name": "saw_result_smartphone.png",
-                    "caption": "Features in smartphone application: 1) The electronic seizure diary shows a detailed overview of your seizure tracking records; 2) Medication and appointments record and reminder."
-                }
-            ]
-        }
+        "website": ""
     },
     {
         "id": 3,
@@ -135,62 +34,7 @@
         "location": "Stockholm, Sweden",
         "team_members": "Sam Strandberg, Joel Pettersson and David Uddare Sevelin",
         "skills": "UI Design & Interaction Design",
-        "website": "http://tellus.news/",
-        "problem": "",
-        "solution": {
-            "text":"Tellus.news is a startup company based in Stockholm. We are developing a technology to summarise and analyse news from all over the world, and then present this information in our news app – to give the user all the world’s news in just a few minutes",
-            "images":[]
-        },
-        "process": "",
-        "result": {
-            "text":"Task 1: Redesign of the iOS App \n Focusing on the reconstructing the navigation, I came up with the redesign that you could take into consideration.",
-            "images":[
-                {
-                    "name": "tellus_redesign_ui_1.png",
-                    "caption": "I suggest that in the first view, we show the daily news in a horizontal view together with the 3D earth indicating the news location and the coverages’ location. In this way, the user could quickly get to know the daily news we present today and understand what is happening around the world by just swiping left and right. When the user is interested in one news, he/she just needs to simply swipe up to read the detail which includes the insights and global coverage."
-                },
-                {
-                    "name": "tellus_redesign_ui_2.png",
-                    "caption": "The “Insights” part contains a short description of this news, and some insights we could offer, such as some information visualization, future prediction, special criticism, as so on."
-                },
-                {
-                    "name": "tellus_redesign_ui_3.png",
-                    "caption": "In the “Coverage” part, a map is shown to show the details (area and number) how this news is reported globally, which cannot be easily shown through the 3D earth. And user could also click on the continents in the map to see the related reports in that area."
-                },
-                {
-                    "name": "",
-                    "caption": "Task 2: Fact Box Design \n These face boxes are designed to give readers a quick overview, categorised into the news type: attact, election, country/person, disaster, and accident."
-                },
-                {
-                    "name": "tellus_factbox_ui_1.png",
-                    "caption": ""
-                },
-                {
-                    "name": "tellus_factbox_ui_2.png",
-                    "caption": ""
-                },
-                {
-                    "name": "tellus_factbox_ui_3.png",
-                    "caption": ""
-                },
-                {
-                    "name": "tellus_factbox_ui_4.png",
-                    "caption": ""
-                },
-                {
-                    "name": "",
-                    "caption": "Task 3: Dashboard Design \n This dashboard is served as a B2B product, providing insights for business people, such as marketing specialists, journalists, etc."
-                },
-                {
-                    "name": "tellus_dashboard_1.png",
-                    "caption": "First design of dashboard: it gives an overview of all the topics that one has followed."
-                },
-                {
-                    "name": "tellus_dashboard_2.png",
-                    "caption": "Redesign of dashboard: it gives the search result of one specific topic, addressing the problems and requirements: \n - use \"purple\" as the main colour; \n - webpage for one single topic: trend, related words, map, news feed; \n - using visualisation: line chart, pie chart, word cloud, geo-map overlay; \n - the trend is shown to be updated every 6 hours."
-                }
-            ]
-        }
+        "website": "http://tellus.news/"
     },
     {
         "id": 4,
@@ -203,77 +47,7 @@
         "location": "KTH Royal Institute of Technology, Stockholm, Sweden",
         "team_members": "Chengcheng Qu, Sakshyam Panda & Viola Bazanye",
         "skills": "Interaction Design, UI Design, HTML, Javascript, Angular JS & Firebase",
-        "website": "https://yocktail.firebaseapp.com",
-        "problem": {
-            "text":"Cocktail is popular all around the world, but there is barely any platform for cocktail lovers to explore in the world of cocktails and also share their own favourite cocktail with each other.",
-            "images":[]
-        },
-        "solution": {
-            "text":"We would like to build an online community - \"Yocktail\"(You + Coktail) - for cocktail lovers to explore and share. Given the API offered by Absolut Drinks Database, thousands of recipes of cocktails could be shown in this platform for exploration and inspiration. \n This website consists of 5 parts: \n 1. Home: showing the most popular cocktails and latest cocktails made by our \"Yocktailer\", along with a call for sign in/sign up. \n 2. Explore: allowing users to search cocktails and filter based on their interests. More information about one sign cocktail would be shown in a detailed page after clicking. \n 3. Community: displaying the cocktails made by our \"Yocktailer\" with picture, taste and maker's name and profile picture. \n 4. User Profile: After signing in or  signing up, Profile page would show user's cocktails that created and collected by him/her. User could also edit his/her name, bio, profile picture, registered email, password in the Edit page. \n 5. About: showing an introduction of this project and contact information.",
-            "images":[]
-        },
-        "process": {
-            "text":"Based on online research and brainstorming. An initial sketch was come up. And later on I transform the sketch into a Hi-Fi graphical prototype for future development.",
-            "images":[
-                {
-                    "name": "yocktail_process_hifi_home.png",
-                    "caption": "Dark grey and bright yellow are the main colours used for the design to give users the feelings of luxury and vibrancy."
-                },
-                {
-                    "name": "yocktail_process_hifi_explore.png",
-                    "caption": ""
-                },
-                {
-                    "name": "yocktail_process_hifi_cocktail.png",
-                    "caption": ""
-                },
-                {
-                    "name": "yocktail_process_hifi_community.png",
-                    "caption": ""
-                },
-                {
-                    "name": "yocktail_process_hifi_signin.png",
-                    "caption": ""
-                },
-                {
-                    "name": "yocktail_process_hifi_signup.png",
-                    "caption": ""
-                },
-                {
-                    "name": "yocktail_process_hifi_profile.png",
-                    "caption": ""
-                },
-                {
-                    "name": "yocktail_process_hifi_create_cocktail.png",
-                    "caption": ""
-                },
-                {
-                    "name": "yocktail_process_hifi_about.png",
-                    "caption": ""
-                },
-                {
-                    "name": "yocktail_process_firebase.png",
-                    "caption": "AngularJS was mainly used in the implementation of the website's front-end, built in a MVC design pattern. A simple back-end was built using Firebase for data storage and REST APIs."
-                },
-                {
-                    "name": "",
-                    "caption": "Based upon the Hi-Fi prototype, a cognitive walkthough was conducted to address the potential usability issues. Also, more evaluations were down during the iterative development process."
-                }
-            ]
-        },
-        "result":{
-            "text":"Yocktail is responsive for all devices. The executable website is on Firebase: https://yocktail.firebaseapp.com/ and the code is available on Github:  https://github.com/violabazanye/Yocktail.",
-            "images":[
-                {
-                    "name": "yocktail_results_multi_devices.png",
-                    "caption": ""
-                },
-                {
-                    "name": "",
-                    "caption": "Due to the restriction of the Absolut Drinks Database API (http://addb.absolutdrinks.com/docs/), for Chrome users, a chrome extension need to be installed to make the APIs work: Allow-Control-Allow-Origin: * https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi. Or “Disable Cross-Origin Restriction” in the “Develop” option in the menu if you are using a Safari browser."
-                }
-            ]
-        }
+        "website": "https://yocktail.firebaseapp.com"
     },
     {
         "id": 5,
@@ -285,39 +59,6 @@
         "location": "Whitebag GmbH, Zurich, Switzerland",
         "skills": "iOS Development(Objective C)",
         "website": "http://vinyo.ch/",
-        "team_members": "Adrian Schmidmeister, Andrea Canonica, Dang Nguyen & Giacomo Bordoli",
-        "problem": {
-            "text": "Buying wine is complicated. In case you meet a wine you like at a friend's place, it's too troublesome to note down the name and go to the wine shop near the train station, and carry it back home after a tiring day of work.",
-            "images":[]
-        },
-        "solution": {
-            "text": "Vinyo was born to address the problem. \n 1. Make it easy to buy wine \n It will be super convenient for you to open this mobile application if you come across your loved wine, search the wine and add it to your collection or even directly place the order and wait it to be delivered to your home, giving you the convenience in payment and delivery. \n 2. Shopping with mobile phone is the future trend \n Online purchase is now more and more popular and mature and there are already many web-shops selling wines. However, as the time advancing, mobile phone is now playing an increasingly important role in our daily life, including shopping of course. A mobile application gives you the possibility to process the purchase at anytime and anywhere given a good internet connection, which is no long an obstacle.",
-            "images": [
-
-            ]
-        },
-        "process": {
-            "text":"In the process of implementation, my work focuses on the agile development of the Vinyo native iOS app which mainly includes: \n 1. Using AV Foundation framework in iOS to implement online wine recognition; \n 2. Design of API protocol for the communication between the client and server for Vinyo; \n 3. Using third-party applications Card IO and Braintree to acquire credit card information and conduct mobile online payment; \n 4. Using Core Data for local data storage to save user’s viewed wines and using Apple Push Notifications service(APNs) to push user remote notifications which contains discounted wine offers.",
-            "images":[
-                
-            ]
-        },
-        "result":{
-            "text":"The iOS version of Vinyo has already been released in Swiss Apple Store since the summer in 2014. The newly-design and function-improved Version 2.0 just came out few months afterwards after fast iteration. Thousands of downloads prove its popularity in Switzerland.",
-            "images":[
-                {
-                    "name":"vinyo_website_screenshot.png",
-                    "caption": ""
-                },
-                {
-                    "name":"vinyo_app_screenshot.png",
-                    "caption": "Here are the screenshots of Vinyo 2.0."
-                },
-                {
-                    "name":"",
-                    "caption": "During my internship work on Vinyo, the fact that I was deeply involved and focused on the user interaction with my colleagues, and excited to see every positive change for the user, which I was able to conceive and implement, highly developed my interest in Human Computer Interaction (HCI) and confirmed my determination to pursue further study in this filed."
-                }
-            ]
-        }
+        "team_members": "Adrian Schmidmeister, Andrea Canonica, Dang Nguyen & Giacomo Bordoli"
     }
 ]

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../css/Header.css'
-import { LinkContainer } from 'react-router-bootstrap';
 import { Menu, Icon } from 'antd';
 import {Link} from 'react-router-dom';
 
