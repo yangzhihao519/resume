@@ -51,7 +51,7 @@
 #about-me {
   text-align: center;
   background-color: #eee;
-  padding: 60px 10% 170px;
+  padding: 60px 10% 150px;
 }
 
 #about-me h3{
@@ -72,25 +72,13 @@
 
 .home-work {
   margin-top: -100px;
-  padding: 0 10%;
-}
-
-@media only screen and (max-width: 500px) {
-    .home-work {
-      padding: 0px;
-    }
+  padding: 0 15%;
 }
 
 .home-work-item {
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: flex;
-}
-
-.work-item {
-  color: white;
-  display: flex;
-  padding: 50px 10%;
 }
 
 #work-item-1 {
@@ -112,6 +100,18 @@
 
 #work-item-5 {
   background-color:  #EDCB21; 
+}
+
+@media only screen and (max-width: 500px) {
+  .home-work {
+    padding: 0px;
+  }
+
+  .home-work-item {
+    flex-direction: column;
+    margin-bottom: 0;
+    padding: 20px;
+  }
 }
 
 .view-more-button {

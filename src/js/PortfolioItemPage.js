@@ -38,44 +38,47 @@ class PortfolioItemPage extends Component {
             var description = descriptions[i];
             descriptionsHTML.push(<h4 key={description}>{description}</h4>);
         }
+        var coverImage = require('../images/portfolio/'+ portfolioItem.cover_image_name);
 
         const content = this.state.portfolioContent;
 
         return (
             <div className="portfolio-item-page" id="top-of-page">
-                <div className="portfolio-item-page-header">
-                    <h1>{title}</h1>
-                    {descriptionsHTML}
+                <div className="portfolio-item-page-header" style={{backgroundImage: `url(${coverImage})`}}>
+                    <div class="portfolio-item-page-header-layer"></div>
+                    <div class="portfolio-item-page-header-content">
+                        <h1>{title}</h1>
+                        {descriptionsHTML}
+                    </div>
                 </div>
-                <div className="portfolio-item-page-intro">
-                        <div className="portfolio-item-page-intro-item">
-                            <h4 style={{fontWeight: 700}}>Location</h4>
-                            <hr/>
-                            <h4 style={{fontWeight: 300}}>{location}</h4>
-                        </div>
+                <div className="portfolio-item-page-body">
+                    <div className="portfolio-item-page-content">
+                        <ReactMarkdown source={content} />
+                    </div>
 
-                        <div className="portfolio-item-page-intro-item">
-                            <h4 style={{fontWeight: 700}}>Skills Used</h4>
-                            <hr/>
-                            <h4 style={{fontWeight: 300}}>{skills}</h4>
-                        </div>
-                        
-                        {website && <div className="portfolio-item-page-intro-item">
-                                        <h4 style={{fontWeight: 700}}>Website</h4>
-                                        <hr/>
-                                        <a href={website} target="_blank"><h4 style={{fontWeight: 300}}>{website}</h4></a>
-                                    </div>}
-                        
-                        <div className="portfolio-item-page-intro-item">
-                            <h4 style={{fontWeight: 700}}>Date</h4>
-                            <hr/>
-                            <h4 style={{fontWeight: 300}}>{periodOfTime}</h4>
-                        </div>
-                </div>
+                    <div className="portfolio-item-page-intro">
+                            <div className="portfolio-item-page-intro-item">
+                                <h4 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Location</h4>
+                                <h4 style={{fontWeight: 300}}>{location}</h4>
+                            </div>
 
-                <div className="portfolio-item-page-content">
-                    <ReactMarkdown source={content} />
+                            <div className="portfolio-item-page-intro-item">
+                                <h4 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Skills Used</h4>
+                                <h4 style={{fontWeight: 300}}>{skills}</h4>
+                            </div>
+                            
+                            {website && <div className="portfolio-item-page-intro-item">
+                                            <h4 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Website</h4>
+                                            <a href={website} target="_blank"><h4 style={{fontWeight: 300}}>{website}</h4></a>
+                                        </div>}
+                            
+                            <div className="portfolio-item-page-intro-item">
+                                <h4 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Date</h4>
+                                <h4 style={{fontWeight: 300}}>{periodOfTime}</h4>
+                            </div>
+                    </div>
                 </div>
+                
 
                 <div className="portfolio-item-tool">
                     <Link to="/portfolio">

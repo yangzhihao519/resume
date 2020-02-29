@@ -8,8 +8,14 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="Portfolio">
-                <div id="work">
-                    <div className="work-item" id="work-item-1">
+                <div id="portfolio-intro">
+                    <h1>Here is a collection of Zhihao's selected work.</h1>
+                    <p>
+                        Fascinated about using technology to change the way we are living, Zhihao is eager to contribute to the digital transformation era with his high creativity and efficiency in sketching out prototypes and solid skills in front-end development to bring pure ideas into life.
+                    </p>
+                </div>
+                <div className="portfolio-work">
+                    <div className="portfolio-work-item" id="work-item-1">
                         <div className="work-item-description">
                             <h3>UX Design & Development</h3>
                             <h1>A Web-based Visualisation Tool for Horizon 2020</h1>
@@ -23,7 +29,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
 
-                    <div className="work-item" id="work-item-2">
+                    <div className="portfolio-work-item" id="work-item-2">
                         <div className="work-item-image">
                             <img src={require('../images/portfolio/saw_cover.png')} role="presentation"/>
                         </div>
@@ -37,7 +43,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
 
-                    <div className="work-item" id="work-item-3">
+                    <div className="portfolio-work-item" id="work-item-3">
                         <div className="work-item-description">
                             <h3>iOS APP Development</h3>
                             <h1>Vinyo: Buy the wine you love on mobile</h1>
@@ -51,7 +57,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
 
-                    <div className="work-item" id="work-item-4">
+                    <div className="portfolio-work-item" id="work-item-4">
                         <div className="work-item-image">
                             <img src={require('../images/portfolio/yorktail_cover.png')} role="presentation"/>
                         </div>
@@ -65,7 +71,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
 
-                    <div className="work-item" id="work-item-5">
+                    <div className="portfolio-work-item" id="work-item-5">
                         <div className="work-item-description">
                             <h3>UI Design</h3>
                             <h1>Tellus News: keep up to date</h1>

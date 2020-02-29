@@ -27,7 +27,7 @@ class Home extends Component {
           <h3>Fascinated about using technology to change the way we are living, Zhihao is eager to contribute to the digital transformation era with his high creativity and efficiency in sketching out prototypes and solid skills in front-end development to bring pure ideas into life.</h3>
         </div>
         
-        <div id="work" className="home-work">
+        <div className="home-work">
           <div className="home-work-item" id="work-item-1">
             <div className="work-item-description">
               <h3>UX Design & Development</h3>

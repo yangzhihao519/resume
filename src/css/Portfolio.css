@@ -43,33 +43,103 @@ a :hover .portfolio-item-title {
   background-color: rgba(31, 139, 76, 0.8);
 }
 
-/* Portfolio Item Page */
-.portfolio-item-page-header {
-  padding: 80px 10%;
-  color: white;
-  text-align: center;
-  background-color: #21D374;
+#portfolio-intro{
+  padding: 15vh 15% 25vh;
+  background-color: #eee;
 }
 
-.portfolio-item-page-intro{
-  padding: 40px 10%;
-  text-align: center;
-  display: flex
+.portfolio-work{
+  margin-top: -120px;
+  padding: 0 15%;
+}
+
+.portfolio-work-item {
+  color: white;
+  display: flex;
+  padding: 50px 10%;
+  margin-bottom: 30px;
+}
+
+.portfolio-work-item#work-item-4 h1,
+.portfolio-work-item#work-item-4 h3,
+.portfolio-work-item#work-item-4 h4{
+  color: white;
 }
 
 @media only screen and (max-width: 500px) {
-  .portfolio-item-page-intro {
+  .portfolio-work {
+    padding: 0px;
+  }
+
+  .portfolio-work-item {
     flex-direction: column;
+    margin-bottom: 0;
+    padding: 20px;
+  }
+}
+
+
+/* Portfolio Item Page */
+.portfolio-item-page-header {
+  padding: 30vh 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  position: relative;
+}
+
+.portfolio-item-page-header-layer{
+  background-color: rgba(31, 139, 76, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-item-page-header h1,
+.portfolio-item-page-header h4{
+  color: white;
+}
+
+.portfolio-item-page-header-content{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  z-index: 999;
+  padding: 20px;
+}
+
+.portfolio-item-page-body{
+  display: flex;
+  padding: 40px 15%;
+}
+
+.portfolio-item-page-intro{
+  flex: 1;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .portfolio-item-page-body {
+    flex-direction: column;
+    padding: 40px 10px;
   }
 }
 
 .portfolio-item-page-intro-item{
   flex: 1;
+  margin-bottom: 20px;
+}
+
+.portfolio-item-page-intro-item-title{
+  border-left: 5px solid #1F8B4C;
   padding: 0 10px;
 }
 
 .portfolio-item-page-content{
-  padding: 20px 10%;
+  flex: 3;
+  padding: 20px;
 }
 
 .portfolio-item-page-content h2{
@@ -81,6 +151,7 @@ a :hover .portfolio-item-title {
 .portfolio-item-page-content img{
   width: 100%;
   height: auto;
+  margin: 30px 0;
 }
 
 .portfolio-item-tool{

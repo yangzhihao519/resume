@@ -1,6 +1,6 @@
 .About {
   margin-top: 40px;
-  padding: 0 10%;
+  padding: 0 15%;
 }
 
 .section-title{
@@ -27,11 +27,6 @@
   transition-duration: 0.25s;
   transition-timing-function: linear;
 }
-
-/*.section-box-item:hover {
-  color: white;
-  background-color: #1F8B4C;
-}*/
 
 #section-profile__intro{
   display: flex;
