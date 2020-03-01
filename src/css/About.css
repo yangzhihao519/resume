@@ -3,6 +3,30 @@
   padding: 0 15%;
 }
 
+#about-content{
+  display: flex;
+}
+
+#about-content-left{
+  flex: 2;
+}
+
+#about-content-right{
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .About {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  #about-content,
+  #section-profile__intro{
+    flex-direction: column;
+  }
+}
+
 .section-title{
   padding: 20px 40px;
 }
@@ -16,7 +40,6 @@
   padding: 20px 40px;
   background-color: white;
   color: #555;
-  /*box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);*/
 }
 
 .section-box-item{

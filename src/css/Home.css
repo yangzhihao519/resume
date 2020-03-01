@@ -11,12 +11,6 @@
   padding: 100px 10% 150px;
 }
 
-@media (max-width: 768px){
-  #introduction {
-    padding: 60px 10% 150px;
-  }
-}
-
 #hello {
   color: #1F8B4C;
 }
@@ -79,6 +73,7 @@
   color: white;
   margin-bottom: 30px;
   display: flex;
+  padding: 50px 10%;
 }
 
 #work-item-1 {
@@ -100,18 +95,6 @@
 
 #work-item-5 {
   background-color:  #EDCB21; 
-}
-
-@media only screen and (max-width: 500px) {
-  .home-work {
-    padding: 0px;
-  }
-
-  .home-work-item {
-    flex-direction: column;
-    margin-bottom: 0;
-    padding: 20px;
-  }
 }
 
 .view-more-button {
@@ -136,6 +119,7 @@
 .work-item-image img{
   width: 100%;
   height: auto;
+  max-width: 400px;
 }
 
 #more-work {
@@ -176,18 +160,19 @@
 }
 
 #references h3 {
-  color: #4990E2;
+  color: #1F8B4C;
   font-weight: 300;
 }
 
 #contact {
   padding: 40px 10%;
   color: white;
-  background-color: #9012FE;
+  background-color: #1F8B4C;
 }
 
 #contact h1 {
   font-weight: 300;
+  color: white;
 }
 
 #contact a {
@@ -212,4 +197,21 @@
 #social-media {
   text-align: center;
   color: #1F8B4C;
+}
+
+
+@media only screen and (max-width: 768px) {
+  #introduction {
+    padding: 60px 10% 150px;
+  }
+
+  .home-work {
+    padding: 0px;
+  }
+
+  .home-work-item {
+    flex-direction: column;
+    margin-bottom: 0;
+    padding: 20px;
+  }
 }

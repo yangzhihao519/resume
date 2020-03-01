@@ -66,19 +66,6 @@ a :hover .portfolio-item-title {
   color: white;
 }
 
-@media only screen and (max-width: 500px) {
-  .portfolio-work {
-    padding: 0px;
-  }
-
-  .portfolio-work-item {
-    flex-direction: column;
-    margin-bottom: 0;
-    padding: 20px;
-  }
-}
-
-
 /* Portfolio Item Page */
 .portfolio-item-page-header {
   padding: 30vh 10%;
@@ -118,13 +105,6 @@ a :hover .portfolio-item-title {
 .portfolio-item-page-intro{
   flex: 1;
   padding: 20px;
-}
-
-@media only screen and (max-width: 500px) {
-  .portfolio-item-page-body {
-    flex-direction: column;
-    padding: 40px 10px;
-  }
 }
 
 .portfolio-item-page-intro-item{
@@ -179,4 +159,26 @@ a :hover .portfolio-item-title {
   border-style: solid;
   border-color: #333;
   border-radius: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio-work {
+    padding: 0px;
+  }
+
+  .portfolio-work-item {
+    flex-direction: column;
+    margin-bottom: 0;
+    padding: 20px;
+  }
+
+  .portfolio-item-page-body {
+    flex-direction: column-reverse;
+    padding: 20px 10px;
+  }
+
+  .portfolio-item-page-header-content{
+    top: 20%;
+    left: 10px;
+  }
 }
