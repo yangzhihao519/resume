@@ -56,7 +56,7 @@ a :hover .portfolio-item-title {
 .portfolio-work-item {
   color: white;
   display: flex;
-  padding: 50px 10%;
+  padding: 5%;
   margin-bottom: 30px;
 }
 
@@ -135,7 +135,8 @@ a :hover .portfolio-item-title {
 }
 
 .portfolio-item-tool{
-  padding: 20px 10%;
+  padding: 20px 15%;
+  text-align: center;
 }
 
 .back-to-portfolio-button {
@@ -180,5 +181,9 @@ a :hover .portfolio-item-title {
   .portfolio-item-page-header-content{
     top: 20%;
     left: 10px;
+  }
+
+  .portfolio-item-tool{
+    padding: 20px;
   }
 }

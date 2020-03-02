@@ -21,3 +21,34 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.App .ant-btn{
+  border-radius: 0;
+  padding: 0 30px;
+  margin-right: 15px;
+  background-color: #1F8B4C;
+  border: none;
+}
+
+.App  .ant-btn-primary:hover, 
+.App  .ant-btn-primary:focus {
+  background-color: #4ca270;
+  border-color: none;
+}
+
+.App .ant-menu-horizontal > .ant-menu-item:hover, 
+.App .ant-menu-horizontal > .ant-menu-submenu:hover, 
+.App .ant-menu-horizontal > .ant-menu-item-active, 
+.App .ant-menu-horizontal > .ant-menu-submenu-active, 
+.App .ant-menu-horizontal > .ant-menu-item-open, 
+.App .ant-menu-horizontal > .ant-menu-submenu-open, 
+.App .ant-menu-horizontal > .ant-menu-item-selected, 
+.App .ant-menu-horizontal > .ant-menu-submenu-selected{
+  color: #1F8B4C;
+  border-bottom: 2px solid #1F8B4C;
+}
+
+.App .ant-menu-horizontal > .ant-menu-item-selected > a,
+.App .ant-menu-horizontal > .ant-menu-item > a:hover{
+  color: #1F8B4C;
+}
