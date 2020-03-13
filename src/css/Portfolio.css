@@ -44,13 +44,19 @@ a :hover .portfolio-item-title {
 }
 
 #portfolio-intro{
-  padding: 15vh 15% 25vh;
+  padding: 15vh 10% 25vh;
   background-color: #eee;
 }
 
+#portfolio-intro h1,p{
+  max-width: 1300px;
+  margin: auto;
+}
+
 .portfolio-work{
-  margin-top: -120px;
-  padding: 0 15%;
+  padding: 0 10%;
+  max-width: 1300px;
+  margin: -120px auto 0;
 }
 
 .portfolio-work-item {
@@ -68,11 +74,11 @@ a :hover .portfolio-item-title {
 
 /* Portfolio Item Page */
 .portfolio-item-page-header {
-  padding: 30vh 10%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; 
   position: relative;
+  height: 100vh;
 }
 
 .portfolio-item-page-header-layer{
@@ -84,6 +90,33 @@ a :hover .portfolio-item-title {
   height: 100%;
 }
 
+.portfolio-item-back{
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.portfolio-item-top{
+  position: fixed;
+  bottom: 35px;
+  right: 10%;
+  border-radius: 15px;
+}
+
+.portfolio-item-top .ant-btn{
+  border-radius: 20px;
+}
+
+.portfolio-item-back .ant-btn{
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: none;
+}
+
+.portfolio-item-page-header h1{
+  font-size: 50px;
+}
+
 .portfolio-item-page-header h1,
 .portfolio-item-page-header h4{
   color: white;
@@ -92,14 +125,17 @@ a :hover .portfolio-item-title {
 .portfolio-item-page-header-content{
   position: absolute;
   top: 30%;
-  left: 15%;
+  left: 10%;
   z-index: 999;
   padding: 20px;
+  max-width: 80%;
 }
 
 .portfolio-item-page-body{
   display: flex;
-  padding: 40px 15%;
+  padding: 40px 10%;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .portfolio-item-page-intro{
@@ -185,5 +221,9 @@ a :hover .portfolio-item-title {
 
   .portfolio-item-tool{
     padding: 20px;
+  }
+
+  .portfolio-item-page-header h1{
+    font-size: 30px;
   }
 }

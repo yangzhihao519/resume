@@ -44,11 +44,21 @@ class PortfolioItemPage extends Component {
 
         return (
             <div className="portfolio-item-page" id="top-of-page">
+                <div className="portfolio-item-top">
+                    <Scrollchor to="#top-of-page" className="pull-right">
+                        <Button type="primary">Back to top</Button>
+                    </Scrollchor>
+                </div>
                 <div className="portfolio-item-page-header" style={{backgroundImage: `url(${coverImage})`}}>
                     <div class="portfolio-item-page-header-layer"></div>
                     <div class="portfolio-item-page-header-content">
                         <h1>{title}</h1>
                         {descriptionsHTML}
+                    </div>
+                    <div className="portfolio-item-back">
+                        <Link to="/portfolio">
+                            <Button type="primary">Back to portfolio</Button>
+                        </Link>
                     </div>
                 </div>
                 <div className="portfolio-item-page-body">
@@ -77,16 +87,6 @@ class PortfolioItemPage extends Component {
                                 <h4 style={{fontWeight: 300}}>{periodOfTime}</h4>
                             </div>
                     </div>
-                </div>
-                
-
-                <div className="portfolio-item-tool">
-                    <Link to="/portfolio">
-                        <Button type="primary">Back to portfolio</Button>
-                    </Link>
-                    <Scrollchor to="#top-of-page" className="pull-right">
-                        <Button type="primary">Back to top</Button>
-                    </Scrollchor>
                 </div>
             </div>
         );

@@ -28,6 +28,7 @@
   margin-right: 15px;
   background-color: #1F8B4C;
   border: none;
+  border-radius: 15px;
 }
 
 .App  .ant-btn-primary:hover, 
@@ -51,4 +52,9 @@
 .App .ant-menu-horizontal > .ant-menu-item-selected > a,
 .App .ant-menu-horizontal > .ant-menu-item > a:hover{
   color: #1F8B4C;
+}
+
+.App h4, p{
+  font-size: 16px;
+  margin-bottom: 20px;
 }

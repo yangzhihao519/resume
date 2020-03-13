@@ -8,11 +8,52 @@
 }
 
 #introduction {
-  padding: 100px 10% 150px;
+  padding: 100px 10% 120px;
 }
 
 #hello {
   color: #1F8B4C;
+  font-size: 50px;
+}
+
+#hello:after {
+  content:"Hello!";
+  -webkit-animation: greetings 10s linear infinite; /* Safari 4+ */
+  -moz-animation:    greetings 10s linear infinite; /* Fx 5+ */
+  -o-animation:      greetings 10s linear infinite; /* Opera 12+ */
+  animation:         greetings 10s linear infinite; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes greetings {
+  0%   { content: "Hello!"; }
+  20%   { content: "你好！"; }
+  40%   { content: "Namaste!"; }
+  60%   { content: "Grüezi!"; }
+  80% { content: "Hej!"; }
+}
+
+@-moz-keyframes greetings {
+  0%   { content: "Hello!"; }
+  20%   { content: "你好！"; }
+  40%   { content: "Namaste!"; }
+  60%   { content: "Grüezi!"; }
+  80% { content: "Hej!"; }
+}
+
+@-o-keyframes greetings {
+  0%   { content: "Hello!"; }
+  20%   { content: "你好！"; }
+  40%   { content: "Namaste!"; }
+  60%   { content: "Grüezi!"; }
+  80% { content: "Hej!"; }
+}
+
+@keyframes greetings {
+  0%   { content: "Hello!"; }
+  20%   { content: "你好！"; }
+  40%   { content: "Namaste!"; }
+  60%   { content: "Grüezi!"; }
+  80% { content: "Hej!"; }
 }
 
 .call-to-actinon {
@@ -46,6 +87,7 @@
   text-align: center;
   background-color: #eee;
   padding: 60px 10% 150px;
+  margin: auto;
 }
 
 #about-me h3{
@@ -124,6 +166,7 @@
 
 #more-work {
   text-align: center;
+  margin: 30px;
 }
 
 #more-work-button {

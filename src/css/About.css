@@ -1,6 +1,8 @@
 .About {
   margin-top: 40px;
-  padding: 0 15%;
+  padding: 50px 5%;
+  max-width: 1300px;
+  margin: auto;
 }
 
 #about-content{

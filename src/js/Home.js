@@ -4,13 +4,14 @@ import '../css/Home.css'
 import { Link } from 'react-router-dom'
 import { Button } from 'antd';
 
-class Home extends Component {
+const greetings = ["Hello", "你好"];
 
+class Home extends Component {
   render() {
     return (
       <div className="Home">
         <div id="introduction">
-            <h1 id="hello">Hello!</h1>
+            <h1 id="hello"></h1>
             <h1><span>I'm</span>&nbsp; Zhihao Yang,</h1>
             <h1><span>a</span>&nbsp; UX Engineer &nbsp;<span>based in London.</span></h1>
             <div className="call-to-actinon">
