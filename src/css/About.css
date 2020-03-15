@@ -1,21 +1,34 @@
-.Resume {
+.About {
   margin-top: 40px;
+  padding: 50px 5%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+#about-content{
+  display: flex;
+}
+
+#about-content-left{
+  flex: 2;
+}
+
+#about-content-right{
+  flex: 1;
 }
 
 .section-title{
-  padding: 20px 40px;
+  padding: 0 40px;
 }
 
 .section-title h2{
-  border-left: 10px solid #1F8B4C;
-  padding-left: 15px;
+  color: #1F8B4C;
 }
 
 .section-box{
   padding: 20px 40px;
   background-color: white;
   color: #555;
-  /*box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.2);*/
 }
 
 .section-box-item{
@@ -27,16 +40,16 @@
   transition-timing-function: linear;
 }
 
-/*.section-box-item:hover {
-  color: white;
-  background-color: #1F8B4C;
-}*/
-
-
-#section-profile {
+#section-profile__intro{
+  display: flex;
 }
 
-#section-profile-info {
+#section-profile__intro h3, h4{
+  margin-right: 10px;
+}
+
+#section-profile h1{
+  color: #1F8B4C;
 }
 
 #section-profile .title h4{
@@ -45,18 +58,6 @@
 
 #section-profile .content h4{
   font-weight: 300;
-}
-
-#section-experience {
-  
-}
-
-#section-education {
-
-}
-
-#section-skills {
-
 }
 
 #download-cv {
@@ -111,3 +112,14 @@
   background-color: rgb(3, 39, 123);
 }
 
+@media only screen and (max-width: 768px) {
+  .About {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  #about-content,
+  #section-profile__intro{
+    flex-direction: column;
+  }
+}

@@ -1,64 +1,68 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../css/Header.css'
-import { LinkContainer } from 'react-router-bootstrap';
-import Scrollchor from 'react-scrollchor';
-import { Sticky } from 'react-sticky';
+import { Menu } from 'antd';
+import {Link, withRouter} from 'react-router-dom';
 
-interface HeaderProps {
-  currentPathName: string;
-}
+class Header extends React.Component {
+  state = {
+    current: 'home',
+  };
 
-class Header extends Component<HeaderProps, {}> {
-  render() {
-    const currentPathName =  this.props.currentPathName;
-    var subNav = '';
-    switch (currentPathName) {
-      case "/resume":
-        subNav = (
-          <Sticky id="sticky-nav">
-            <div className="sub-nav-bar">
-              <div className="sub-nav-items">
-                <Scrollchor to="#section-profile" className="sub-nav-item">PROFILE</Scrollchor>
-                <Scrollchor to="#section-experience" className="sub-nav-item">EXPERIENCE</Scrollchor>
-                <Scrollchor to="section-skills" className="sub-nav-item">SKILLS</Scrollchor>
-                <Scrollchor to="section-education" className="sub-nav-item">EDUCATION</Scrollchor>
-                <Scrollchor to="section-awards" className="sub-nav-item">AWARDS</Scrollchor>
-                <Scrollchor to="section-languages" className="sub-nav-item">LANGUAGES</Scrollchor>
-              </div>
-            </div>
-          </Sticky>
-        );
-        break;
-    
-      default:
-        break;
+  componentWillMount(){
+    this.highlightSelectedKey(this.props.location.pathname);
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.location !== prevProps.location) {
+      this.highlightSelectedKey(this.props.location.pathname);
+      window.scrollTo(0, 0);
     }
+  }
+
+  highlightSelectedKey = (pathname) => {
+    console.log(pathname);
+    switch(pathname){
+      case "/":
+        this.setState({
+          current: "home",
+        });
+        break;
+      case "/about":
+        this.setState({
+          current: "about",
+        });
+        break;
+      case "/portfolio":
+        this.setState({
+          current: "work",
+        });
+        break;
+      default:
+        this.setState({
+          current: "",
+        });
+    }
+  }
+
+  render() {
+    const { match, location, history } = this.props;
 
     return (
       <div id="header">
-        <Navbar inverse collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav>
-              <LinkContainer to={{ pathname: '/home' }} style={{color: "white"}}>
-                <NavItem eventKey={1}>Home</NavItem>
-              </LinkContainer>
-              <LinkContainer to={{ pathname: '/resume' }} style={{color: "white"}}>
-                <NavItem eventKey={3}>Profile</NavItem>
-              </LinkContainer>
-              <LinkContainer to={{ pathname: '/portfolio' }} style={{color: "white"}}>
-                <NavItem eventKey={3}>Work</NavItem>
-              </LinkContainer>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-        {subNav}
+        <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
+        <Menu.Item key="home">
+          <Link to="/">Home</Link>
+        </Menu.Item>
+        <Menu.Item key="about">
+          <Link to="/about">About</Link>
+        </Menu.Item>
+        <Menu.Item key="work">
+          <Link to="/portfolio">Work</Link>
+        </Menu.Item>
+        </Menu>
       </div>
       );
   }
 }
 
-export {Header};
+export default withRouter(Header);
