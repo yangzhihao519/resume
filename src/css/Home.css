@@ -245,7 +245,7 @@
 
 @media only screen and (max-width: 768px) {
   #introduction {
-    padding: 60px 10% 150px;
+    padding: 15vh 10% 25vh;
   }
 
   .home-work {
@@ -256,5 +256,9 @@
     flex-direction: column;
     margin-bottom: 0;
     padding: 20px;
+  }
+
+  #references{
+    flex-direction: column;
   }
 }

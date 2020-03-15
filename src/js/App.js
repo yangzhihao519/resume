@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import {Header} from './Header'
+import Header from './Header'
 import Footer from './Footer'
 import {Route, Switch, BrowserRouter as Router} from 'react-router-dom';
 import Home from './Home'

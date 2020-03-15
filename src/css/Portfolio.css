@@ -78,20 +78,23 @@ a :hover .portfolio-item-title {
   background-repeat: no-repeat;
   background-position: center center; 
   position: relative;
-  height: 100vh;
+  padding: 15vh 10% 25vh;
+  background-color: #eee;
+  z-index: -1;
 }
 
-.portfolio-item-page-header-layer{
-  background-color: rgba(31, 139, 76, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.portfolio-item-page-header-content{
+  padding: 20px;
+  max-width: 80%;
+}
+
+.portfolio-item-page-header h1{
+  font-size: 40px;
+  color: #1F8B4C;
 }
 
 .portfolio-item-back{
-  position: relative;
+  position: absolute;
   left: 10px;
   top: 10px;
 }
@@ -105,37 +108,22 @@ a :hover .portfolio-item-title {
 
 .portfolio-item-top .ant-btn{
   border-radius: 20px;
+  margin-right: 0;
 }
 
 .portfolio-item-back .ant-btn{
   background-color: transparent;
   border-radius: 15px;
   box-shadow: none;
-}
-
-.portfolio-item-page-header h1{
-  font-size: 50px;
-}
-
-.portfolio-item-page-header h1,
-.portfolio-item-page-header h4{
-  color: white;
-}
-
-.portfolio-item-page-header-content{
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  z-index: 999;
-  padding: 20px;
-  max-width: 80%;
+  color: black;
 }
 
 .portfolio-item-page-body{
   display: flex;
-  padding: 40px 10%;
+  padding: 20px;
   max-width: 1300px;
-  margin: auto;
+  margin: -120px 10% auto;
+  background-color: white;
 }
 
 .portfolio-item-page-intro{
@@ -149,9 +137,8 @@ a :hover .portfolio-item-title {
 }
 
 .portfolio-item-page-intro-item-title{
-  border-left: 5px solid #1F8B4C;
-  padding: 0 10px;
-}
+  margin-bottom: 20px
+;}
 
 .portfolio-item-page-content{
   flex: 3;
@@ -159,8 +146,7 @@ a :hover .portfolio-item-title {
 }
 
 .portfolio-item-page-content h2{
-  border-left: 10px solid #1F8B4C;
-  padding: 0 20px;
+  color: #1F8B4C;
   margin: 40px 0;
 }
 
@@ -212,6 +198,7 @@ a :hover .portfolio-item-title {
   .portfolio-item-page-body {
     flex-direction: column-reverse;
     padding: 20px 10px;
+    margin: -120px 0 auto;
   }
 
   .portfolio-item-page-header-content{

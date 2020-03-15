@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 import '../css/About.css';
+import { Button, BackTop} from 'antd';
 
 class About extends Component {
   render() {
@@ -153,6 +154,7 @@ class About extends Component {
             </div>
           </div>
         </div>
+        <BackTop />
       </div>
     );
   }

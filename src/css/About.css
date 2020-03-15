@@ -17,25 +17,12 @@
   flex: 1;
 }
 
-@media only screen and (max-width: 768px) {
-  .About {
-    margin-top: 20px;
-    padding: 10px;
-  }
-
-  #about-content,
-  #section-profile__intro{
-    flex-direction: column;
-  }
-}
-
 .section-title{
-  padding: 20px 40px;
+  padding: 0 40px;
 }
 
 .section-title h2{
-  border-left: 10px solid #1F8B4C;
-  padding-left: 15px;
+  color: #1F8B4C;
 }
 
 .section-box{
@@ -61,10 +48,8 @@
   margin-right: 10px;
 }
 
-#section-profile {
-}
-
-#section-profile-info {
+#section-profile h1{
+  color: #1F8B4C;
 }
 
 #section-profile .title h4{
@@ -73,18 +58,6 @@
 
 #section-profile .content h4{
   font-weight: 300;
-}
-
-#section-experience {
-  
-}
-
-#section-education {
-
-}
-
-#section-skills {
-
 }
 
 #download-cv {
@@ -139,3 +112,14 @@
   background-color: rgb(3, 39, 123);
 }
 
+@media only screen and (max-width: 768px) {
+  .About {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  #about-content,
+  #section-profile__intro{
+    flex-direction: column;
+  }
+}

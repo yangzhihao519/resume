@@ -1,23 +1,51 @@
 import React, { Component } from 'react';
 import '../css/Header.css'
-import { Menu, Icon } from 'antd';
-import {Link} from 'react-router-dom';
+import { Menu } from 'antd';
+import {Link, withRouter} from 'react-router-dom';
 
-const { SubMenu } = Menu;
-
-class Header extends Component {
+class Header extends React.Component {
   state = {
     current: 'home',
   };
 
-  handleClick = e => {
-    console.log('click ', e);
-    this.setState({
-      current: e.key,
-    });
-  };
+  componentWillMount(){
+    this.highlightSelectedKey(this.props.location.pathname);
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.location !== prevProps.location) {
+      this.highlightSelectedKey(this.props.location.pathname);
+      window.scrollTo(0, 0);
+    }
+  }
+
+  highlightSelectedKey = (pathname) => {
+    console.log(pathname);
+    switch(pathname){
+      case "/":
+        this.setState({
+          current: "home",
+        });
+        break;
+      case "/about":
+        this.setState({
+          current: "about",
+        });
+        break;
+      case "/portfolio":
+        this.setState({
+          current: "work",
+        });
+        break;
+      default:
+        this.setState({
+          current: "",
+        });
+    }
+  }
 
   render() {
+    const { match, location, history } = this.props;
 
     return (
       <div id="header">
@@ -37,4 +65,4 @@ class Header extends Component {
   }
 }
 
-export {Header};
+export default withRouter(Header);

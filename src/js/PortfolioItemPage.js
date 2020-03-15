@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import '../css/App.css'
 import '../css/Portfolio.css'
-import Scrollchor from 'react-scrollchor';
 import ReactMarkdown from 'react-markdown';
 import { Link } from 'react-router-dom'
-import { Button } from 'antd';
+import { Button, BackTop} from 'antd';
 
 var portfolioItems = require('../data/PortfolioItems.json');
 
@@ -44,22 +43,16 @@ class PortfolioItemPage extends Component {
 
         return (
             <div className="portfolio-item-page" id="top-of-page">
-                <div className="portfolio-item-top">
-                    <Scrollchor to="#top-of-page" className="pull-right">
-                        <Button type="primary">Back to top</Button>
-                    </Scrollchor>
-                </div>
-                <div className="portfolio-item-page-header" style={{backgroundImage: `url(${coverImage})`}}>
-                    <div class="portfolio-item-page-header-layer"></div>
-                    <div class="portfolio-item-page-header-content">
+                <div className="portfolio-item-page-header">
+                    <div className="portfolio-item-page-header-content">
                         <h1>{title}</h1>
                         {descriptionsHTML}
                     </div>
-                    <div className="portfolio-item-back">
+                    {/* <div className="portfolio-item-back">
                         <Link to="/portfolio">
                             <Button type="primary">Back to portfolio</Button>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="portfolio-item-page-body">
                     <div className="portfolio-item-page-content">
@@ -67,26 +60,28 @@ class PortfolioItemPage extends Component {
                     </div>
 
                     <div className="portfolio-item-page-intro">
-                            <div className="portfolio-item-page-intro-item">
-                                <h4 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Location</h4>
-                                <h4 style={{fontWeight: 300}}>{location}</h4>
-                            </div>
+                        <div className="portfolio-item-page-intro-item">
+                            <h3 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Location</h3>
+                            <h4 style={{fontWeight: 300}}>{location}</h4>
+                        </div>
 
-                            <div className="portfolio-item-page-intro-item">
-                                <h4 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Skills Used</h4>
-                                <h4 style={{fontWeight: 300}}>{skills}</h4>
-                            </div>
-                            
-                            {website && <div className="portfolio-item-page-intro-item">
-                                            <h4 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Website</h4>
-                                            <a href={website} target="_blank"><h4 style={{fontWeight: 300}}>{website}</h4></a>
-                                        </div>}
-                            
-                            <div className="portfolio-item-page-intro-item">
-                                <h4 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Date</h4>
-                                <h4 style={{fontWeight: 300}}>{periodOfTime}</h4>
-                            </div>
+                        <div className="portfolio-item-page-intro-item">
+                            <h3 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Skills Used</h3>
+                            <h4 style={{fontWeight: 300}}>{skills}</h4>
+                        </div>
+                        
+                        {website && <div className="portfolio-item-page-intro-item">
+                                        <h3 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Website</h3>
+                                        <a href={website} target="_blank"><h4 style={{fontWeight: 300}}>{website}</h4></a>
+                                    </div>}
+                        
+                        <div className="portfolio-item-page-intro-item">
+                            <h3 className="portfolio-item-page-intro-item-title" style={{fontWeight: 700}}>Date</h3>
+                            <h4 style={{fontWeight: 300}}>{periodOfTime}</h4>
+                        </div>
                     </div>
+
+                    <BackTop />
                 </div>
             </div>
         );
