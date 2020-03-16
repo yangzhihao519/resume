@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../css/App.css';
 import Header from './Header'
 import Footer from './Footer'
-import {Route, Switch, BrowserRouter as Router} from 'react-router-dom';
+import {Route, Switch, HashRouter as Router} from 'react-router-dom';
 import Home from './Home'
 import About from './About'
 import Portfolio from './Portfolio'
@@ -10,8 +10,6 @@ import PortfolioItemPage from './PortfolioItemPage'
 
 class App extends Component {
   render() {
-    // var currentPathName = this.props.location.pathname;
-    console.log(this.props)
     return (
       (<Router>
         <div className="App">
