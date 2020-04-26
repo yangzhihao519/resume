@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/Header.css'
 import { Menu } from 'antd';
 import {Link, withRouter} from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 class Header extends React.Component {
   state = {
@@ -20,7 +21,8 @@ class Header extends React.Component {
   }
 
   highlightSelectedKey = (pathname) => {
-    console.log(pathname);
+    ReactGA.pageview(pathname);
+
     switch(pathname){
       case "/":
         this.setState({

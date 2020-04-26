@@ -7,8 +7,17 @@ import Home from './Home'
 import About from './About'
 import Portfolio from './Portfolio'
 import PortfolioItemPage from './PortfolioItemPage'
+import ReactGA from 'react-ga';
+
+const trackingId = "UA-155571823-1";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+        
+    ReactGA.initialize(trackingId);
+  }
+
   render() {
     return (
       (<Router>

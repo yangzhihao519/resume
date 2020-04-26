@@ -3,10 +3,18 @@ import '../css/App.css';
 import '../css/Home.css'
 import { Link } from 'react-router-dom'
 import { Button } from 'antd';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const greetings = ["Hello", "你好"];
 
 class Home extends Component {
+
+  constructor(props, context) { 
+    super(props, context); 
+    AOS.init(); 
+  } 
+
   render() {
     return (
       <div className="Home">
@@ -29,7 +37,7 @@ class Home extends Component {
         </div>
         
         <div className="home-work">
-          <div className="home-work-item" id="work-item-1">
+          <div className="home-work-item" id="work-item-1" data-aos="fade-right" data-aos-once="true">
             <div className="work-item-description">
               <h3>UX Design & Development</h3>
               <h1>A Web-based Visualisation Tool for Horizon 2020</h1>
@@ -43,7 +51,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="home-work-item" id="work-item-2">
+          <div className="home-work-item" id="work-item-2" data-aos="fade-left" data-aos-once="true">
             <div className="work-item-image">
                 <img src={require('../images/portfolio/saw_cover.png')} role="presentation"/>
             </div>
